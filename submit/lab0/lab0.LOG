@@ -1,0 +1,720 @@
+Script started on 2020-01-23 15:27:19-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+aceylan1@g7-33:~/tmp/lab0$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/aceylan1/.ssh/id_rsa): 
+Created directory '/home/aceylan1/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/aceylan1/.ssh/id_rsa.
+Your public key has been saved in /home/aceylan1/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:Qawx1WjfM3O1+hZbUPPkbxR8nkNhb3h1iNznz0zN77k aceylan1@g7-33
+The key's randomart image is:
++---[RSA 2048]----+
+|       ooo . o.++|
+|      o.+ . o +*X|
+|       =.. .  oX%|
+|      .  .. = o*X|
+|        S    =.*=|
+|             . .O|
+|              .o=|
+|               =.|
+|              .E.|
++----[SHA256]-----+
+aceylan1@g7-33:~/tmp/lab0$ ls ~/.ssh;
+id_rsa	id_rsa.pub
+aceylan1@g7-33:~/tmp/lab0$ ssh-copy-id -i user@remote[K[K[K[K[K[K[K[K[K[K[Kaceylan1@remote
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/aceylan1/.ssh/id_rsa.pub"
+The authenticity of host 'remote (128.226.114.202)' can't be established.
+ECDSA key fingerprint is SHA256:UEIh1TASIC96TC1hhxVbkVS0DrddNKHk7Q2nzgDCt+Y.
+Are you sure you want to continue connecting (yes/no)? ye  
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+The authenticity of host 'remote (128.226.114.205)' can't be established.
+ECDSA key fingerprint is SHA256:UEIh1TASIC96TC1hhxVbkVS0DrddNKHk7Q2nzgDCt+Y.
+Are you sure you want to continue connecting (yes/no)? 
+
+/usr/bin/ssh-copy-id: ERROR: Host key verification failed.
+
+aceylan1@g7-33:~/tmp/lab0$ ssh-copy-id -i aceylan1@remote[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh-copy-id -i aceylan1@remote[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pls ~/.ssh;ssh-copy-id -i aceylan1@remote
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/aceylan1/.ssh/id_rsa.pub"
+The authenticity of host 'remote (128.226.114.205)' can't be established.
+ECDSA key fingerprint is SHA256:UEIh1TASIC96TC1hhxVbkVS0DrddNKHk7Q2nzgDCt+Y.
+Are you sure you want to continue connecting (yes/no)? yes
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+aceylan1@remote's password: 
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'aceylan1@remote'"
+and check to make sure that only the key(s) you wanted were added.
+
+aceylan1@g7-33:~/tmp/lab0$ ssh aceylan1@remote
+Linux remote05 4.19.0-5-amd64 #1 SMP Debian 4.19.37-5 (2019-06-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+aceylan1@remote05:~$ ~/.profile
+-bash: /home/aceylan1/.profile: No such file or directory
+aceylan1@remote05:~$ ~/.profile 4419 pts/2    00:00:00 bash[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P PID TTY          TIME CMD[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17P$ ps -p $$[5Pps -passwdPASSWDpasswdarduino[K[K[K[K[K[K[Karduino[K[K[K[K[K[K[K~/.profile
+-bash: /home/aceylan1/.profile: No such file or directory
+aceylan1@remote05:~$ vim ~/.profile[6Pvim ~/.profilev~/.profilei~/.profilem~/.profile ~/.profile
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"~/.profile" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"~/.profile" [New File][1;1H[?25h[?25l[24;53Hi[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;14H[K[24;63H0,1[11CAll[1;1H[?25h[?25l[93m. [m~umrigar/cs240/bin/student.profile[2;1H[K[24;63H2[2;1H[?25h[24;1H[K[2;1H[?25l[24;53H^[[2;1H[24;53H  [2;1H[24;63H2,0-1[9CAll[2;1H[?25h[?25l[24;53HZ[2;1H[?25h[?25l[24;54HZ[2;1H[?1006l[?1002l[?2004l[24;1H".profile"[24;53H[K[24;12H[New] 2L, 38C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0taceylan1@remote05:~$ vim ~/.bashrc 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"~/.bashrc" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"~/.bashrc" [New File][1;1H[?25h[?25l[24;53Hi[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25l[24;4H[1m(insert)- VISUAL --[m[24;63H[K[24;53H1[1;1H[24;63H0,0-1[9CAll[1;1H[?25h[?25l[?25h[?25l[24;53Hi[1;1H[?25h[?25l[24;53H1[1;1H[?25h[?25l[?25h[?25l[24;53H [1;1H[24;4H[1mINSERTt --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25l[24;4H[1m(insert)- VISUAL --[m[24;63H[K[24;53H1[1;1H[24;63H0,0-1[9CAll[1;1H[?25h[?25l[?25h[?25l[24;53H [1;1H[24;4H[1mINSERTt --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[38;5;81m^[?25l[m[24;53H^V[1;1H[?25h [?25l[24;53H  [1;1H[38;5;81m^[[m[93m[<[m[95m0[m[93m;[m[95m6[m[93m;[m5M[24;63H1,10-11[1;11H[?25h[?25l[24;63H[K[24;63H1,10-11[7CAll[1;11H[?25h[?25l[95m5[m[1;10H[K[24;65H9-10 [1;10H[?25h[?25l[1;9H[K[24;65H8-9 [1;9H[?25h[?25l[1;8H[K[24;65H7-8[1;8H[?25h[?25l[1;7H[K[24;65H6-7[1;7H[?25h[?25l[1;6H[K[24;65H5-6[1;6H[?25h[?25l[1;5H[K[24;65H4-5[1;5H[?25h[?25l[1;4H[K[24;65H3-4[1;4H[?25h[?25l[1;3H[K[24;65H2-3[1;3H[?25h[?25l[1;1H[K[24;65H1  [1;1H[?25h[?25l[24;65H2[1;2H[?25h[?25l[24;4H[1m(insert)- VISUAL --[m[24;63H[K[24;53H1[1;2H[24;63H1,2[11CAll[1;2H[?25h[?25l[?25h[?25l[24;53H~@k[1;2H[24;53H2  [1;1H [48;5;242m [m[24;65H1[1;1H[?25h[?25l[24;53H<20>[1;1H[24;53H1   [1;2H[1;2H[K[24;65H2[1;2H[?25h[?25l[24;53H [1;2H[24;4H[1mINSERTt --[m[24;13H[K[24;63H1,2[11CAll[1;2H[?25h[38;5;81m^[?25l[m[24;53H^V[1;2H[?25h [?25l[24;53H  [1;2H[38;5;81m^[[m[93m[<[m[95m0[m[93m;[m[95m2[m[93m;[m1M[24;65H11-12[1;12H[?25h[?25l[24;63H[K[24;63H1,11-12[7CAll[1;12H[?25h[?25l[95m1[m[1;11H[K[24;66H0-11[1;11H[?25h[?25l[1;10H[K[24;65H9-10 [1;10H[?25h[?25l[1;9H[K[24;65H8-9 [1;9H[?25h[?25l[1;8H[K[24;65H7-8[1;8H[?25h[?25l[1;7H[K[24;65H6-7[1;7H[?25h[?25l[1;6H[K[24;65H5-6[1;6H[?25h[?25l[1;5H[K[24;65H4-5[1;5H[?25h[?25l[1;4H[K[24;65H3-4[1;4H[?25h[?25l[1;2H[K[24;65H2  [1;2H[?25h[?25l[24;65H1[1;1H[?25h[?25l[24;4H[1m(insert)- VISUAL --[m[24;63H[K[24;53H1[1;1H[24;63H1,0-1[9CAll[1;1H[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[24;53H^[[1;1H[24;53H1 [1;1H[24;54H^[[1;1H[24;53H   [1;1H[24;4H[1mINSERTt --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?25h[?25lZ[24;65H2[1;2H[?25h[?25lZ[24;65H3[1;3H[?25h[?25l[1;2H[K[24;65H2[1;2H[?25h[?25l[1;1H[K[24;65H1[1;1H[?25h[38;5;81m^[?25l[m[24;53H^V[1;1H[?25h [?25l[24;53H  [1;1H[38;5;81m^[[m[93m[<[m[95m0[m[93m;[m[95m8[m[93m;[m4m[24;66H0-11[1;11H[?25h[?25l[24;65H8-9  [1;9H[?25h[?25l[24;65H10-11[1;11H[?25h[?25l[95m4[m[1;10H[K[24;65H9-10 [1;10H[?25h[?25l[1;9H[K[24;65H8-9 [1;9H[?25h[?25l[1;8H[K[24;65H7-8[1;8H[?25h[?25l[1;7H[K[24;65H6-7[1;7H[?25h[?25l[1;6H[K[24;65H5-6[1;6H[?25h[?25l[1;5H[K[24;65H4-5[1;5H[?25h[?25l[1;4H[K[24;65H3-4[1;4H[?25h[?25l[1;3H[K[24;65H2-3[1;3H[?25h[?25l[1;1H[K[24;65H1  [1;1H[?25h[24;1H[K[1;1H[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;63H1,0-1[9CAll[1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53HZ[1;1H[?25h[?25l[24;54HZ[1;1H[?1006l[?1002l[?2004l[24;1H".bashrc"[24;53H[K[24;11H[New] 1L, 1C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0taceylan1@remote05:~$ ~/.bashrc
+-bash: /home/aceylan1/.bashrc: Permission denied
+aceylan1@remote05:~$ vim  ~/.bashrc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"~/.bashrc" 1L, 1C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,0-1[9CAll"~/.bashrc" 1L, 1C[1;1H[?25h[?25l[24;53H<20>[1;1H[24;53H    [1;1H[?25h[?25l[24;53H.[1;1H[24;53H [1;1H[?25h[?25l[24;53Hi[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?25h[?25l.[24;65H2[1;2H[?25h[?25l[93m. [m[24;65H3[1;3H[?25h[?25l.[1;2H[K[24;65H2[1;2H[?25h[?25l[1;1H[K[24;65H1[1;1H[?25h[?25l[24;65H2[1;2H[?25h[?25l[24;65H1[1;1H[?25h[?25l.[24;65H2[1;2H[?25h[?25l[93m. [m[24;65H3[1;3H[?25h[?25l[38;5;224m`[m[24;65H4[1;4H[?25h[?25l[1;3H[K[24;65H3[1;3H[?25h[?25l~[24;65H4[1;4H[?25h[?25lu[24;65H5[1;5H[?25h[?25lm[24;65H6[1;6H[?25h[?25lr[24;65H7[1;7H[?25h[?25li[24;65H8[1;8H[?25h[?25lg[24;65H9[1;9H[?25h[?25la[24;65H10[1;10H[?25h[?25lr[24;66H1[1;11H[?25h[?25l/[24;66H2[1;12H[?25h[?25lc[24;66H3[1;13H[?25h[?25ls[24;66H4[1;14H[?25h[?25l2[24;66H5[1;15H[?25h[?25l4[24;66H6[1;16H[?25h[?25l0[24;66H7[1;17H[?25h[?25l/[24;66H8[1;18H[?25h[?25lb[24;66H9[1;19H[?25h[?25li[24;65H20[1;20H[?25h[?25ln[24;66H1[1;21H[?25h[?25l/[24;66H2[1;22H[?25h[?25ls[24;66H3[1;23H[?25h[?25lt[24;66H4[1;24H[?25h[?25lu[24;66H5[1;25H[?25h[?25ld[24;66H6[1;26H[?25h[?25le[24;66H7[1;27H[?25h[?25ln[24;66H8[1;28H[?25h[?25lt[24;66H9[1;29H[?25h[?25l.[24;65H30[1;30H[?25h[?25l[93mr[m[24;66H1[1;31H[?25h[?25lrc[24;66H2[1;32H[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?25h[24;1H[K[2;1H[?25l[24;53H^[[2;1H[24;53H  [2;1H[24;63H2,0-1[9CAll[2;1H[?25h[?25l[24;53HZ[2;1H[?25h[?25l[24;54HZ[2;1H[?1006l[?1002l[?2004l[24;1H".bashrc"[24;53H[K[24;11H2L, 33C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0taceylan1@remote05:~$ ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+-bash: ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git: No such file or directory
+aceylan1@remote05:~$ cd p[K[K[K[Kcd ~/p[K[K[K[K[K[Kk[Kmkdir -p ~/projects
+aceylan1@remote05:~$ cd ~/projects
+aceylan1@remote05:~/projects$ git clone ABOVE_URL[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt clone ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrig[1Par/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umriga[1Pr/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrigar[1P/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrigar/[1Pgit-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umriga[1Pr/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrigar[1P/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrigar/[1Pgit-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[Aaceylan1@remote05:~/projects$ git clone ssh://aceylan1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[Aaceylan1@remote05:~/projects$ git clone ssh://aceylan1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[Aaceylan1@remote05:~/projects$ git clone ssh://aceylan1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[Aaceylan1@remote05:~/projects$ git clone ssh://aceylan1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Cloning into 'cs240'...
+The authenticity of host 'remote.cs.binghamton.edu (128.226.114.205)' can't be established.
+ECDSA key fingerprint is SHA256:UEIh1TASIC96TC1hhxVbkVS0DrddNKHk7Q2nzgDCt+Y.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'remote.cs.binghamton.edu' (ECDSA) to the list of known hosts.
+/home/aceylan1/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permission denied
+remote: Enumerating objects: 217, done.[K
+remote: Counting objects:   0% (1/217)   [Kremote: Counting objects:   1% (3/217)   [Kremote: Counting objects:   2% (5/217)   [Kremote: Counting objects:   3% (7/217)   [Kremote: Counting objects:   4% (9/217)   [Kremote: Counting objects:   5% (11/217)   [Kremote: Counting objects:   6% (14/217)   [Kremote: Counting objects:   7% (16/217)   [Kremote: Counting objects:   8% (18/217)   [Kremote: Counting objects:   9% (20/217)   [Kremote: Counting objects:  10% (22/217)   [Kremote: Counting objects:  11% (24/217)   [Kremote: Counting objects:  12% (27/217)   [Kremote: Counting objects:  13% (29/217)   [Kremote: Counting objects:  14% (31/217)   [Kremote: Counting objects:  15% (33/217)   [Kremote: Counting objects:  16% (35/217)   [Kremote: Counting objects:  17% (37/217)   [Kremote: Counting objects:  18% (40/217)   [Kremote: Counting objects:  19% (42/217)   [Kremote: Counting objects:  20% (44/217)   [Kremote: Counting objects:  21% (46/217)   [Kremote: Counting objects:  22% (48/217)   [Kremote: Counting objects:  23% (50/217)   [Kremote: Counting objects:  24% (53/217)   [Kremote: Counting objects:  25% (55/217)   [Kremote: Counting objects:  26% (57/217)   [Kremote: Counting objects:  27% (59/217)   [Kremote: Counting objects:  28% (61/217)   [Kremote: Counting objects:  29% (63/217)   [Kremote: Counting objects:  30% (66/217)   [Kremote: Counting objects:  31% (68/217)   [Kremote: Counting objects:  32% (70/217)   [Kremote: Counting objects:  33% (72/217)   [Kremote: Counting objects:  34% (74/217)   [Kremote: Counting objects:  35% (76/217)   [Kremote: Counting objects:  36% (79/217)   [Kremote: Counting objects:  37% (81/217)   [Kremote: Counting objects:  38% (83/217)   [Kremote: Counting objects:  39% (85/217)   [Kremote: Counting objects:  40% (87/217)   [Kremote: Counting objects:  41% (89/217)   [Kremote: Counting objects:  42% (92/217)   [Kremote: Counting objects:  43% (94/217)   [Kremote: Counting objects:  44% (96/217)   [Kremote: Counting objects:  45% (98/217)   [Kremote: Counting objects:  46% (100/217)   [Kremote: Counting objects:  47% (102/217)   [Kremote: Counting objects:  48% (105/217)   [Kremote: Counting objects:  49% (107/217)   [Kremote: Counting objects:  50% (109/217)   [Kremote: Counting objects:  51% (111/217)   [Kremote: Counting objects:  52% (113/217)   [Kremote: Counting objects:  53% (116/217)   [Kremote: Counting objects:  54% (118/217)   [Kremote: Counting objects:  55% (120/217)   [Kremote: Counting objects:  56% (122/217)   [Kremote: Counting objects:  57% (124/217)   [Kremote: Counting objects:  58% (126/217)   [Kremote: Counting objects:  59% (129/217)   [Kremote: Counting objects:  60% (131/217)   [Kremote: Counting objects:  61% (133/217)   [Kremote: Counting objects:  62% (135/217)   [Kremote: Counting objects:  63% (137/217)   [Kremote: Counting objects:  64% (139/217)   [Kremote: Counting objects:  65% (142/217)   [Kremote: Counting objects:  66% (144/217)   [Kremote: Counting objects:  67% (146/217)   [Kremote: Counting objects:  68% (148/217)   [Kremote: Counting objects:  69% (150/217)   [Kremote: Counting objects:  70% (152/217)   [Kremote: Counting objects:  71% (155/217)   [Kremote: Counting objects:  72% (157/217)   [Kremote: Counting objects:  73% (159/217)   [Kremote: Counting objects:  74% (161/217)   [Kremote: Counting objects:  75% (163/217)   [Kremote: Counting objects:  76% (165/217)   [Kremote: Counting objects:  77% (168/217)   [Kremote: Counting objects:  78% (170/217)   [Kremote: Counting objects:  79% (172/217)   [Kremote: Counting objects:  80% (174/217)   [Kremote: Counting objects:  81% (176/217)   [Kremote: Counting objects:  82% (178/217)   [Kremote: Counting objects:  83% (181/217)   [Kremote: Counting objects:  84% (183/217)   [Kremote: Counting objects:  85% (185/217)   [Kremote: Counting objects:  86% (187/217)   [Kremote: Counting objects:  87% (189/217)   [Kremote: Counting objects:  88% (191/217)   [Kremote: Counting objects:  89% (194/217)   [Kremote: Counting objects:  90% (196/217)   [Kremote: Counting objects:  91% (198/217)   [Kremote: Counting objects:  92% (200/217)   [Kremote: Counting objects:  93% (202/217)   [Kremote: Counting objects:  94% (204/217)   [Kremote: Counting objects:  95% (207/217)   [Kremote: Counting objects:  96% (209/217)   [Kremote: Counting objects:  97% (211/217)   [Kremote: Counting objects:  98% (213/217)   [Kremote: Counting objects:  99% (215/217)   [Kremote: Counting objects: 100% (217/217)   [Kremote: Counting objects: 100% (217/217), done.[K
+remote: Compressing objects:   0% (1/208)   [Kremote: Compressing objects:   1% (3/208)   [Kremote: Compressing objects:   2% (5/208)   [Kremote: Compressing objects:   3% (7/208)   [Kremote: Compressing objects:   4% (9/208)   [Kremote: Compressing objects:   5% (11/208)   [Kremote: Compressing objects:   6% (13/208)   [Kremote: Compressing objects:   7% (15/208)   [Kremote: Compressing objects:   8% (17/208)   [Kremote: Compressing objects:   9% (19/208)   [Kremote: Compressing objects:  10% (21/208)   [Kremote: Compressing objects:  11% (23/208)   [Kremote: Compressing objects:  12% (25/208)   [Kremote: Compressing objects:  13% (28/208)   [Kremote: Compressing objects:  14% (30/208)   [Kremote: Compressing objects:  15% (32/208)   [Kremote: Compressing objects:  16% (34/208)   [Kremote: Compressing objects:  17% (36/208)   [Kremote: Compressing objects:  18% (38/208)   [Kremote: Compressing objects:  19% (40/208)   [Kremote: Compressing objects:  20% (42/208)   [Kremote: Compressing objects:  21% (44/208)   [Kremote: Compressing objects:  22% (46/208)   [Kremote: Compressing objects:  23% (48/208)   [Kremote: Compressing objects:  24% (50/208)   [Kremote: Compressing objects:  25% (52/208)   [Kremote: Compressing objects:  26% (55/208)   [Kremote: Compressing objects:  27% (57/208)   [Kremote: Compressing objects:  28% (59/208)   [Kremote: Compressing objects:  29% (61/208)   [Kremote: Compressing objects:  30% (63/208)   [Kremote: Compressing objects:  31% (65/208)   [Kremote: Compressing objects:  32% (67/208)   [Kremote: Compressing objects:  33% (69/208)   [Kremote: Compressing objects:  34% (71/208)   [Kremote: Compressing objects:  35% (73/208)   [Kremote: Compressing objects:  36% (75/208)   [Kremote: Compressing objects:  37% (77/208)   [Kremote: Compressing objects:  38% (80/208)   [Kremote: Compressing objects:  39% (82/208)   [Kremote: Compressing objects:  40% (84/208)   [Kremote: Compressing objects:  41% (86/208)   [Kremote: Compressing objects:  42% (88/208)   [Kremote: Compressing objects:  43% (90/208)   [Kremote: Compressing objects:  44% (92/208)   [Kremote: Compressing objects:  45% (94/208)   [Kremote: Compressing objects:  46% (96/208)   [Kremote: Compressing objects:  47% (98/208)   [Kremote: Compressing objects:  48% (100/208)   [Kremote: Compressing objects:  49% (102/208)   [Kremote: Compressing objects:  50% (104/208)   [Kremote: Compressing objects:  51% (107/208)   [Kremote: Compressing objects:  52% (109/208)   [Kremote: Compressing objects:  53% (111/208)   [Kremote: Compressing objects:  54% (113/208)   [Kremote: Compressing objects:  55% (115/208)   [Kremote: Compressing objects:  56% (117/208)   [Kremote: Compressing objects:  57% (119/208)   [Kremote: Compressing objects:  58% (121/208)   [Kremote: Compressing objects:  59% (123/208)   [Kremote: Compressing objects:  60% (125/208)   [Kremote: Compressing objects:  61% (127/208)   [Kremote: Compressing objects:  62% (129/208)   [Kremote: Compressing objects:  63% (132/208)   [Kremote: Compressing objects:  64% (134/208)   [Kremote: Compressing objects:  65% (136/208)   [Kremote: Compressing objects:  66% (138/208)   [Kremote: Compressing objects:  67% (140/208)   [Kremote: Compressing objects:  68% (142/208)   [Kremote: Compressing objects:  69% (144/208)   [Kremote: Compressing objects:  70% (146/208)   [Kremote: Compressing objects:  71% (148/208)   [Kremote: Compressing objects:  72% (150/208)   [Kremote: Compressing objects:  73% (152/208)   [Kremote: Compressing objects:  74% (154/208)   [Kremote: Compressing objects:  75% (156/208)   [Kremote: Compressing objects:  76% (159/208)   [Kremote: Compressing objects:  77% (161/208)   [Kremote: Compressing objects:  78% (163/208)   [Kremote: Compressing objects:  79% (165/208)   [Kremote: Compressing objects:  80% (167/208)   [Kremote: Compressing objects:  81% (169/208)   [Kremote: Compressing objects:  82% (171/208)   [Kremote: Compressing objects:  83% (173/208)   [Kremote: Compressing objects:  84% (175/208)   [Kremote: Compressing objects:  85% (177/208)   [Kremote: Compressing objects:  86% (179/208)   [Kremote: Compressing objects:  87% (181/208)   [Kremote: Compressing objects:  88% (184/208)   [Kremote: Compressing objects:  89% (186/208)   [Kremote: Compressing objects:  90% (188/208)   [Kremote: Compressing objects:  91% (190/208)   [Kremote: Compressing objects:  92% (192/208)   [Kremote: Compressing objects:  93% (194/208)   [Kremote: Compressing objects:  94% (196/208)   [Kremote: Compressing objects:  95% (198/208)   [Kremote: Compressing objects:  96% (200/208)   [Kremote: Compressing objects:  97% (202/208)   [Kremote: Compressing objects:  98% (204/208)   [Kremote: Compressing objects:  99% (206/208)   [Kremote: Compressing objects: 100% (208/208)   [Kremote: Compressing objects: 100% (208/208), done.[K
+Receiving objects:   0% (1/217)   Receiving objects:   1% (3/217)   Receiving objects:   2% (5/217)   Receiving objects:   3% (7/217)   Receiving objects:   4% (9/217)   Receiving objects:   5% (11/217)   Receiving objects:   6% (14/217)   Receiving objects:   7% (16/217)   Receiving objects:   8% (18/217)   Receiving objects:   9% (20/217)   Receiving objects:  10% (22/217)   Receiving objects:  11% (24/217)   Receiving objects:  12% (27/217)   Receiving objects:  13% (29/217)   Receiving objects:  14% (31/217)   Receiving objects:  15% (33/217)   Receiving objects:  16% (35/217)   Receiving objects:  17% (37/217)   Receiving objects:  18% (40/217)   Receiving objects:  19% (42/217)   Receiving objects:  20% (44/217)   Receiving objects:  21% (46/217)   Receiving objects:  22% (48/217)   Receiving objects:  23% (50/217)   Receiving objects:  24% (53/217)   Receiving objects:  25% (55/217)   Receiving objects:  26% (57/217)   Receiving objects:  27% (59/217)   Receiving objects:  28% (61/217)   Receiving objects:  29% (63/217)   Receiving objects:  30% (66/217)   Receiving objects:  31% (68/217)   Receiving objects:  32% (70/217)   Receiving objects:  33% (72/217)   Receiving objects:  34% (74/217)   Receiving objects:  35% (76/217)   Receiving objects:  36% (79/217)   Receiving objects:  37% (81/217)   Receiving objects:  38% (83/217)   Receiving objects:  39% (85/217)   Receiving objects:  40% (87/217)   Receiving objects:  41% (89/217)   Receiving objects:  42% (92/217)   Receiving objects:  43% (94/217)   Receiving objects:  44% (96/217)   Receiving objects:  45% (98/217)   Receiving objects:  46% (100/217)   Receiving objects:  47% (102/217)   Receiving objects:  48% (105/217)   Receiving objects:  49% (107/217)   Receiving objects:  50% (109/217)   Receiving objects:  51% (111/217)   Receiving objects:  52% (113/217)   Receiving objects:  53% (116/217)   Receiving objects:  54% (118/217)   Receiving objects:  55% (120/217)   Receiving objects:  56% (122/217)   Receiving objects:  57% (124/217)   Receiving objects:  58% (126/217)   Receiving objects:  59% (129/217)   Receiving objects:  60% (131/217)   Receiving objects:  61% (133/217)   Receiving objects:  62% (135/217)   Receiving objects:  63% (137/217)   Receiving objects:  64% (139/217)   Receiving objects:  65% (142/217)   Receiving objects:  66% (144/217)   Receiving objects:  67% (146/217)   Receiving objects:  68% (148/217)   Receiving objects:  69% (150/217)   Receiving objects:  70% (152/217)   Receiving objects:  71% (155/217)   Receiving objects:  72% (157/217)   Receiving objects:  73% (159/217)   Receiving objects:  74% (161/217)   Receiving objects:  75% (163/217)   Receiving objects:  76% (165/217)   Receiving objects:  77% (168/217)   Receiving objects:  78% (170/217)   Receiving objects:  79% (172/217)   Receiving objects:  80% (174/217)   Receiving objects:  81% (176/217)   Receiving objects:  82% (178/217)   Receiving objects:  83% (181/217)   Receiving objects:  84% (183/217)   Receiving objects:  85% (185/217)   Receiving objects:  86% (187/217)   Receiving objects:  87% (189/217)   Receiving objects:  88% (191/217)   Receiving objects:  89% (194/217)   Receiving objects:  90% (196/217)   Receiving objects:  91% (198/217)   Receiving objects:  92% (200/217)   Receiving objects:  93% (202/217)   Receiving objects:  94% (204/217)   remote: Total 217 (delta 92), reused 0 (delta 0)
+Receiving objects:  95% (207/217)   Receiving objects:  96% (209/217)   Receiving objects:  97% (211/217)   Receiving objects:  98% (213/217)   Receiving objects:  99% (215/217)   Receiving objects: 100% (217/217)   Receiving objects: 100% (217/217), 3.07 MiB | 10.88 MiB/s, done.
+Resolving deltas:   0% (0/92)   Resolving deltas:   2% (2/92)   Resolving deltas:   3% (3/92)   Resolving deltas:   4% (4/92)   Resolving deltas:   5% (5/92)   Resolving deltas:  10% (10/92)   Resolving deltas:  16% (15/92)   Resolving deltas:  33% (31/92)   Resolving deltas:  35% (33/92)   Resolving deltas:  36% (34/92)   Resolving deltas:  38% (35/92)   Resolving deltas:  43% (40/92)   Resolving deltas:  45% (42/92)   Resolving deltas:  47% (44/92)   Resolving deltas:  52% (48/92)   Resolving deltas:  53% (49/92)   Resolving deltas:  54% (50/92)   Resolving deltas:  55% (51/92)   Resolving deltas:  56% (52/92)   Resolving deltas:  57% (53/92)   Resolving deltas:  60% (56/92)   Resolving deltas:  61% (57/92)   Resolving deltas:  65% (60/92)   Resolving deltas:  72% (67/92)   Resolving deltas:  75% (69/92)   Resolving deltas:  81% (75/92)   Resolving deltas:  82% (76/92)   Resolving deltas:  83% (77/92)   Resolving deltas:  84% (78/92)   Resolving deltas:  85% (79/92)   Resolving deltas:  88% (81/92)   Resolving deltas:  97% (90/92)   Resolving deltas: 100% (92/92)   Resolving deltas: 100% (92/92), done.
+aceylan1@remote05:~/projects$ cdc[K ~
+aceylan1@remote05:~$ ln -s projects/cs240
+aceylan1@remote05:~$ ln -s projects/cs240 .
+ln: failed to create symbolic link './cs240': File exists
+aceylan1@remote05:~$ ln -s projects/cs240.
+aceylan1@remote05:~$ ls
+"15'th september.circ"	 22nd_lab_7.circ   Downloads	        projects
+ 22nd_lab_1.circ	 Arduino	  'Full Adder.circ'     Public
+ 22nd_lab_2.circ	 cs120		   Karnaugh_1.circ      Templates
+ 22nd_lab_3.circ	 cs240		   lab		        tmp
+ 22nd_lab_4.circ	 cs240.		  'Mani Curcuit.circ'   Videos
+ 22nd_lab_5.circ	 Desktop	   Music
+ 22nd_lab_6.circ	 Documents	   Pictures
+aceylan1@remote05:~$ git [K[K[K[K./cs240
+-bash: ./cs240: Is a directory
+aceylan1@remote05:~$ git log -5
+fatal: not a git repository (or any parent up to mount point /import)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+aceylan1@remote05:~$ cs240
+-bash: cs240: command not found
+aceylan1@remote05:~$ cd ./cs240
+aceylan1@remote05:~/cs240$ git log -5
+[?1h=[33mcommit 9e96ef3a13ea620d96e7b2a0bc1462d227d670d2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mor[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31migin/HEAD[m[33m)[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Thu Jan 23 14:14:16 2020 -0500[m
+[m
+    trivial changes[m
+[m
+[33mcommit 8d6dd352014a55daef6e897d54d5bc33650ca50f[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Thu Jan 23 13:40:58 2020 -0500[m
+[m
+    added abet requirements to syllabus[m
+[m
+[33mcommit 24681db1cd13af495d8c1511f77123e5d91ed1dd[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Thu Jan 23 08:17:24 2020 -0500[m
+[m
+    added grading guidelines[m
+[m
+[33mcommit b28da302c11169a1a76ebab0b25099bb8241c34b[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Wed Jan 22 22:01:19 2020 -0500[m
+[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K    update syllabus and lab0 with TA info[m
+:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K[HM[33mcommit 9e96ef3a13ea620d96e7b2a0bc1462d227d670d2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mor[m[24;1H[K:[K[K    update syllabus and lab0 with TA info[m
+:[K[K:[K[K:[K[H[2J[H[33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31migin/HEAD[m[33m)[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Thu Jan 23 14:14:16 2020 -0500[m
+[m
+    trivial changes[m
+[m
+[33mcommit 8d6dd352014a55daef6e897d54d5bc33650ca50f[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Thu Jan 23 13:40:58 2020 -0500[m
+[m
+    added abet requirements to syllabus[m
+[m
+[33mcommit 24681db1cd13af495d8c1511f77123e5d91ed1dd[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Thu Jan 23 08:17:24 2020 -0500[m
+[m
+    added grading guidelines[m
+[m
+[33mcommit b28da302c11169a1a76ebab0b25099bb8241c34b[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Wed Jan 22 22:01:19 2020 -0500[m
+[m
+    update syllabus and lab0 with TA info[m
+:[K[K:[K[K:[K[K[HM[33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mr[m
+[HM[33mcommit 9e96ef3a13ea620d96e7b2a0bc1462d227d670d2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mo[m[24;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K[m
+    update syllabus and lab0 with TA info[m
+[m
+[33mcommit 8d242d7ee425f9c85f96bb6923179e7390091716[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Wed Jan 22 12:34:04 2020 -0500[m
+[m
+    tweaks[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>
+[1]+  Stopped                 git log -5
+aceylan1@remote05:~/cs240$ git log -3 labs/lab0.umt
+fatal: ambiguous argument 'labs/lab0.umt': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+aceylan1@remote05:~/cs240$ git diff -r XXXX labs/lab0.umt
+fatal: ambiguous argument 'XXXX': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+aceylan1@remote05:~/cs240$ cd
+aceylan1@remote05:~$ cd ~/projects
+aceylan1@remote05:~/projects$ git clone https://github.com/aceylan19/i240a.git
+Cloning into 'i240a'...
+Username for 'https://github.com': aceylan19
+Password for 'https://aceylan19@github.com': 
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+aceylan1@remote05:~/projects$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBhAacLzjVWdcu8RHUiNFuBjaU3it4qSzEKHvKZDezJToYGtqs52b6ZWjfkSQUFylqaRgpfPQkpdm728igeoV12K3sJDIZDkN6tFWs6aiY7n/2cUKXDkudotYOhg1EbLzNu1HxVRHIzDa4X/r8G0jFmHEeNfIMOhOiw+ZmBbI+D66UnWdOfySFKquzWtY/dq8wlG/VMg3EZ63MZY1gGky9gcI2Rdq8FQsyMjSVIT00n2FEwH41KxVVTBbuBRfFWRGnL5Wa2kTVFmUUZDuZDmgOS/P8cFbuSa+xWMxaoFBkvXJ+DZ18pLoKMaZq0Auw449LYvQiirmmI46HHU/xcdeL aceylan1@g7-33
+aceylan1@remote05:~/projects$ rm .cs[K[K/cs240
+rm: cannot remove './cs240': Is a directory
+aceylan1@remote05:~/projects$ rm ./cs240
+rm: cannot remove './cs240': Is a directory
+aceylan1@remote05:~/projects$ rmdir ./cs240
+rmdir: failed to remove './cs240': Directory not empty
+aceylan1@remote05:~/projects$ rm -r [K .,[K/cs21[K40
+rm: remove write-protected regular file './cs240/.git/objects/pack/pack-2420daf969e75135e9fe901ffbd888afbf354217.pack'? 
+rm: remove write-protected regular file './cs240/.git/objects/pack/pack-2420daf969e75135e9fe901ffbd888afbf354217.idx'? n
+rm: cannot remove './cs240/.git/objects/pack': Directory not empty
+aceylan1@remote05:~/projects$ s
+-bash: s: command not found
+aceylan1@remote05:~/projects$ ls
+cs240  i240a
+aceylan1@remote05:~/projects$ c [K[Kcd cs240/.git/[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd cs240/
+aceylan1@remote05:~/projects/cs240$ ls
+aceylan1@remote05:~/projects/cs240$ d ../
+-bash: d: command not found
+aceylan1@remote05:~/projects/cs240$ cfd[K[K[Kcd ../
+aceylan1@remote05:~/projects$ ls
+cs240  i240a
+aceylan1@remote05:~/projects$ ls
+cs240  i240a
+aceylan1@remote05:~/projects$ cd i240a/
+aceylan1@remote05:~/projects/i240a$ ls -0[Kla
+total 8
+drwxr-x--- 3 aceylan1 aceylan1   45 Jan 23 16:22 .
+drwxr-x--- 4 aceylan1 aceylan1   42 Jan 23 16:22 ..
+drwxr-x--- 8 aceylan1 aceylan1 4096 Jan 23 16:22 .git
+-rw-r----- 1 aceylan1 aceylan1    7 Jan 23 16:22 README.md
+aceylan1@remote05:~/projects/i240a$ gi[Kedit -[K.gitin[Kfnore[K[K[K[K[Kgnore
+Unable to init server: Could not connect: Connection refused
+
+(gedit:1062399): Gtk-[1;33mWARNING[0m **: [34m16:57:19.549[0m: cannot open display: 
+aceylan1@remote05:~/projects/i240a$ vi [Km [K[K[K[Ks[Kecho *.c[[[K[Kpp ub[K[K.go[Kitignore
+*.cpp .gitignore
+aceylan1@remote05:~/projects/i240a$ cat ,[K.gitignore
+cat: .gitignore: No such file or directory
+aceylan1@remote05:~/projects/i240a$ ls -la
+total 8
+drwxr-x--- 3 aceylan1 aceylan1   45 Jan 23 16:22 .
+drwxr-x--- 4 aceylan1 aceylan1   42 Jan 23 16:22 ..
+drwxr-x--- 8 aceylan1 aceylan1 4096 Jan 23 16:22 .git
+-rw-r----- 1 aceylan1 aceylan1    7 Jan 23 16:22 README.md
+aceylan1@remote05:~/projects/i240a$ "[Kgit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+aceylan1@remote05:~/projects/i240a$ git commit -a -m 'some commit ..'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KSOME COMMIT MESSAGE[K[K[K[K[K[KSG'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+aceylan1@remote05:~/projects/i240a$ max[K[K[Kimac [K[K[Kec[K[Ke[K[K[Kemac[Kcs .gitignore
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[23d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ----------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[24d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[24;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[24;54H[?25ldone[H
+[?12l[?25h[?12;25h[24;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[24;59H[?25ldone[H
+[?12l[?25h[?12;25h[24;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[24;58H[?25ldone[H
+[?12l[?25h[?12;25h[24;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[24;60H[?25ldone[H
+[?12l[?25h[?12;25h[24;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[24;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[24;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[24;77H[?25ldone[H
+[?12l[?25h[?12;25h[24;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[24;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[24;75H[?25ldone[H
+[?12l[?25h[?12;25h[24;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[24;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[24;61H[?25ldone[H
+[?12l[?25h[?12;25h[24;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25l.el (source)...[K[H[7mFile Edit Options Buffers Tools Help                                             [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ----------------------------[39;49m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads\
+[A[2d[?12l[?25h[?12;25h[24;16H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[23;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[23;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[23;75H[?25ldone[H
+[?12l[?25h[?12;25h[23;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[23;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[23;64H[?25ldone[H
+[?12l[?25h[?12;25h[23;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[23;54H[?25ldone[H
+[?12l[?25h[?12;25h[23;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[23;65H[?25ldone[H
+[?12l[?25h[?12;25h[23;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[23;54H[?25ldone[H
+[?12l[?25h[?12;25h[23;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[23;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[24d[K[H[?25l[7mFile Edit Options Buffers Tools Lisp-Interaction Help                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction ElDoc) -----------------[39;49m
+[A
+Loading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H
+[?12l[?25h[?12;25h[?2004h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25l(New file)[K[H
+[?12l[?25h[?12;25h[24d[?25l(New file)[K[H[7mFile Edit Options Buffers Tools Help                                             [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m.gitignore  [0m[39;49m[30m[48;5;250m   All L1     (Fundamental) ----------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[24d[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[2]+  Stopped                 emacs .gitignore
+aceylan1@remote05:~/projects/i240a$ mkdri[K[Kir -p `[K[K~[K ~/projects
+aceylan1@remote05:~/projects/i240a$ cd ~/projects
+aceylan1@remote05:~/projects$ git clone https://github.com/aceylan19/I240a.git
+Cloning into 'I240a'...
+Username for 'https://github.com': aceylan19
+Password for 'https://aceylan19@github.com': 
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+aceylan1@remote05:~/projects$ cd~[K ~
+aceylan1@remote05:~$ ln -s ~/projects/i240a[Ka .\
+> ^C
+aceylan1@remote05:~$ ln -s ~/projects/i240a .\[K
+aceylan1@remote05:~$ ln -s ~/projects/i240a .
+ln: failed to create symbolic link './i240a': File exists
+aceylan1@remote05:~$ cd ~/i240a
+aceylan1@remote05:~/i240a$ git status -s 
+aceylan1@remote05:~/i240a$ git commit -a -m 'SOME COMMIT MSG'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+aceylan1@remote05:~/i240a$ GIT PUS[K[K[K[K[K[K[Kgit push 
+Username for 'https://github.com': aceylan19
+Password for 'https://aceylan19@github.com': 
+To https://github.com/aceylan19/i240a.git
+ [31m! [rejected]       [m master -> master (fetch first)
+[31merror: failed to push some refs to 'https://github.com/aceylan19/i240a.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+aceylan1@remote05:~/i240a$ git statuss[K -s
+aceylan1@remote05:~/i240a$ git commit -a -m 'Some [K[K[K[KOME CIMMIY [K[K[K[K[K[KOMMIT MES'[K[K[KSG'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+aceylan1@remote05:~/i240a$ GI[K[Kgit push 
+Username for 'https://github.com': aceylas n19
+Password for 'https://aceylan19@github.com': 
+To https://github.com/aceylan19/i240a.git
+ [31m! [rejected]       [m master -> master (fetch first)
+[31merror: failed to push some refs to 'https://github.com/aceylan19/i240a.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+aceylan1@remote05:~/i240a$ git pull <remote> dev
+-bash: remote: No such file or directory
+aceylan1@remote05:~/i240a$ git pull <remote> dev[C[1P dev[1P dev[1P dev[1P dev[1P dev[1P dev[1P dev[1P dev[C dev[34@https://github.com/aceylan19/I240a[C[1Pdev
+Username for 'https://github.com': aceylan19
+Password for 'https://aceylan19@github.com': 
+fatal: Couldn't find remote ref dev
+aceylan1@remote05:~/i240a$ git pull https://github.com/aceylan19/I240a dev[K[K[K[K
+Username for 'https://github.com': aceylan19
+Password for 'https://aceylan19@github.com': 
+warning: no common commits
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+From https://github.com/aceylan19/I240a
+ * branch            HEAD       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+aceylan1@remote05:~/i240a$ ls
+README.md
+aceylan1@remote05:~/i240a$ cd ../
+aceylan1@remote05:~$ m[Kls
+"15'th september.circ"	 22nd_lab_7.circ   Downloads	        Pictures
+ 22nd_lab_1.circ	 Arduino	  'Full Adder.circ'     projects
+ 22nd_lab_2.circ	 cs120		   i240a	        Public
+ 22nd_lab_3.circ	 cs240		   Karnaugh_1.circ      Templates
+ 22nd_lab_4.circ	 cs240.		   lab		        tmp
+ 22nd_lab_5.circ	 Desktop	  'Mani Curcuit.circ'   Videos
+ 22nd_lab_6.circ	 Documents	   Music
+aceylan1@remote05:~$ m [K[Krm 0[K[K[K[Krm -rf i240a
+aceylan1@remote05:~$ mkdir i2[K[K[K[K[K[K[K[Kmkdir i240a
+aceylan1@remote05:~$ cd i240a/
+aceylan1@remote05:~/i240a$ cd i240a/mkdir i240a[1@rm -rf[C[C[C[C[C[C[1Pmkdir[C[C[C[C[C[C[2Pcd i240a/[Kgit init
+Initialized empty Git repository in /import/linux/home1/aceylan1/i240a/.git/
+aceylan1@remote05:~/i240a$ git initcd i240a/mkdir i240a[1@rm -rf[C[C[C[C[C[Cls[Kcd ../[4Plsgit pull https://github.com/aceylan19/I240a
+Username for 'https://github.com': aceylan19
+Password for 'https://aceylan19@github.com': 
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+From https://github.com/aceylan19/I240a
+ * branch            HEAD       -> FETCH_HEAD
+aceylan1@remote05:~/i240a$ ls 
+README.md
+aceylan1@remote05:~/i240a$ git clone https://github.com/aceylan19/i240a.git
+Cloning into 'i240a'...
+Username for 'https://github.com': aceylan19
+Password for 'https://aceylan19@github.com': 
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+aceylan1@remote05:~/i240a$ cd ~i240a
+-bash: cd: ~i240a: No such file or directory
+aceylan1@remote05:~/i240a$ git status -s
+[31m??[m i240a/
+aceylan1@remote05:~/i240a$ cd ~
+aceylan1@remote05:~$ ln -s ~/projecta[Ks/i240a
+ln: failed to create symbolic link './i240a': File exists
+aceylan1@remote05:~$ cd `[K~/i240a
+aceylan1@remote05:~/i240a$ git status -s
+[31m??[m i240a/
+aceylan1@remote05:~/i240a$ cd ~
+aceylan1@remote05:~$ ln -s ~/projects/'[Ki240a
+ln: failed to create symbolic link './i240a': File exists
+aceylan1@remote05:~$ ls
+"15'th september.circ"	 22nd_lab_7.circ   Downloads	        Pictures
+ 22nd_lab_1.circ	 Arduino	  'Full Adder.circ'     projects
+ 22nd_lab_2.circ	 cs120		   i240a	        Public
+ 22nd_lab_3.circ	 cs240		   Karnaugh_1.circ      Templates
+ 22nd_lab_4.circ	 cs240.		   lab		        tmp
+ 22nd_lab_5.circ	 Desktop	  'Mani Curcuit.circ'   Videos
+ 22nd_lab_6.circ	 Documents	   Music
+aceylan1@remote05:~$ ls -a
+ .			 cs240.		      Music
+ ..			 Desktop	      .oracle_jre_usage
+"15'th september.circ"	 .dmrc		      Pictures
+ 22nd_lab_1.circ	 Documents	      .pki
+ 22nd_lab_2.circ	 Downloads	      .profile
+ 22nd_lab_3.circ	 .emacs.d	      projects
+ 22nd_lab_4.circ	 .forward	      Public
+ 22nd_lab_5.circ	'Full Adder.circ'     .ssh
+ 22nd_lab_6.circ	 .gnome		      Templates
+ 22nd_lab_7.circ	 .gnupg		      .thunderbird
+ Arduino		 i240a		      tmp
+ .arduino15		 .ICEauthority	      Videos
+ .bash_history		 .java		      .viminfo
+ .bashrc		 Karnaugh_1.circ      .Xauthority
+ .cache			 lab		      .xfce4-session.verbose-log
+ .config		 .local		      .xfce4-session.verbose-log.last
+ cs120			'Mani Curcuit.circ'   .xsession-errors
+ cs240			 .mozilla	      .xsession-errors.old
+aceylan1@remote05:~$ emacs ./cs240[K[K[K[K[K[K[K.gitiggnore[K[K[K[K[Knore
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[23d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ----------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[24d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[24;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[24;54H[?25ldone[H
+[?12l[?25h[?12;25h[24;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[24;59H[?25ldone[H
+[?12l[?25h[?12;25h[24;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[24;58H[?25ldone[H
+[?12l[?25h[?12;25h[24;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[24;60H[?25ldone[H
+[?12l[?25h[?12;25h[24;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[24;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[24;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[24;77H[?25ldone[H
+[?12l[?25h[?12;25h[24;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[24;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[24;75H[?25ldone[H
+[?12l[?25h[?12;25h[24;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[24;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[24;61H[?25ldone[H
+[?12l[?25h[?12;25h[24;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25l.el (source)...[K[H[7mFile Edit Options Buffers Tools Help                                             [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ----------------------------[39;49m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads\
+[A[2d[?12l[?25h[?12;25h[24;16H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[23;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[23;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[23;75H[?25ldone[H
+[?12l[?25h[?12;25h[23;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[23;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[23;64H[?25ldone[H
+[?12l[?25h[?12;25h[23;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[23;54H[?25ldone[H
+[?12l[?25h[?12;25h[23;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[23;65H[?25ldone[H
+[?12l[?25h[?12;25h[23;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[23;54H[?25ldone[H
+[?12l[?25h[?12;25h[23;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[23;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[24d[K[H[?25l[7mFile Edit Options Buffers Tools Lisp-Interaction Help                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction ElDoc) -----------------[39;49m
+[A
+Loading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H
+[?12l[?25h[?12;25h[?2004h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25l(New file)[K[H
+[?12l[?25h[?12;25h[24d[?25l(New file)[K[H[7mFile Edit Options Buffers Tools Help                                             [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m.gitignore  [0m[39;49m[30m[48;5;250m   All L1     (Fundamental) ----------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[24d[K[2d[?25lZ[23;6H[30m[48;5;250m**[39;49m[2;2H[?12l[?25h[?12;25h[K[24d[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[3]+  Stopped                 emacs .gitignore
+aceylan1@remote05:~$ ls 
+"15'th september.circ"	 22nd_lab_7.circ   Downloads	        Pictures
+ 22nd_lab_1.circ	 Arduino	  'Full Adder.circ'     projects
+ 22nd_lab_2.circ	 cs120		   i240a	        Public
+ 22nd_lab_3.circ	 cs240		   Karnaugh_1.circ      Templates
+ 22nd_lab_4.circ	 cs240.		   lab		        tmp
+ 22nd_lab_5.circ	 Desktop	  'Mani Curcuit.circ'   Videos
+ 22nd_lab_6.circ	 Documents	   Music
+aceylan1@remote05:~$ cd ./cs240
+aceylan1@remote05:~/cs240$ ls
+aceylan1@remote05:~/cs240$ git clone https://github.com/aceylan19/i240a.git
+Cloning into 'i240a'...
+Username for 'https://github.com': aceylan19
+Password for 'https://aceylan19@github.com': 
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+aceylan1@remote05:~/cs240$ ls
+i240a
+aceylan1@remote05:~/cs240$ cs[Kd i240a
+aceylan1@remote05:~/cs240/i240a$ ls
+README.md
+aceylan1@remote05:~/cs240/i240a$ ls ;a[K[K[K -la
+total 12
+drwxr-x--- 3 aceylan1 aceylan1   66 Jan 23 17:36 .
+drwxr-x--- 4 aceylan1 aceylan1   41 Jan 23 17:36 ..
+drwxr-x--- 8 aceylan1 aceylan1 4096 Jan 23 17:36 .git
+-rw-r----- 1 aceylan1 aceylan1  270 Jan 23 17:36 .gitignore
+-rw-r----- 1 aceylan1 aceylan1    7 Jan 23 17:36 README.md
+aceylan1@remote05:~/cs240/i240a$ emacs .gitignore
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[23d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ----------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[24d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[24;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[24;54H[?25ldone[H
+[?12l[?25h[?12;25h[24;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[24;59H[?25ldone[H
+[?12l[?25h[?12;25h[24;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[24;58H[?25ldone[H
+[?12l[?25h[?12;25h[24;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[24;60H[?25ldone[H
+[?12l[?25h[?12;25h[24;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[24;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[24;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[24;77H[?25ldone[H
+[?12l[?25h[?12;25h[24;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[24;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[24;75H[?25ldone[H
+[?12l[?25h[?12;25h[24;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[24;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[24;61H[?25ldone[H
+[?12l[?25h[?12;25h[24;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25l.el (source)...[K[H[7mFile Edit Options Buffers Tools Help                                             [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ----------------------------[39;49m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads\
+[A[2d[?12l[?25h[?12;25h[24;16H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[23;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[23;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[23;75H[?25ldone[H
+[?12l[?25h[?12;25h[23;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[23;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[23;64H[?25ldone[H
+[?12l[?25h[?12;25h[23;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[23;54H[?25ldone[H
+[?12l[?25h[?12;25h[23;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[23;65H[?25ldone[H
+[?12l[?25h[?12;25h[23;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[23;54H[?25ldone[H
+[?12l[?25h[?12;25h[23;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[23;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[24d[K[H[?25l[7mFile Edit Options Buffers Tools Lisp-Interaction Help                         
