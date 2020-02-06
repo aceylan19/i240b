@@ -1,0 +1,845 @@
+Script started on 2020-02-06 15:30:43-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+aceylan1@g7-23:/import/linux/home1/aceylan1/i240a/submit/lab2$ git clone ssh [K;//a ceylan1@[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K ssh://aceylan1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+Cloning into 'cs240'...
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.207' to the list of known hosts.
+/home/aceylan1/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permission denied
+remote: Enumerating objects: 440, done.[K
+remote: Counting objects:   0% (1/440)   [Kremote: Counting objects:   1% (5/440)   [Kremote: Counting objects:   2% (9/440)   [Kremote: Counting objects:   3% (14/440)   [Kremote: Counting objects:   4% (18/440)   [Kremote: Counting objects:   5% (22/440)   [Kremote: Counting objects:   6% (27/440)   [Kremote: Counting objects:   7% (31/440)   [Kremote: Counting objects:   8% (36/440)   [Kremote: Counting objects:   9% (40/440)   [Kremote: Counting objects:  10% (44/440)   [Kremote: Counting objects:  11% (49/440)   [Kremote: Counting objects:  12% (53/440)   [Kremote: Counting objects:  13% (58/440)   [Kremote: Counting objects:  14% (62/440)   [Kremote: Counting objects:  15% (66/440)   [Kremote: Counting objects:  16% (71/440)   [Kremote: Counting objects:  17% (75/440)   [Kremote: Counting objects:  18% (80/440)   [Kremote: Counting objects:  19% (84/440)   [Kremote: Counting objects:  20% (88/440)   [Kremote: Counting objects:  21% (93/440)   [Kremote: Counting objects:  22% (97/440)   [Kremote: Counting objects:  23% (102/440)   [Kremote: Counting objects:  24% (106/440)   [Kremote: Counting objects:  25% (110/440)   [Kremote: Counting objects:  26% (115/440)   [Kremote: Counting objects:  27% (119/440)   [Kremote: Counting objects:  28% (124/440)   [Kremote: Counting objects:  29% (128/440)   [Kremote: Counting objects:  30% (132/440)   [Kremote: Counting objects:  31% (137/440)   [Kremote: Counting objects:  32% (141/440)   [Kremote: Counting objects:  33% (146/440)   [Kremote: Counting objects:  34% (150/440)   [Kremote: Counting objects:  35% (154/440)   [Kremote: Counting objects:  36% (159/440)   [Kremote: Counting objects:  37% (163/440)   [Kremote: Counting objects:  38% (168/440)   [Kremote: Counting objects:  39% (172/440)   [Kremote: Counting objects:  40% (176/440)   [Kremote: Counting objects:  41% (181/440)   [Kremote: Counting objects:  42% (185/440)   [Kremote: Counting objects:  43% (190/440)   [Kremote: Counting objects:  44% (194/440)   [Kremote: Counting objects:  45% (198/440)   [Kremote: Counting objects:  46% (203/440)   [Kremote: Counting objects:  47% (207/440)   [Kremote: Counting objects:  48% (212/440)   [Kremote: Counting objects:  49% (216/440)   [Kremote: Counting objects:  50% (220/440)   [Kremote: Counting objects:  51% (225/440)   [Kremote: Counting objects:  52% (229/440)   [Kremote: Counting objects:  53% (234/440)   [Kremote: Counting objects:  54% (238/440)   [Kremote: Counting objects:  55% (242/440)   [Kremote: Counting objects:  56% (247/440)   [Kremote: Counting objects:  57% (251/440)   [Kremote: Counting objects:  58% (256/440)   [Kremote: Counting objects:  59% (260/440)   [Kremote: Counting objects:  60% (264/440)   [Kremote: Counting objects:  61% (269/440)   [Kremote: Counting objects:  62% (273/440)   [Kremote: Counting objects:  63% (278/440)   [Kremote: Counting objects:  64% (282/440)   [Kremote: Counting objects:  65% (286/440)   [Kremote: Counting objects:  66% (291/440)   [Kremote: Counting objects:  67% (295/440)   [Kremote: Counting objects:  68% (300/440)   [Kremote: Counting objects:  69% (304/440)   [Kremote: Counting objects:  70% (308/440)   [Kremote: Counting objects:  71% (313/440)   [Kremote: Counting objects:  72% (317/440)   [Kremote: Counting objects:  73% (322/440)   [Kremote: Counting objects:  74% (326/440)   [Kremote: Counting objects:  75% (330/440)   [Kremote: Counting objects:  76% (335/440)   [Kremote: Counting objects:  77% (339/440)   [Kremote: Counting objects:  78% (344/440)   [Kremote: Counting objects:  79% (348/440)   [Kremote: Counting objects:  80% (352/440)   [Kremote: Counting objects:  81% (357/440)   [Kremote: Counting objects:  82% (361/440)   [Kremote: Counting objects:  83% (366/440)   [Kremote: Counting objects:  84% (370/440)   [Kremote: Counting objects:  85% (374/440)   [Kremote: Counting objects:  86% (379/440)   [Kremote: Counting objects:  87% (383/440)   [Kremote: Counting objects:  88% (388/440)   [Kremote: Counting objects:  89% (392/440)   [Kremote: Counting objects:  90% (396/440)   [Kremote: Counting objects:  91% (401/440)   [Kremote: Counting objects:  92% (405/440)   [Kremote: Counting objects:  93% (410/440)   [Kremote: Counting objects:  94% (414/440)   [Kremote: Counting objects:  95% (418/440)   [Kremote: Counting objects:  96% (423/440)   [Kremote: Counting objects:  97% (427/440)   [Kremote: Counting objects:  98% (432/440)   [Kremote: Counting objects:  99% (436/440)   [Kremote: Counting objects: 100% (440/440)   [Kremote: Counting objects: 100% (440/440), done.[K
+remote: Compressing objects:   0% (1/418)   [Kremote: Compressing objects:   1% (5/418)   [Kremote: Compressing objects:   2% (9/418)   [Kremote: Compressing objects:   3% (13/418)   [Kremote: Compressing objects:   4% (17/418)   [Kremote: Compressing objects:   5% (21/418)   [Kremote: Compressing objects:   6% (26/418)   [Kremote: Compressing objects:   7% (30/418)   [Kremote: Compressing objects:   8% (34/418)   [Kremote: Compressing objects:   9% (38/418)   [Kremote: Compressing objects:  10% (42/418)   [Kremote: Compressing objects:  11% (46/418)   [Kremote: Compressing objects:  12% (51/418)   [Kremote: Compressing objects:  13% (55/418)   [Kremote: Compressing objects:  14% (59/418)   [Kremote: Compressing objects:  15% (63/418)   [Kremote: Compressing objects:  16% (67/418)   [Kremote: Compressing objects:  17% (72/418)   [Kremote: Compressing objects:  18% (76/418)   [Kremote: Compressing objects:  19% (80/418)   [Kremote: Compressing objects:  20% (84/418)   [Kremote: Compressing objects:  21% (88/418)   [Kremote: Compressing objects:  22% (92/418)   [Kremote: Compressing objects:  23% (97/418)   [Kremote: Compressing objects:  24% (101/418)   [Kremote: Compressing objects:  25% (105/418)   [Kremote: Compressing objects:  26% (109/418)   [Kremote: Compressing objects:  27% (113/418)   [Kremote: Compressing objects:  28% (118/418)   [Kremote: Compressing objects:  29% (122/418)   [Kremote: Compressing objects:  30% (126/418)   [Kremote: Compressing objects:  31% (130/418)   [Kremote: Compressing objects:  32% (134/418)   [Kremote: Compressing objects:  33% (138/418)   [Kremote: Compressing objects:  34% (143/418)   [Kremote: Compressing objects:  35% (147/418)   [Kremote: Compressing objects:  36% (151/418)   [Kremote: Compressing objects:  37% (155/418)   [Kremote: Compressing objects:  38% (159/418)   [Kremote: Compressing objects:  39% (164/418)   [Kremote: Compressing objects:  40% (168/418)   [Kremote: Compressing objects:  41% (172/418)   [Kremote: Compressing objects:  42% (176/418)   [Kremote: Compressing objects:  43% (180/418)   [Kremote: Compressing objects:  44% (184/418)   [Kremote: Compressing objects:  45% (189/418)   [Kremote: Compressing objects:  46% (193/418)   [Kremote: Compressing objects:  47% (197/418)   [Kremote: Compressing objects:  48% (201/418)   [Kremote: Compressing objects:  49% (205/418)   [Kremote: Compressing objects:  50% (209/418)   [Kremote: Compressing objects:  51% (214/418)   [Kremote: Compressing objects:  52% (218/418)   [Kremote: Compressing objects:  53% (222/418)   [Kremote: Compressing objects:  54% (226/418)   [Kremote: Compressing objects:  55% (230/418)   [Kremote: Compressing objects:  56% (235/418)   [Kremote: Compressing objects:  57% (239/418)   [Kremote: Compressing objects:  58% (243/418)   [Kremote: Compressing objects:  59% (247/418)   [Kremote: Compressing objects:  60% (251/418)   [Kremote: Compressing objects:  61% (255/418)   [Kremote: Compressing objects:  62% (260/418)   [Kremote: Compressing objects:  63% (264/418)   [Kremote: Compressing objects:  64% (268/418)   [Kremote: Compressing objects:  65% (272/418)   [Kremote: Compressing objects:  66% (276/418)   [Kremote: Compressing objects:  67% (281/418)   [Kremote: Compressing objects:  68% (285/418)   [Kremote: Compressing objects:  69% (289/418)   [Kremote: Compressing objects:  70% (293/418)   [Kremote: Compressing objects:  71% (297/418)   [Kremote: Compressing objects:  72% (301/418)   [Kremote: Compressing objects:  73% (306/418)   [Kremote: Compressing objects:  74% (310/418)   [Kremote: Compressing objects:  75% (314/418)   [Kremote: Compressing objects:  76% (318/418)   [Kremote: Compressing objects:  77% (322/418)   [Kremote: Compressing objects:  78% (327/418)   [Kremote: Compressing objects:  79% (331/418)   [Kremote: Compressing objects:  80% (335/418)   [Kremote: Compressing objects:  81% (339/418)   [Kremote: Compressing objects:  82% (343/418)   [Kremote: Compressing objects:  83% (347/418)   [Kremote: Compressing objects:  84% (352/418)   [Kremote: Compressing objects:  85% (356/418)   [Kremote: Compressing objects:  86% (360/418)   [Kremote: Compressing objects:  87% (364/418)   [Kremote: Compressing objects:  88% (368/418)   [Kremote: Compressing objects:  89% (373/418)   [Kremote: Compressing objects:  90% (377/418)   [Kremote: Compressing objects:  91% (381/418)   [Kremote: Compressing objects:  92% (385/418)   [Kremote: Compressing objects:  93% (389/418)   [Kremote: Compressing objects:  94% (393/418)   [Kremote: Compressing objects:  95% (398/418)   [Kremote: Compressing objects:  96% (402/418)   [Kremote: Compressing objects:  97% (406/418)   [Kremote: Compressing objects:  98% (410/418)   [Kremote: Compressing objects:  99% (414/418)   [Kremote: Compressing objects: 100% (418/418)   [Kremote: Compressing objects: 100% (418/418), done.[K
+Receiving objects:   0% (1/440)   Receiving objects:   1% (5/440)   Receiving objects:   2% (9/440)   Receiving objects:   3% (14/440)   Receiving objects:   4% (18/440)   Receiving objects:   5% (22/440)   Receiving objects:   6% (27/440)   Receiving objects:   7% (31/440)   Receiving objects:   8% (36/440)   Receiving objects:   9% (40/440)   Receiving objects:  10% (44/440)   Receiving objects:  11% (49/440)   Receiving objects:  12% (53/440)   Receiving objects:  13% (58/440)   Receiving objects:  14% (62/440)   Receiving objects:  15% (66/440)   Receiving objects:  16% (71/440)   Receiving objects:  17% (75/440)   Receiving objects:  18% (80/440)   Receiving objects:  19% (84/440)   Receiving objects:  20% (88/440)   Receiving objects:  21% (93/440)   Receiving objects:  22% (97/440)   Receiving objects:  23% (102/440)   Receiving objects:  24% (106/440)   Receiving objects:  25% (110/440)   Receiving objects:  26% (115/440)   Receiving objects:  27% (119/440)   Receiving objects:  28% (124/440)   Receiving objects:  29% (128/440)   Receiving objects:  30% (132/440)   Receiving objects:  31% (137/440)   Receiving objects:  32% (141/440)   Receiving objects:  33% (146/440)   Receiving objects:  34% (150/440)   Receiving objects:  35% (154/440)   Receiving objects:  36% (159/440)   Receiving objects:  37% (163/440)   Receiving objects:  38% (168/440)   Receiving objects:  39% (172/440)   Receiving objects:  40% (176/440)   Receiving objects:  41% (181/440)   Receiving objects:  42% (185/440)   Receiving objects:  43% (190/440)   Receiving objects:  44% (194/440)   Receiving objects:  45% (198/440)   Receiving objects:  46% (203/440)   Receiving objects:  47% (207/440)   Receiving objects:  48% (212/440)   Receiving objects:  49% (216/440)   Receiving objects:  50% (220/440)   Receiving objects:  51% (225/440)   Receiving objects:  52% (229/440)   Receiving objects:  53% (234/440)   Receiving objects:  54% (238/440)   Receiving objects:  55% (242/440)   Receiving objects:  56% (247/440)   Receiving objects:  57% (251/440)   Receiving objects:  58% (256/440)   Receiving objects:  59% (260/440)   Receiving objects:  60% (264/440)   Receiving objects:  61% (269/440)   Receiving objects:  62% (273/440)   Receiving objects:  63% (278/440)   Receiving objects:  64% (282/440)   Receiving objects:  65% (286/440)   Receiving objects:  66% (291/440)   Receiving objects:  67% (295/440)   Receiving objects:  68% (300/440)   Receiving objects:  69% (304/440)   Receiving objects:  70% (308/440)   Receiving objects:  71% (313/440)   Receiving objects:  72% (317/440)   Receiving objects:  73% (322/440)   Receiving objects:  74% (326/440)   Receiving objects:  75% (330/440)   Receiving objects:  76% (335/440)   Receiving objects:  77% (339/440)   Receiving objects:  78% (344/440)   Receiving objects:  79% (348/440)   Receiving objects:  80% (352/440)   Receiving objects:  81% (357/440)   Receiving objects:  82% (361/440)   Receiving objects:  83% (366/440)   Receiving objects:  84% (370/440)   Receiving objects:  85% (374/440)   Receiving objects:  86% (379/440)   Receiving objects:  87% (383/440)   Receiving objects:  88% (388/440)   Receiving objects:  89% (392/440)   Receiving objects:  90% (396/440)   Receiving objects:  91% (401/440)   Receiving objects:  92% (405/440)   Receiving objects:  93% (410/440)   Receiving objects:  94% (414/440)   Receiving objects:  95% (418/440)   Receiving objects:  96% (423/440)   Receiving objects:  97% (427/440)   remote: Total 440 (delta 210), reused 0 (delta 0)
+Receiving objects:  98% (432/440)   Receiving objects:  99% (436/440)   Receiving objects: 100% (440/440)   Receiving objects: 100% (440/440), 3.70 MiB | 7.42 MiB/s, done.
+Resolving deltas:   0% (0/210)   Resolving deltas:   1% (4/210)   Resolving deltas:   4% (9/210)   Resolving deltas:   6% (13/210)   Resolving deltas:   9% (20/210)   Resolving deltas:  10% (23/210)   Resolving deltas:  16% (35/210)   Resolving deltas:  19% (40/210)   Resolving deltas:  22% (47/210)   Resolving deltas:  26% (56/210)   Resolving deltas:  28% (59/210)   Resolving deltas:  30% (64/210)   Resolving deltas:  33% (70/210)   Resolving deltas:  34% (73/210)   Resolving deltas:  35% (74/210)   Resolving deltas:  36% (76/210)   Resolving deltas:  37% (78/210)   Resolving deltas:  40% (84/210)   Resolving deltas:  41% (87/210)   Resolving deltas:  42% (89/210)   Resolving deltas:  43% (91/210)   Resolving deltas:  44% (93/210)   Resolving deltas:  45% (95/210)   Resolving deltas:  46% (97/210)   Resolving deltas:  47% (99/210)   Resolving deltas:  51% (108/210)   Resolving deltas:  55% (117/210)   Resolving deltas:  60% (127/210)   Resolving deltas:  62% (131/210)   Resolving deltas:  63% (133/210)   Resolving deltas:  64% (136/210)   Resolving deltas:  65% (137/210)   Resolving deltas:  66% (140/210)   Resolving deltas:  67% (141/210)   Resolving deltas:  70% (149/210)   Resolving deltas:  73% (155/210)   Resolving deltas:  79% (167/210)   Resolving deltas:  80% (169/210)   Resolving deltas:  81% (171/210)   Resolving deltas:  82% (174/210)   Resolving deltas:  83% (175/210)   Resolving deltas:  84% (177/210)   Resolving deltas:  89% (188/210)   Resolving deltas:  91% (192/210)   Resolving deltas:  92% (194/210)   Resolving deltas:  93% (196/210)   Resolving deltas:  94% (199/210)   Resolving deltas:  99% (209/210)   Resolving deltas: 100% (210/210)   Resolving deltas: 100% (210/210), done.
+aceylan1@g7-23:/import/linux/home1/aceylan1/i240a/submit/lab2$ cd ~/git-[K[K[K[K[K[K[K[K[Kcd
+aceylan1@g7-23:~$ cds[K[K[Kls
+"15'th september.circ"	 Arduino    'Full Adder.circ'	  projects
+ 22nd_lab_1.circ	 cs120	    '#.gitignore#'	  Public
+ 22nd_lab_2.circ	 cs220	     i240a		  Templates
+ 22nd_lab_3.circ	 cs240	     Karnaugh_1.circ	  tmp
+ 22nd_lab_4.circ	 cs240.      lab		  Videos
+ 22nd_lab_5.circ	 Desktop    'Mani Curcuit.circ'
+ 22nd_lab_6.circ	 Documents   Music
+ 22nd_lab_7.circ	 Downloads   Pictures
+aceylan1@g7-23:~$ cd cs240
+aceylan1@g7-23:~/cs240$ cd lk[Kabs 
+bash: cd: labs: No such file or directory
+aceylan1@g7-23:~/cs240$ cd cs240
+aceylan1@g7-23:~/cs240/cs240$ cd labs
+aceylan1@g7-23:~/cs240/cs240/labs$ ls
+index.html  index.umt  lab0  lab1  submission
+aceylan1@g7-23:~/cs240/cs240/labs$ git pull
+/home/aceylan1/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permission denied
+remote: Enumerating objects: 105, done.[K
+remote: Counting objects:   0% (1/105)   [Kremote: Counting objects:   1% (2/105)   [Kremote: Counting objects:   2% (3/105)   [Kremote: Counting objects:   3% (4/105)   [Kremote: Counting objects:   4% (5/105)   [Kremote: Counting objects:   5% (6/105)   [Kremote: Counting objects:   6% (7/105)   [Kremote: Counting objects:   7% (8/105)   [Kremote: Counting objects:   8% (9/105)   [Kremote: Counting objects:   9% (10/105)   [Kremote: Counting objects:  10% (11/105)   [Kremote: Counting objects:  11% (12/105)   [Kremote: Counting objects:  12% (13/105)   [Kremote: Counting objects:  13% (14/105)   [Kremote: Counting objects:  14% (15/105)   [Kremote: Counting objects:  15% (16/105)   [Kremote: Counting objects:  16% (17/105)   [Kremote: Counting objects:  17% (18/105)   [Kremote: Counting objects:  18% (19/105)   [Kremote: Counting objects:  19% (20/105)   [Kremote: Counting objects:  20% (21/105)   [Kremote: Counting objects:  21% (23/105)   [Kremote: Counting objects:  22% (24/105)   [Kremote: Counting objects:  23% (25/105)   [Kremote: Counting objects:  24% (26/105)   [Kremote: Counting objects:  25% (27/105)   [Kremote: Counting objects:  26% (28/105)   [Kremote: Counting objects:  27% (29/105)   [Kremote: Counting objects:  28% (30/105)   [Kremote: Counting objects:  29% (31/105)   [Kremote: Counting objects:  30% (32/105)   [Kremote: Counting objects:  31% (33/105)   [Kremote: Counting objects:  32% (34/105)   [Kremote: Counting objects:  33% (35/105)   [Kremote: Counting objects:  34% (36/105)   [Kremote: Counting objects:  35% (37/105)   [Kremote: Counting objects:  36% (38/105)   [Kremote: Counting objects:  37% (39/105)   [Kremote: Counting objects:  38% (40/105)   [Kremote: Counting objects:  39% (41/105)   [Kremote: Counting objects:  40% (42/105)   [Kremote: Counting objects:  41% (44/105)   [Kremote: Counting objects:  42% (45/105)   [Kremote: Counting objects:  43% (46/105)   [Kremote: Counting objects:  44% (47/105)   [Kremote: Counting objects:  45% (48/105)   [Kremote: Counting objects:  46% (49/105)   [Kremote: Counting objects:  47% (50/105)   [Kremote: Counting objects:  48% (51/105)   [Kremote: Counting objects:  49% (52/105)   [Kremote: Counting objects:  50% (53/105)   [Kremote: Counting objects:  51% (54/105)   [Kremote: Counting objects:  52% (55/105)   [Kremote: Counting objects:  53% (56/105)   [Kremote: Counting objects:  54% (57/105)   [Kremote: Counting objects:  55% (58/105)   [Kremote: Counting objects:  56% (59/105)   [Kremote: Counting objects:  57% (60/105)   [Kremote: Counting objects:  58% (61/105)   [Kremote: Counting objects:  59% (62/105)   [Kremote: Counting objects:  60% (63/105)   [Kremote: Counting objects:  61% (65/105)   [Kremote: Counting objects:  62% (66/105)   [Kremote: Counting objects:  63% (67/105)   [Kremote: Counting objects:  64% (68/105)   [Kremote: Counting objects:  65% (69/105)   [Kremote: Counting objects:  66% (70/105)   [Kremote: Counting objects:  67% (71/105)   [Kremote: Counting objects:  68% (72/105)   [Kremote: Counting objects:  69% (73/105)   [Kremote: Counting objects:  70% (74/105)   [Kremote: Counting objects:  71% (75/105)   [Kremote: Counting objects:  72% (76/105)   [Kremote: Counting objects:  73% (77/105)   [Kremote: Counting objects:  74% (78/105)   [Kremote: Counting objects:  75% (79/105)   [Kremote: Counting objects:  76% (80/105)   [Kremote: Counting objects:  77% (81/105)   [Kremote: Counting objects:  78% (82/105)   [Kremote: Counting objects:  79% (83/105)   [Kremote: Counting objects:  80% (84/105)   [Kremote: Counting objects:  81% (86/105)   [Kremote: Counting objects:  82% (87/105)   [Kremote: Counting objects:  83% (88/105)   [Kremote: Counting objects:  84% (89/105)   [Kremote: Counting objects:  85% (90/105)   [Kremote: Counting objects:  86% (91/105)   [Kremote: Counting objects:  87% (92/105)   [Kremote: Counting objects:  88% (93/105)   [Kremote: Counting objects:  89% (94/105)   [Kremote: Counting objects:  90% (95/105)   [Kremote: Counting objects:  91% (96/105)   [Kremote: Counting objects:  92% (97/105)   [Kremote: Counting objects:  93% (98/105)   [Kremote: Counting objects:  94% (99/105)   [Kremote: Counting objects:  95% (100/105)   [Kremote: Counting objects:  96% (101/105)   [Kremote: Counting objects:  97% (102/105)   [Kremote: Counting objects:  98% (103/105)   [Kremote: Counting objects:  99% (104/105)   [Kremote: Counting objects: 100% (105/105)   [Kremote: Counting objects: 100% (105/105), done.[K
+remote: Compressing objects:   1% (1/84)   [Kremote: Compressing objects:   2% (2/84)   [Kremote: Compressing objects:   3% (3/84)   [Kremote: Compressing objects:   4% (4/84)   [Kremote: Compressing objects:   5% (5/84)   [Kremote: Compressing objects:   7% (6/84)   [Kremote: Compressing objects:   8% (7/84)   [Kremote: Compressing objects:   9% (8/84)   [Kremote: Compressing objects:  10% (9/84)   [Kremote: Compressing objects:  11% (10/84)   [Kremote: Compressing objects:  13% (11/84)   [Kremote: Compressing objects:  14% (12/84)   [Kremote: Compressing objects:  15% (13/84)   [Kremote: Compressing objects:  16% (14/84)   [Kremote: Compressing objects:  17% (15/84)   [Kremote: Compressing objects:  19% (16/84)   [Kremote: Compressing objects:  20% (17/84)   [Kremote: Compressing objects:  21% (18/84)   [Kremote: Compressing objects:  22% (19/84)   [Kremote: Compressing objects:  23% (20/84)   [Kremote: Compressing objects:  25% (21/84)   [Kremote: Compressing objects:  26% (22/84)   [Kremote: Compressing objects:  27% (23/84)   [Kremote: Compressing objects:  28% (24/84)   [Kremote: Compressing objects:  29% (25/84)   [Kremote: Compressing objects:  30% (26/84)   [Kremote: Compressing objects:  32% (27/84)   [Kremote: Compressing objects:  33% (28/84)   [Kremote: Compressing objects:  34% (29/84)   [Kremote: Compressing objects:  35% (30/84)   [Kremote: Compressing objects:  36% (31/84)   [Kremote: Compressing objects:  38% (32/84)   [Kremote: Compressing objects:  39% (33/84)   [Kremote: Compressing objects:  40% (34/84)   [Kremote: Compressing objects:  41% (35/84)   [Kremote: Compressing objects:  42% (36/84)   [Kremote: Compressing objects:  44% (37/84)   [Kremote: Compressing objects:  45% (38/84)   [Kremote: Compressing objects:  46% (39/84)   [Kremote: Compressing objects:  47% (40/84)   [Kremote: Compressing objects:  48% (41/84)   [Kremote: Compressing objects:  50% (42/84)   [Kremote: Compressing objects:  51% (43/84)   [Kremote: Compressing objects:  52% (44/84)   [Kremote: Compressing objects:  53% (45/84)   [Kremote: Compressing objects:  54% (46/84)   [Kremote: Compressing objects:  55% (47/84)   [Kremote: Compressing objects:  57% (48/84)   [Kremote: Compressing objects:  58% (49/84)   [Kremote: Compressing objects:  59% (50/84)   [Kremote: Compressing objects:  60% (51/84)   [Kremote: Compressing objects:  61% (52/84)   [Kremote: Compressing objects:  63% (53/84)   [Kremote: Compressing objects:  64% (54/84)   [Kremote: Compressing objects:  65% (55/84)   [Kremote: Compressing objects:  66% (56/84)   [Kremote: Compressing objects:  67% (57/84)   [Kremote: Compressing objects:  69% (58/84)   [Kremote: Compressing objects:  70% (59/84)   [Kremote: Compressing objects:  71% (60/84)   [Kremote: Compressing objects:  72% (61/84)   [Kremote: Compressing objects:  73% (62/84)   [Kremote: Compressing objects:  75% (63/84)   [Kremote: Compressing objects:  76% (64/84)   [Kremote: Compressing objects:  77% (65/84)   [Kremote: Compressing objects:  78% (66/84)   [Kremote: Compressing objects:  79% (67/84)   [Kremote: Compressing objects:  80% (68/84)   [Kremote: Compressing objects:  82% (69/84)   [Kremote: Compressing objects:  83% (70/84)   [Kremote: Compressing objects:  84% (71/84)   [Kremote: Compressing objects:  85% (72/84)   [Kremote: Compressing objects:  86% (73/84)   [Kremote: Compressing objects:  88% (74/84)   [Kremote: Compressing objects:  89% (75/84)   [Kremote: Compressing objects:  90% (76/84)   [Kremote: Compressing objects:  91% (77/84)   [Kremote: Compressing objects:  92% (78/84)   [Kremote: Compressing objects:  94% (79/84)   [Kremote: Compressing objects:  95% (80/84)   [Kremote: Compressing objects:  96% (81/84)   [Kremote: Compressing objects:  97% (82/84)   [Kremote: Compressing objects:  98% (83/84)   [Kremote: Compressing objects: 100% (84/84)   [Kremote: Compressing objects: 100% (84/84), done.[K
+Unpacking objects:   1% (1/90)   Unpacking objects:   2% (2/90)   Unpacking objects:   3% (3/90)   Unpacking objects:   4% (4/90)   Unpacking objects:   5% (5/90)   Unpacking objects:   6% (6/90)   Unpacking objects:   7% (7/90)   Unpacking objects:   8% (8/90)   Unpacking objects:  10% (9/90)   Unpacking objects:  11% (10/90)   Unpacking objects:  12% (11/90)   Unpacking objects:  13% (12/90)   Unpacking objects:  14% (13/90)   Unpacking objects:  15% (14/90)   Unpacking objects:  16% (15/90)   Unpacking objects:  17% (16/90)   Unpacking objects:  18% (17/90)   Unpacking objects:  20% (18/90)   Unpacking objects:  21% (19/90)   Unpacking objects:  22% (20/90)   Unpacking objects:  23% (21/90)   Unpacking objects:  24% (22/90)   Unpacking objects:  25% (23/90)   Unpacking objects:  26% (24/90)   Unpacking objects:  27% (25/90)   Unpacking objects:  28% (26/90)   Unpacking objects:  30% (27/90)   Unpacking objects:  31% (28/90)   Unpacking objects:  32% (29/90)   Unpacking objects:  33% (30/90)   Unpacking objects:  34% (31/90)   Unpacking objects:  35% (32/90)   Unpacking objects:  36% (33/90)   Unpacking objects:  37% (34/90)   Unpacking objects:  38% (35/90)   Unpacking objects:  40% (36/90)   Unpacking objects:  41% (37/90)   Unpacking objects:  42% (38/90)   Unpacking objects:  43% (39/90)   Unpacking objects:  44% (40/90)   Unpacking objects:  45% (41/90)   Unpacking objects:  46% (42/90)   Unpacking objects:  47% (43/90)   Unpacking objects:  48% (44/90)   Unpacking objects:  50% (45/90)   remote: Total 90 (delta 49), reused 0 (delta 0)[K
+Unpacking objects:  51% (46/90)   Unpacking objects:  52% (47/90)   Unpacking objects:  53% (48/90)   Unpacking objects:  54% (49/90)   Unpacking objects:  55% (50/90)   Unpacking objects:  56% (51/90)   Unpacking objects:  57% (52/90)   Unpacking objects:  58% (53/90)   Unpacking objects:  60% (54/90)   Unpacking objects:  61% (55/90)   Unpacking objects:  62% (56/90)   Unpacking objects:  63% (57/90)   Unpacking objects:  64% (58/90)   Unpacking objects:  65% (59/90)   Unpacking objects:  66% (60/90)   Unpacking objects:  67% (61/90)   Unpacking objects:  68% (62/90)   Unpacking objects:  70% (63/90)   Unpacking objects:  71% (64/90)   Unpacking objects:  72% (65/90)   Unpacking objects:  73% (66/90)   Unpacking objects:  74% (67/90)   Unpacking objects:  75% (68/90)   Unpacking objects:  76% (69/90)   Unpacking objects:  77% (70/90)   Unpacking objects:  78% (71/90)   Unpacking objects:  80% (72/90)   Unpacking objects:  81% (73/90)   Unpacking objects:  82% (74/90)   Unpacking objects:  83% (75/90)   Unpacking objects:  84% (76/90)   Unpacking objects:  85% (77/90)   Unpacking objects:  86% (78/90)   Unpacking objects:  87% (79/90)   Unpacking objects:  88% (80/90)   Unpacking objects:  90% (81/90)   Unpacking objects:  91% (82/90)   Unpacking objects:  92% (83/90)   Unpacking objects:  93% (84/90)   Unpacking objects:  94% (85/90)   Unpacking objects:  95% (86/90)   Unpacking objects:  96% (87/90)   Unpacking objects:  97% (88/90)   Unpacking objects:  98% (89/90)   Unpacking objects: 100% (90/90)   Unpacking objects: 100% (90/90), done.
+From ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs240
+   0b7b862..5dd8253  master     -> origin/master
+Updating 0b7b862..5dd8253
+Fast-forward
+ index.html                                  |  24 [32m+[m[31m-[m
+ index.umt                                   |   6 [32m+[m
+ labs/index.html                             |   4 [32m+[m[31m-[m
+ labs/index.umt                              |   9 [32m+[m[31m-[m
+ labs/lab2/exercises/.gitignore              |   1 [32m+[m
+ labs/lab2/exercises/1-hello/.gitignore      |   1 [32m+[m
+ labs/lab2/exercises/1-hello/Makefile        |   3 [32m+[m
+ labs/lab2/exercises/1-hello/README          |   1 [32m+[m
+ labs/lab2/exercises/1-hello/hello.cc        |  22 [32m++[m
+ labs/lab2/exercises/2-hello/.gitignore      |   1 [32m+[m
+ labs/lab2/exercises/2-hello/Makefile        |   3 [32m+[m
+ labs/lab2/exercises/2-hello/README          |   4 [32m+[m
+ labs/lab2/exercises/2-hello/hello.cc        |  48 [32m++++[m
+ labs/lab2/exercises/3-overload/.gitignore   |   1 [32m+[m
+ labs/lab2/exercises/3-overload/Makefile     |   3 [32m+[m
+ labs/lab2/exercises/3-overload/overload.cc  |  16 [32m++[m
+ labs/lab2/exercises/Makefile                |   2 [32m+[m
+ labs/lab2/lab2.html                         | 257 [32m++++++++++++++++++++[m
+ labs/lab2/lab2.pdf                          | Bin [31m0[m -> [32m93531[m bytes
+ labs/lab2/lab2.umt                          | 358 [32m++++++++++++++++++++++++++++[m
+ labs/lab2/lab2/hl-fine_blue.css             |  19 [32m++[m
+ labs/lab2/lab2/hl-fine_blue.sty             |  19 [32m++[m
+ labs/submission/submission/hl-fine_blue.css |   2 [32m+[m[31m-[m
+ labs/submission/submission/hl-fine_blue.sty |   2 [32m+[m[31m-[m
+ slides/c++-intro/c++-intro.html             | 228 [32m++++++++++++++[m[31m----[m
+ slides/c++-intro/c++-intro.pdf              | Bin [31m167175[m -> [32m201292[m bytes
+ slides/c++-intro/c++-intro.umt              | 148 [32m+++++++++++[m[31m-[m
+ slides/c++-intro/c++-intro/hl-fine_blue.css |   2 [32m+[m[31m-[m
+ slides/c++-intro/c++-intro/hl-fine_blue.sty |   2 [32m+[m[31m-[m
+ slides/c++-intro/code/.gitignore            |   6 [32m+[m
+ slides/c++-intro/code/Makefile              |  12 [32m+[m[31m-[m
+ slides/c++-intro/code/alloc-dealloc.cc      |  26 [32m++[m
+ slides/c++-intro/code/class-point.cc        |  33 [32m+++[m
+ slides/c++-intro/code/struct-point.cc       |  31 [32m+++[m
+ slides/c++-intro/code/sum-array.cc          |  14 [32m+[m[31m-[m
+ slides/c++-intro/code/vec1.cc               |  40 [32m++++[m
+ 36 files changed, 1266 insertions(+), 82 deletions(-)
+ create mode 100644 labs/lab2/exercises/.gitignore
+ create mode 100644 labs/lab2/exercises/1-hello/.gitignore
+ create mode 100644 labs/lab2/exercises/1-hello/Makefile
+ create mode 100644 labs/lab2/exercises/1-hello/README
+ create mode 100644 labs/lab2/exercises/1-hello/hello.cc
+ create mode 100644 labs/lab2/exercises/2-hello/.gitignore
+ create mode 100644 labs/lab2/exercises/2-hello/Makefile
+ create mode 100644 labs/lab2/exercises/2-hello/README
+ create mode 100644 labs/lab2/exercises/2-hello/hello.cc
+ create mode 100644 labs/lab2/exercises/3-overload/.gitignore
+ create mode 100644 labs/lab2/exercises/3-overload/Makefile
+ create mode 100644 labs/lab2/exercises/3-overload/overload.cc
+ create mode 100644 labs/lab2/exercises/Makefile
+ create mode 100644 labs/lab2/lab2.html
+ create mode 100644 labs/lab2/lab2.pdf
+ create mode 100644 labs/lab2/lab2.umt
+ create mode 100644 labs/lab2/lab2/hl-fine_blue.css
+ create mode 100644 labs/lab2/lab2/hl-fine_blue.sty
+ create mode 100644 slides/c++-intro/code/.gitignore
+ create mode 100644 slides/c++-intro/code/alloc-dealloc.cc
+ create mode 100644 slides/c++-intro/code/class-point.cc
+ create mode 100644 slides/c++-intro/code/struct-point.cc
+ create mode 100644 slides/c++-intro/code/vec1.cc
+aceylan1@g7-23:~/cs240/cs240/labs$ cd ~/i240a/submit/lab2
+aceylan1@g7-23:~/i240a/submit/lab2$ cp -r ~/cs240/cs240/la[Kabs/lab2/exercises/*
+cp: target '/home/aceylan1/cs240/cs240/labs/lab2/exercises/Makefile' is not a directory
+aceylan1@g7-23:~/i240a/submit/lab2$ cp -r ~/cs240/cs240/labs/lab2/exercises/* .
+aceylan1@g7-23:~/i240a/submit/lab2$ ls
+1-hello  2-hello  3-overload  cs240  lab2.LOG  Makefile
+aceylan1@g7-23:~/i240a/submit/lab2$ cd 1-hello
+aceylan1@g7-23:~/i240a/submit/lab2/1-hello$ ls -l
+total 12
+-rw-r--r-- 1 aceylan1 aceylan1 363 Feb  6 15:39 hello.cc
+-rw-r--r-- 1 aceylan1 aceylan1  39 Feb  6 15:39 Makefile
+-rw-r--r-- 1 aceylan1 aceylan1  61 Feb  6 15:39 README
+aceylan1@g7-23:~/i240a/submit/lab2/1-hello$ ./hello
+bash: ./hello: No such file or directory
+aceylan1@g7-23:~/i240a/submit/lab2/1-hello$ gcc hello.c -o[K[K[K[K[K[K[K[K[K[K[K -o hello.c
+[01m[Kgcc:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+aceylan1@g7-23:~/i240a/submit/lab2/1-hello$ makeb [K[K hello.[K[K[K[K[K[K
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+aceylan1@g7-23:~/i240a/submit/lab2/1-hello$ ./hello
+usage: ./hello NAME...
+aceylan1@g7-23:~/i240a/submit/lab2/1-hello$ ./hello bart lisa
+hello bart
+hello lisa
+hello aceylan1@g7-23:~/i240a/submit/lab2/1-hello$ gdb hello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) l
+1	#include <iostream>
+2	#include <cstdlib>
+3	
+4	static void
+5	sayHello(const char *name)
+6	{
+7	  std::cout << "hello " << name << std::endl;
+8	}
+9	
+10	int 
+(gdb) start bart lisa
+Temporary breakpoint 1 at 0x11cd: file hello.cc, line 13.
+Starting program: /import/linux/home1/aceylan1/i240a/submit/lab2/1-hello/hello bart lisa
+
+Temporary breakpoint 1, main (argc=3, argv=0x7fffffffe788) at hello.cc:13
+13	  if (argc == 1) {
+(gdb) 
+(gdb) b sayHello
+Breakpoint 2 at 0x555555555181: file hello.cc, line 7.
+(gdb) l
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+12	{
+13	  if (argc == 1) {
+14	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+15	    std::exit(1);
+16	  }
+17	  else {
+(gdb) p argc
+$1 = 3
+(gdb) p argv
+$2 = (const char **) 0x7fffffffe788
+(gdb) p argv[][C[K[K [[K[K[0]
+$3 = 0x7fffffffea7b "/import/linux/home1/aceylan1/i240a/submit/lab2/1-hello/hello"
+(gdb) p argv[1]
+$4 = 0x7fffffffeab8 "bart"
+(gdb) p argv[2]
+$5 = 0x7fffffffeabd "lisa"
+(gdb) *argv@3
+Undefined command: "".  Try "help".
+(gdb) p *argv@3
+$6 = {
+  0x7fffffffea7b "/import/linux/home1/aceylan1/i240a/submit/lab2/1-hello/hello", 0x7fffffffeab8 "bart", 0x7fffffffeabd "lisa"}
+(gdb) n
+18	    for (int i = 1; i <= argc; i++) {
+(gdb) n
+19	      sayHello(argv[i]);
+(gdb) p argv{i}
+A syntax error in expression, near `{i}'.
+(gdb) p argc[i]
+cannot subscript something of type `int'
+(gdb) c. sayHello()
+Not stopped at any breakpoint; argument ignored.
+Continuing.
+
+Breakpoint 2, sayHello (name=0x7fffffffeab8 "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) backtrace
+#0  sayHello (name=0x7fffffffeab8 "bart") at hello.cc:7
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe788) at hello.cc:19
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe788) at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) p argc
+$7 = 3
+(gdb) p argv
+$8 = (const char **) 0x7fffffffe788
+(gdb) p i
+$9 = 1
+(gdb) down
+#0  sayHello (name=0x7fffffffeab8 "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) p name
+$10 = 0x7fffffffeab8 "bart"
+(gdb) c. sat[KyHello()
+A syntax error in expression, near `. sayHello()'.
+(gdb) p name 
+$11 = 0x7fffffffeab8 "bart"
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe788) at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) down
+#0  sayHello (name=0x7fffffffeab8 "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) p name 
+$12 = 0x7fffffffeab8 "bart"
+(gdb) c. sayHello()
+A syntax error in expression, near `. sayHello()'.
+(gdb) c
+Continuing.
+hello bart
+
+Breakpoint 2, sayHello (name=0x7fffffffeabd "lisa") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) p name [K[K[K[K[K[K[Kn
+hello lisa
+8	}
+(gdb) n
+main (argc=3, argv=0x7fffffffe788) at hello.cc:18
+18	    for (int i = 1; i <= argc; i++) {
+(gdb) p i
+$13 = 2
+(gdb) n
+19	      sayHello(argv[i]);
+(gdb) p i
+$14 = 3
+(gdb) n
+
+Breakpoint 2, sayHello (name=0x0) at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) p i
+No symbol "i" in current context.
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe788) at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) down
+#0  sayHello (name=0x0) at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) n
+hello 8	}
+(gdb) n
+main (argc=3, argv=0x7fffffffe788) at hello.cc:18
+18	    for (int i = 1; i <= argc; i++) {
+(gdb)  p[K[Kp i
+$15 = 3
+(gdb) c
+Continuing.
+[Inferior 1 (process 7234) exited normally]
+(gdb) q
+aceylan1@g7-23:~/i240a/submit/lab2/1-hello$ vim hello.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.cc" 22L, 363C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<iostream>[m
+[35m#include [m[31m<cstdlib>[m
+
+[32mstatic[m [32mvoid[m
+sayHello([32mconst[m [32mchar[m *name)
+{
+  std::cout << [31m"hello "[m << name << std::endl;
+}
+
+[32mint[m
+main([32mint[m argc, [32mconst[m [32mchar[m *argv[])
+{
+  [38;5;130mif[m (argc == [31m1[m) {
+    std::cerr << [31m"usage: "[m << argv[[31m0[m] << [31m" NAME..."[m << std::endl;
+    std::exit([31m1[m);
+  }
+  [38;5;130melse[m {
+    [38;5;130mfor[m ([32mint[m i = [31m1[m; i <= argc; i++) {[19;7HsayHello(argv[i]);
+    }
+  }
+}
+[94m~                                                                               [m[24;63H1,1[11CAll]2;hello.cc (~/i240a/submit/lab2/1-hello) - VIM]1;hello.cc[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m#include [m[95m<iostream>[m
+[38;5;81m#include [m[95m<cstdlib>[m
+
+[38;5;121mstatic[m [38;5;121mvoid[m
+sayHello([38;5;121mconst[m [38;5;121mchar[m *name)
+{
+  std::cout << [95m"hello "[m << name << std::endl;
+}
+
+[38;5;121mint[m
+main([38;5;121mint[m argc, [38;5;121mconst[m [38;5;121mchar[m *argv[])
+{
+  [93mif[m (argc == [95m1[m) {
+    std::cerr << [95m"usage: "[m << argv[[95m0[m] << [95m" NAME..."[m << std::endl;
+    std::exit([95m1[m);
+  }
+  [93melse[m {
+    [93mfor[m ([38;5;121mint[m i = [95m1[m; i <= argc; i++) {[19;7HsayHello(argv[i]);
+    }
+  }
+}
+[94m~                                                                               [m[24;63H1,1[11CAll"hello.cc" 22L, 363C[1;1H[?25h[?25l[24;64H8,25[18;25H[?25h[?25l[24;53H~@k[18;25H[24;53H   [18;24H[24;67H4[18;24H[?25h[?25l[24;53H~@k[18;24H[24;53H   [18;23H[24;67H3[18;23H[?25h[?25l[24;53H~@k[18;23H[24;53H   [18;24H[24;67H4[18;24H[?25h[?25l[24;67H5[18;25H[?25h[?25l[24;67H4[18;24H[?25h[?25l[24;53H~@k[18;24H[24;53H   [18;23H[24;67H3[18;23H[?25h[?25l[14C[46m{[20;5H}[m[24;66H37[18;37H[?25h[?25l[24;53H2[18;38H[48;5;242m{[m[20;5H}[24;1H[1m-- VISUAL --[m[24;13H[K[24;53H2[18;38H[24;63H18,38[9CAll[18;38H[?25h[?25l[?25h[?25l[24;53H [18;37H[46m{[20;5H}[m[24;1H[K[24;63H18,37[9CAll[18;37H[?25h[?25l[24;53H3[20;5H[18;37H[48;5;242m{ 
+      sayHello(argv[i]); 
+    [m[24;1H[1m-- VISUAL --[m[24;53H[K[24;53H3[20;5H[24;63H20,5[10CAll[20;5H[?25h[?25l[?25h[?25l[24;53H~@k[20;5H[24;53H3  [20;4H }[24;66H4[20;4H[?25h[?25l[24;53H [22;1H[12;1H[46m{[m[18;37H{[18;38H[K[19;1H      sayHello(argv[i]);[19;25H[K[20;1H   
+
+[46m}[m[24;1H[K[24;63H22,1[10CAll[22;1H[?25h[?25l[24;53Hi[22;1H[24;53H [22;1H
+
+[1m-- INSERT --[m[24;63H[K[24;63H22,1[10CAll[22;1H[?25h[?25l[12;1H{[22;1H}[24;63H18,25[18;25H[?25h[?25l[24;11H[1mVISUAL --[m[24;63H[K[24;53H1[18;25H[24;63H18,25[9CAll[18;25H[?25h[?25l[24;4H[1m(insert)I VISUAL- --[m[24;53H[K[24;53H1[18;25H[24;63H18,25[9CAll[18;25H[?25h[?25l[24;53H~@k[18;25H[24;53H2  [18;24H=[48;5;242m [m[24;67H4[18;24H[?25h[?25l[24;53H~@k[18;24H[24;53H3  [18;23H<[48;5;242m=[m[24;67H3[18;23H[?25h[?25l[24;53H~@k[18;23H[24;53H2  [18;24H=[24;67H4[18;24H[?25h[?25l[24;53H~@k[18;24H[24;53H1  [18;25H [24;67H5[18;25H[?25h[?25l[24;53Hi[18;25H[?25h[?25l[24;54Hi[18;25H[24;53H1 [18;25H[?25h[?25l[24;53H [21;4H[24;4H[1mINSERTt --[m[24;13H[K[24;63H21,4[10CAll[17;8H[46m{[21;3H}[?25h[?25l[m[17;8H{[18;37H[46m{[20;5H}[m
+  }[24;64H0,6[20;6H[?25h[?25l[18;37H{[19;15H[46m([7C)[m
+    }[24;63H19,24[19;24H[?25h[?25l[19;15H([7C)[24;64H8[18;24H[?25h[?25l= argc; i++) {[18;37H[K[24;67H3]2;hello.cc + (~/i240a/submit/lab2/1-hello) - VIM]1;hello.cc[18;23H[?25h[?25l[24;67H4[18;24H[?25h[?25l argc; i++) {[18;36H[K[24;67H3[18;23H[?25h[?25l< argc; i++) {[24;67H4[18;24H[?25h[?25li argc; i++) {[24;67H5[18;25H[?25h[?25l argc; i++) {[18;37H[K[24;67H4[18;24H[?25h[?25l[12;1H[46m{[22;1H}[m[24;63H22,2 [22;2H[?25h[?25li[12;1H{[22;1H}[24;66H3[22;3H[?25h[?25l[22;2H[K[12;1H[46m{[22;1H}[m[24;66H2[22;2H[?25h[24;1H[K[22;1H[?25l[24;53H^[[22;1H[24;53H  [22;2H[24;63H22,1[10CAll[22;1H[?25h[?25l[24;53H:[22;1H[24;53H[K[24;1H:[?2004h[?25h:[?25l[?25hx[?25l[?25h[?25l[?1006l[?1002l[?2004l"hello.cc" 22L, 362C written]2;Terminal - ]1;Terminal - [23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0taceylan1@g7-23:~/i240a/submit/lab2/1-hello$ make 
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+aceylan1@g7-23:~/i240a/submit/lab2/1-hello$ ./hello bart lisa
+hello bart
+hello lisa
+aceylan1@g7-23:~/i240a/submit/lab2/1-hello$ cd
+aceylan1@g7-23:~$ c [Kd i240a
+aceylan1@g7-23:~/i240a$ cd submit
+aceylan1@g7-23:~/i240a/submit$ lab2
+bash: lab2: command not found
+aceylan1@g7-23:~/i240a/submit$ vd [K[K[Kcd lab2
+aceylan1@g7-23:~/i240a/submit/lab2$ cd2[K 2*
+aceylan1@g7-23:~/i240a/submit/lab2/2-hello$ make 
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+aceylan1@g7-23:~/i240a/submit/lab2/2-hello$ ./hello lisa bart
+Hello Lisa
+Hello Bart
+Segmentation fault
+aceylan1@g7-23:~/i240a/submit/lab2/2-hello$ ,[K.hello 'lisa sims[Kpson' 'bart simpson' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K'
+bash: .hello: command not found
+aceylan1@g7-23:~/i240a/submit/lab2/2-hello$ ,/[K[K./hello 'lisa simpsi[Kon; [K[K' ba[K[K'bart simpson '
+Hello Lisa SimpsonV
+Hello Bart SimpsonV
+Segmentation fault
+aceylan1@g7-23:~/i240a/submit/lab2/2-hello$ vim hello,[K.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.cc" 48L, 1011C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<locale>[m
+[35m#include [m[31m<iostream>[m
+[35m#include [m[31m<cstdlib>[m
+[35m#include [m[31m<cstring>[m
+
+[34m/** Upcase the initial letter of each word from in, copying the
+ *  results into out.  The caller is responsible to ensure that out
+ *  has enough space for the strlen(in) characters of in.
+ */[m
+[32mvoid[m
+upcaseWords([32mconst[m [32mchar[m in[], [32mchar[m out[])
+{
+  [32mbool[m inWord = [31mfalse[m;
+  [32mconst[m [32mint[m n = std::strlen(in);
+  [38;5;130mfor[m ([32mint[m i = [31m0[m; i < n; i++) {
+    [38;5;130mif[m (!inWord && std::isalpha(in[i])) {[17;7Hout[i] = std::toupper(in[i]);
+    }
+    [38;5;130melse[m {[20;7Hout[i] = in[i];
+    }
+    inWord = std::isalpha(in[i]);
+  }[24;63H1,1[11CTop]2;hello.cc (~/i240a/submit/lab2/2-hello) - VIM]1;hello.cc[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m#include [m[95m<locale>[m
+[38;5;81m#include [m[95m<iostream>[m
+[38;5;81m#include [m[95m<cstdlib>[m
+[38;5;81m#include [m[95m<cstring>[m
+
+[96m/** Upcase the initial letter of each word from in, copying the
+ *  results into out.  The caller is responsible to ensure that out
+ *  has enough space for the strlen(in) characters of in.
+ */[m
+[38;5;121mvoid[m
+upcaseWords([38;5;121mconst[m [38;5;121mchar[m in[], [38;5;121mchar[m out[])
+{
+  [38;5;121mbool[m inWord = [95mfalse[m;
+  [38;5;121mconst[m [38;5;121mint[m n = std::strlen(in);
+  [93mfor[m ([38;5;121mint[m i = [95m0[m; i < n; i++) {
+    [93mif[m (!inWord && std::isalpha(in[i])) {[17;7Hout[i] = std::toupper(in[i]);
+    }
+    [93melse[m {[20;7Hout[i] = in[i];
+    }
+    inWord = std::isalpha(in[i]);
+  }[24;63H1,1[11CTop"hello.cc" 48L, 1011C[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m#include [m[95m<locale>[m
+[38;5;81m#include [m[95m<iostream>[m
+[38;5;81m#include [m[95m<cstdlib>[m
+[38;5;81m#include [m[95m<cstring>[m
+
+[96m/** Upcase the initial letter of each word from in, copying the
+ *  results into out.  The caller is responsible to ensure that out
+ *  has enough space for the strlen(in) characters of in.
+ */[m
+[38;5;121mvoid[m
+upcaseWords([38;5;121mconst[m [38;5;121mchar[m in[], [38;5;121mchar[m out[])
+{
+  [38;5;121mbool[m inWord = [95mfalse[m;
+  [38;5;121mconst[m [38;5;121mint[m n = std::strlen(in);
+  [93mfor[m ([38;5;121mint[m i = [95m0[m; i < n; i++) {
+    [93mif[m (!inWord && std::isalpha(in[i])) {[17;7Hout[i] = std::toupper(in[i]);
+    }
+    [93melse[m {[20;7Hout[i] = in[i];
+    }
+    inWord = std::isalpha(in[i]);
+  }
+}
+
+[38;5;121mstatic[m [38;5;121mvoid[m
+sayHello([38;5;121mconst[m [38;5;121mchar[m *name)
+{
+  std::cout << [95m"Hello "[m << name << std::endl;
+}
+
+
+[38;5;121mint[m
+main([38;5;121mint[m argc, [38;5;121mconst[m [38;5;121mchar[m *argv[])
+{
+  [93mif[m (argc == [95m1[m) {
+    std::cerr << [95m"usage: "[m << argv[[95m0[m] << [95m" NAME..."[m << std::endl;
+    std::exit([95m1[m);
+  }
+  [93melse[m {
+    [93mfor[m ([38;5;121mint[m i = [95m1[m; i <= argc; i++) {[42;7H[38;5;121mconst[m [38;5;121mchar[m *name = argv[i];[43;7H[38;5;121mchar[m friendlyName[strlen(name)];[44;7HupcaseWords(name, friendlyName);[45;7HsayHello(friendlyName);
+    }
+  }
+}
+[94m~                                                                                                                                                                                             [50;1H~                                                                                                                                                                                             [51;1H~                                                                                                                                                                                             [52;1H~                                                                                                                                                                                             [m[53;173H1,1[11CAll[1;1H[?25h[?25l[53;174H3,3[13;3H[?25h[?25l[15;31H[46m{[23;3H}[m[53;174H5,31[15;31H[?25h[27m[23m[29m[m[H[2J[?25l[1;1H[96m */[m
+[38;5;121mvoid[m
+upcaseWords([38;5;121mconst[m [38;5;121mchar[m in[], [38;5;121mchar[m out[])
+{
+  [38;5;121mbool[m inWord = [95mfalse[m;
+  [38;5;121mconst[m [38;5;121mint[m n = std::strlen(in);
+  [93mfor[m ([38;5;121mint[m i = [95m0[m; i < n; i++) [46m{[m
+    [93mif[m (!inWord && std::isalpha(in[i])) {[9;7Hout[i] = std::toupper(in[i]);
+    }
+    [93melse[m {[12;7Hout[i] = in[i];
+    }
+    inWord = std::isalpha(in[i]);
+  [46m}[m
+}
+
+[38;5;121mstatic[m [38;5;121mvoid[m
+sayHello([38;5;121mconst[m [38;5;121mchar[m *name)
+{
+  std::cout << [95m"Hello "[m << name << std::endl;
+}[24;63H15,31[9C32%[7;31H[?25h[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m#include [m[95m<locale>[m
+[38;5;81m#include [m[95m<iostream>[m
+[38;5;81m#include [m[95m<cstdlib>[m
+[38;5;81m#include [m[95m<cstring>[m
+
+[96m/** Upcase the initial letter of each word from in, copying the
+ *  results into out.  The caller is responsible to ensure that out
+ *  has enough space for the strlen(in) characters of in.
+ */[m
+[38;5;121mvoid[m
+upcaseWords([38;5;121mconst[m [38;5;121mchar[m in[], [38;5;121mchar[m out[])
+{
+  [38;5;121mbool[m inWord = [95mfalse[m;
+  [38;5;121mconst[m [38;5;121mint[m n = std::strlen(in);
+  [93mfor[m ([38;5;121mint[m i = [95m0[m; i < n; i++) [46m{[m
+    [93mif[m (!inWord && std::isalpha(in[i])) {[17;7Hout[i] = std::toupper(in[i]);
+    }
+    [93melse[m {[20;7Hout[i] = in[i];
+    }
+    inWord = std::isalpha(in[i]);
+  [46m}[m
+}
+
+[38;5;121mstatic[m [38;5;121mvoid[m
+sayHello([38;5;121mconst[m [38;5;121mchar[m *name)
+{
+  std::cout << [95m"Hello "[m << name << std::endl;
+}
+
+
+[38;5;121mint[m
+main([38;5;121mint[m argc, [38;5;121mconst[m [38;5;121mchar[m *argv[])
+{
+  [93mif[m (argc == [95m1[m) {
+    std::cerr << [95m"usage: "[m << argv[[95m0[m] << [95m" NAME..."[m << std::endl;
+    std::exit([95m1[m);
+  }
+  [93melse[m {
+    [93mfor[m ([38;5;121mint[m i = [95m1[m; i <= argc; i++) {[42;7H[38;5;121mconst[m [38;5;121mchar[m *name = argv[i];[43;7H[38;5;121mchar[m friendlyName[strlen(name)];[44;7HupcaseWords(name, friendlyName);[45;7HsayHello(friendlyName);
+    }
+  }
+}
+[94m~                                                                                                                                                                                             [50;1H~                                                                                                                                                                                             [51;1H~                                                                                                                                                                                             [52;1H~                                                                                                                                                                                             [m[53;173H15,31[9CAll[15;31H[?25h[?25l{[23;3H}[53;173H42,33[42;33H[?25h[?25l[53;163Hi[42;33H[53;163H [42;33H[53;1H[1m-- INSERT --[m[53;173H[K[53;173H42,33[9CAll[42;33H[?25h[?25l[53;173H14[14;33H[?25h[?25l[46m([min[46m)[m[53;177H2[14;32H[?25h[?25l[53;177H1[14;31H[?25h[?25l[53;177H2[14;32H[?25h[?25l=;(in)[53;177H3]2;hello.cc + (~/i240a/submit/lab2/2-hello) - VIM]1;hello.cc[14;33H[?25h[?25l;[14;33H[K[14;28H[46m([min[46m)[m[53;177H2[14;32H[?25h[?25l+;(in)[53;177H3[14;33H[?25h[?25l[95m1[m;[53;177H4[14;34H[?25h[?25l[53;174H3,23[13;23H[?25h[?25l[53;4H[1m(insert)- VISUAL --[m[53;173H[K[53;163H1[13;23H[53;173H13,23[9CAll[13;23H[?25h[?25l[?25h[?25l[53;163H [41;25H[53;4H[1mINSERTt --[m[53;13H[K[53;173H41,25[9CAll[41;25H[?25h[?25l argc; i++) {[41;37H[K[53;177H4[41;24H[?25h[?25l[12C[46m{[46;5H}[m[53;176H37[41;37H[?25h[?25l{[46;5H}[53;174H5,30[45;30H[?25h[?25l[41;36H[46m{[46;5H}[m[53;174H1,37[41;37H[?25h[?25l/{[46;5H}[53;177H8[41;38H[?25h[?25l[96m//[m[53;177H9[41;39H[?25h[?25l/[41;38H[K[53;177H8[41;38H[?25h[?25l[41;37H[K[41;36H[46m{[46;5H}[m[53;177H7[41;37H[?25h[?25l{[46;5H}[53;177H8[41;38H[?25h[?25l/[53;177H9[41;39H[?25h[?25l[96m//[m[53;176H40[41;40H[?25h[?25l[96m [m[53;177H1[41;41H[?25h[?25l[96mi[m[53;177H2[41;42H[?25h[?25l[96m [m[53;177H3[41;43H[?25h[?25l[96ms[m[53;177H4[41;44H[?25h[?25l[96mh[m[53;177H5[41;45H[?25h[?25l[96mo[m[53;177H6[41;46H[?25h[?25l[96mu[m[53;177H7[41;47H[?25h[?25l[96ml[m[53;177H8[41;48H[?25h[?25l[96md[m[53;177H9[41;49H[?25h[?25l[96m [m[53;176H50[41;50H[?25h[?25l[96mn[m[53;177H1[41;51H[?25h[?25l[96mo[m[53;177H2[41;52H[?25h[?25l[96mt[m[53;177H3[41;53H[?25h[?25l[96m [m[53;177H4[41;54H[?25h[?25l[96me[m[53;177H5[41;55H[?25h[?25l[41;54H[K[53;177H4[41;54H[?25h[?25l[96mb[m[53;177H5[41;55H[?25h[?25l[96me[m[53;177H6[41;56H[?25h[?25l[96m [m[53;177H7[41;57H[?25h[?25l[96me[m[53;177H8[41;58H[?25h[?25l[96mq[m[53;177H9[41;59H[?25h[?25l[96mu[m[53;176H60[41;60H[?25h[?25l[96ml[m[53;177H1[41;61H[?25h[?25l[41;60H[K[53;177H0[41;60H[?25h[?25l[96ma[m[53;177H1[41;61H[?25h[?25l[96ml[m[53;177H2[41;62H[?25h[?25l[96m [m[53;177H3[41;63H[?25h[?25l[96mt[m[53;177H4[41;64H[?25h[?25l[96mo[m[53;177H5[41;65H[?25h[?25l[96m [m[53;177H6[41;66H[?25h[?25l[96ma[m[53;177H7[41;67H[?25h[?25l[96mr[m[53;177H8[41;68H[?25h[?25l[96mg[m[53;177H9[41;69H[?25h[?25l[96mc[m[53;176H70[41;70H[?25h[?25l[96m [m[53;177H1[41;71H[?25h[?25l[96mv[m[53;177H2[41;72H[?25h[?25l[96ma[m[53;177H3[41;73H[?25h[?25l[96ml[m[53;177H4[41;74H[?25h[?25l[96mu[m[53;177H5[41;75H[?25h[?25l[96me[m[53;177H6[41;76H[?25h[?25l[96ms[m[53;177H7[41;77H[?25h[?25l[41;76H[K[53;177H6[41;76H[?25h[?25l[96m.[m[53;177H7[41;77H[?25h[?25l[53;174H3,39[43;39H[?25h[?25l[43;24H[46m[[12C][m[53;177H8[43;38H[?25h[?25l[53;177H7[43;37H[?25h[?25l[43;24H[strlen[46m([mname[46m)[m][53;177H6[43;36H[?25h[?25l[43;24H[46m[[mstrlen(name)[46m][m[53;177H7[43;37H[?25h[?25l[46m=[m];=[46m][m[53;177H8[43;38H[?25h[?25l][46m;[m[43;39H[K[43;37H[46m][m;[53;177H7[43;37H[?25h[?25l[46m+[m];+[46m][m[53;177H8[43;38H[?25h[?25l[95m[46m1[m];[95m1[m[46m][m[53;177H9[43;39H[?25h[?25l[41;36H[46m{[m[43;24H[[14C][46;5H[46m}[m[53;174H6,6 [46;6H[?25h[?25l[40;8H[46m{[m[41;36H{[46;5H}
+  [46m}[m[53;174H7,4[47;4H[?25h[53;1H[K[47;3H[?25l[53;163H^[[47;3H[53;163H  [47;4H[53;173H47,3[10CAll[47;3H[?25h[?25l[53;163H:[47;3H[53;163H[K[53;1H:[?2004h[?25h:[?25l[?25hx[?25l[?25h[?25l[?1006l[?1002l[?2004l"hello.cc" 48L, 1054C written]2;Terminal - ]1;Terminal - [23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0taceylan1@g7-23:~/i240a/submit/lab2/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+aceylan1@g7-23:~/i240a/submit/lab2/2-hello$ ./hello lisa bart
+Hello Lisa
+Hello Bart
+aceylan1@g7-23:~/i240a/submit/lab2/2-hello$ [Kaceylan1@g7-23:~/i240a/submit/lab2/2-hello$ vim hello.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.cc" 48L, 1054C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[32mstatic[m [32mvoid[m
+sayHello([32mconst[m [32mchar[m *name)
+{
+  std::cout << [31m"Hello "[m << name << std::endl;
+}
+
+
+[32mint[m
+main([32mint[m argc, [32mconst[m [32mchar[m *argv[])
+{
+  [38;5;130mif[m (argc == [31m1[m) {
+    std::cerr << [31m"usage: "[m << argv[[31m0[m] << [31m" NAME..."[m << std::endl;
+    std::exit([31m1[m);
+  }
+  [38;5;130melse[m [106m{[m
+    [38;5;130mfor[m ([32mint[m i = [31m1[m; i < argc; i++) { [34m// i should not be equal to argc value.[m[17;7H[32mconst[m [32mchar[m *name = argv[i];[18;7H[32mchar[m friendlyName[strlen(name)+[31m1[m];[19;7HupcaseWords(name, friendlyName);[20;7HsayHello(friendlyName);
+    }
+  [106m}[m
+}[24;63H47,3[10CBot]2;hello.cc (~/i240a/submit/lab2/2-hello) - VIM]1;hello.cc[22;3H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;121mstatic[m [38;5;121mvoid[m
+sayHello([38;5;121mconst[m [38;5;121mchar[m *name)
+{
+  std::cout << [95m"Hello "[m << name << std::endl;
+}
+
+
+[38;5;121mint[m
+main([38;5;121mint[m argc, [38;5;121mconst[m [38;5;121mchar[m *argv[])
+{
+  [93mif[m (argc == [95m1[m) {
+    std::cerr << [95m"usage: "[m << argv[[95m0[m] << [95m" NAME..."[m << std::endl;
+    std::exit([95m1[m);
+  }
+  [93melse[m [46m{[m
+    [93mfor[m ([38;5;121mint[m i = [95m1[m; i < argc; i++) { [96m// i should not be equal to argc value.[m[17;7H[38;5;121mconst[m [38;5;121mchar[m *name = argv[i];[18;7H[38;5;121mchar[m friendlyName[strlen(name)+[95m1[m];[19;7HupcaseWords(name, friendlyName);[20;7HsayHello(friendlyName);
+    }
+  [46m}[m
+}[24;63H47,3[10CBot"hello.cc" 48L, 1054C[22;3H[?25h[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m#include [m[95m<locale>[m
+[38;5;81m#include [m[95m<iostream>[m
+[38;5;81m#include [m[95m<cstdlib>[m
+[38;5;81m#include [m[95m<cstring>[m
+
+[96m/** Upcase the initial letter of each word from in, copying the
+ *  results into out.  The caller is responsible to ensure that out
+ *  has enough space for the strlen(in) characters of in.
+ */[m
+[38;5;121mvoid[m
+upcaseWords([38;5;121mconst[m [38;5;121mchar[m in[], [38;5;121mchar[m out[])
+{
+  [38;5;121mbool[m inWord = [95mfalse[m;
+  [38;5;121mconst[m [38;5;121mint[m n = std::strlen(in)+[95m1[m;
+  [93mfor[m ([38;5;121mint[m i = [95m0[m; i < n; i++) {
+    [93mif[m (!inWord && std::isalpha(in[i])) {[17;7Hout[i] = std::toupper(in[i]);
+    }
+    [93melse[m {[20;7Hout[i] = in[i];
+    }
+    inWord = std::isalpha(in[i]);
+  }
+}
+
+[38;5;121mstatic[m [38;5;121mvoid[m
+sayHello([38;5;121mconst[m [38;5;121mchar[m *name)
+{
+  std::cout << [95m"Hello "[m << name << std::endl;
+}
+
+
+[38;5;121mint[m
+main([38;5;121mint[m argc, [38;5;121mconst[m [38;5;121mchar[m *argv[])
+{
+  [93mif[m (argc == [95m1[m) {
+    std::cerr << [95m"usage: "[m << argv[[95m0[m] << [95m" NAME..."[m << std::endl;
+    std::exit([95m1[m);
+  }
+  [93melse[m [46m{[m
+    [93mfor[m ([38;5;121mint[m i = [95m1[m; i < argc; i++) { [96m// i should not be equal to argc value.[m[42;7H[38;5;121mconst[m [38;5;121mchar[m *name = argv[i];[43;7H[38;5;121mchar[m friendlyName[strlen(name)+[95m1[m];[44;7HupcaseWords(name, friendlyName);[45;7HsayHello(friendlyName);
+    }
+  [46m}[m
+}
+[94m~                                                                                                                                                                                             [50;1H~                                                                                                                                                                                             [51;1H~                                                                                                                                                                                             [52;1H~                                                                                                                                                                                             [m[53;173H47,3[10CAll[47;3H[?25h[?25l[40;8H{[47;3H}[53;173H14,34[14;34H[?25h[?25l[53;174H3,22[13;22H[?25h[?25l[53;163Hi[13;22H[53;163H [13;22H[53;1H[1m-- INSERT --[m[53;173H[K[53;173H13,22[9CAll[13;22H[?25h[?25l[53;174H4[14;22H[?25h[?25l[53;177H3[14;23H[?25h[?25l[53;177H4[14;24H[?25h[?25l[53;177H5[14;25H[?25h[?25l[53;177H6[14;26H[?25h[?25l[53;177H7[14;27H[?25h[?25ln[46m([min[46m)[m[53;177H8[14;28H[?25h[?25l[53;177H9[14;29H[?25h[?25l(in)[53;176H30[14;30H[?25h[?25l[46m([min[46m)[m[53;177H1[14;31H[?25h[?25l[53;177H2[14;32H[?25h[?25l(in)[53;177H3[14;33H[?25h[?25l[53;177H4[14;34H[?25h[?25l[53;177H5[14;35H[?25h[?25l/[53;177H6]2;hello.cc + (~/i240a/submit/lab2/2-hello) - VIM]1;hello.cc[14;36H[?25h[?25l[96m//[m[53;177H7[14;37H[?25h[?25l/[14;36H[K[53;177H6[14;36H[?25h[?25l[14;35H[K[53;177H5[14;35H[?25h[?25l[53;177H6[14;36H[?25h[?25l/[53;177H7[14;37H[?25h[?25l[96m//[m[53;177H8[14;38H[?25h[?25l[96m [m[53;177H9[14;39H[?25h[?25l[96mb[m[53;176H40[14;40H[?25h[?25l[96me[m[53;177H1[14;41H[?25h[?25l[96mc[m[53;177H2[14;42H[?25h[?25l[96mu[m[53;177H3[14;43H[?25h[?25l[14;42H[K[53;177H2[14;42H[?25h[?25l[96ma[m[53;177H3[14;43H[?25h[?25l[96mc[m[53;177H4[14;44H[?25h[?25l[96mu[m[53;177H5[14;45H[?25h[?25l[96ms[m[53;177H6[14;46H[?25h[?25l[96me[m[53;177H7[14;47H[?25h[?25l[96m [m[53;177H8[14;48H[?25h[?25l[96mt[m[53;177H9[14;49H[?25h[?25l[96mh[m[53;176H50[14;50H[?25h[?25l[96me[m[53;177H1[14;51H[?25h[?25l[96mr[m[53;177H2[14;52H[?25h[?25l[96me[m[53;177H3[14;53H[?25h[?25l[96m [m[53;177H4[14;54H[?25h[?25l[96mi[m[53;177H5[14;55H[?25h[?25l[96ms[m[53;177H6[14;56H[?25h[?25l[96m [m[53;177H7[14;57H[?25h[?25l[96ma[m[53;177H8[14;58H[?25h[?25l[96m [m[53;177H9[14;59H[?25h[?25l[96m/[m[53;176H60[14;60H[?25h[?25l[95m0[m[53;177H1[14;61H[?25h[?25l[96m [m[53;177H2[14;62H[?25h[?25l[96ma[m[53;177H3[14;63H[?25h[?25l[96mt[m[53;177H4[14;64H[?25h[?25l[96m [m[53;177H5[14;65H[?25h[?25l[96mt[m[53;177H6[14;66H[?25h[?25l[96mh[m[53;177H7[14;67H[?25h[?25l[96me[m[53;177H8[14;68H[?25h[?25l[96m [m[53;177H9[14;69H[?25h[?25l[96me[m[53;176H70[14;70H[?25h[?25l[96mn[m[53;177H1[14;71H[?25h[?25l[96md[m[53;177H2[14;72H[?25h[?25l[96m [m[53;177H3[14;73H[?25h[?25l[14;72H[K[53;177H2[14;72H[?25h[?25l[14;71H[K[53;177H1[14;71H[?25h[?25l[14;70H[K[53;177H0[14;70H[?25h[?25l[14;69H[K[53;176H69[14;69H[?25h[?25l[14;68H[K[53;177H8[14;68H[?25h[?25l[14;67H[K[53;177H7[14;67H[?25h[?25l[14;66H[K[53;177H6[14;66H[?25h[?25l[14;65H[K[53;177H5[14;65H[?25h[?25l[14;64H[K[53;177H4[14;64H[?25h[?25l[14;63H[K[53;177H3[14;63H[?25h[?25l[14;62H[K[53;177H2[14;62H[?25h[?25l[14;61H[K[53;177H1[14;61H[?25h[?25l[14;60H[K[53;177H0[14;60H[?25h[?25l[14;59H[K[53;176H59[14;59H[?25h[?25l[95m"[m[53;176H60[14;60H[?25h[?25l[14;59H[K[53;176H59[14;59H[?25h[?25l[95m"[m[53;176H60[14;60H[?25h[?25l[95m/[m[53;177H1[14;61H[?25h[?25l[95m0[m[53;177H2[14;62H[?25h[?25l[95m"[m[53;177H3[14;63H[?25h[?25l[96m [m[53;177H4[14;64H[?25h[?25l[96ma[m[53;177H5[14;65H[?25h[?25l[96mt[m[53;177H6[14;66H[?25h[?25l[96m [m[53;177H7[14;67H[?25h[?25l[96mt[m[53;177H8[14;68H[?25h[?25l[96mh[m[53;177H9[14;69H[?25h[?25l[96me[m[53;176H70[14;70H[?25h[?25l[96m [m[53;177H1[14;71H[?25h[?25l[96me[m[53;177H2[14;72H[?25h[?25l[96mn[m[53;177H3[14;73H[?25h[?25l[96md[m[53;177H4[14;74H[?25h[?25l[96m [m[53;177H5[14;75H[?25h[?25l[96mo[m[53;177H6[14;76H[?25h[?25l[96mf[m[53;177H7[14;77H[?25h[?25l[96m [m[53;177H8[14;78H[?25h[?25l[96mt[m[53;177H9[14;79H[?25h[?25l[96mh[m[53;176H80[14;80H[?25h[?25l[96me[m[53;177H1[14;81H[?25h[?25l[96m [m[53;177H2[14;82H[?25h[?25l[96ms[m[53;177H3[14;83H[?25h[?25l[96mt[m[53;177H4[14;84H[?25h[?25l[96mr[m[53;177H5[14;85H[?25h[?25l[96mi[m[53;177H6[14;86H[?25h[?25l[96mn[m[53;177H7[14;87H[?25h[?25l[96mg[m[53;177H8[14;88H[?25h[?25l[96m [m[53;177H9[14;89H[?25h[?25l[96mt[m[53;176H90[14;90H[?25h[?25l[96mo[m[53;177H1[14;91H[?25h[?25l[96m [m[53;177H2[14;92H[?25h[?25l[96ms[m[53;177H3[14;93H[?25h[?25l[96ms[m[53;177H4[14;94H[?25h[?25l[96me[m[53;177H5[14;95H[?25h[?25l[96m [m[53;177H6[14;96H[?25h[?25l[96mt[m[53;177H7[14;97H[?25h[?25l[96mh[m[53;177H8[14;98H[?25h[?25l[96me[m[53;177H9[14;99H[?25h[?25l[96m [m[53;176H100[14;100H[?25h[?25l[96mt[m[53;178H1[14;101H[?25h[?25l[96me[m[53;178H2[14;102H[?25h[?25l[96mr[m[53;178H3[14;103H[?25h[?25l[96mm[m[53;178H4[14;104H[?25h[?25l[96mi[m[53;178H5[14;105H[?25h[?25l[96mn[m[53;178H6[14;106H[?25h[?25l[96ma[m[53;178H7[14;107H[?25h[?25l[96mt[m[53;178H8[14;108H[?25h[?25l[96mo[m[53;178H9[14;109H[?25h[?25l[96mr[m[53;177H10[14;110H[?25h[?25l[96m [m[53;178H1[14;111H[?25h[?25l[96mw[m[53;178H2[14;112H[?25h[?25l[96me[m[53;178H3[14;113H[?25h[?25l[96m [m[53;178H4[14;114H[?25h[?25l[96ma[m[53;178H5[14;115H[?25h[?25l[96md[m[53;178H6[14;116H[?25h[?25l[96md[m[53;178H7[14;117H[?25h[?25l[96me[m[53;178H8[14;118H[?25h[?25l[96md[m[53;178H9[14;119H[?25h[?25l[96m [m[53;177H20[14;120H[?25h[?25l[96m+[m[53;178H1[14;121H[?25h[?25l[95m1[m[53;178H2[14;122H[?25h[53;1H[K[14;121H[?25l[53;163H^[[14;121H[53;163H  [14;122H[53;173H14,121[8CAll[14;121H[?25h[?25l[53;163H:[14;121H[53;163H[K[53;1H:[?2004h[?25h:[?25l[?25hx[?25l[?25h[?25l[?1006l[?1002l[?2004l"hello.cc" 48L, 1141C written]2;Terminal - ]1;Terminal - [23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0taceylan1@g7-23:~/i240a/submit/lab2/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+aceylan1@g7-23:~/i240a/submit/lab2/2-hello$ ./hello bart [K[K[K[K[Klisa bart
+Hello Lisa
+Hello Bart
+aceylan1@g7-23:~/i240a/submit/lab2/2-hello$ [Kaceylan1@g7-23:~/i240a/submit/lab2/2-hello$ cd
+aceylan1@g7-23:~$ cd i240a
+aceylan1@g7-23:~/i240a$ cd submit
+aceylan1@g7-23:~/i240a/submit$ cd lab2
+aceylan1@g7-23:~/i240a/submit/lab2$ cd 3-overload/
+aceylan1@g7-23:~/i240a/submit/lab2/3-overload$ vim overload.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"overload.cc" 16L, 282C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<iostream>[m
+
+[32mint[m f([32mint[m *a) { [38;5;130mreturn[m *a * [31m2[m; }
+[32mint[m f([32mint[m a) { [38;5;130mreturn[m a + [31m1[m;}
+[32mint[m f([32mint[m a, [32mint[m b) { [38;5;130mreturn[m a - b; }
+
+[32mint[m
+main() {
+  [32mint[m a = [31m2[m;
+  [32mint[m b = [31m3[m;
+  std::cout
+    << [31m"f(a) = "[m << f(a)
+    << [31m"; f(&a) = "[m << f(&a)
+    << [31m"; f(a, b) = "[m << f(a, b)
+    << std::endl;
+}
+[94m~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll]2;overload.cc (~/i240a/submit/lab2/3-overload) - VIM]1;overload.cc[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m#include [m[95m<iostream>[m
+
+[38;5;121mint[m f([38;5;121mint[m *a) { [93mreturn[m *a * [95m2[m; }
+[38;5;121mint[m f([38;5;121mint[m a) { [93mreturn[m a + [95m1[m;}
+[38;5;121mint[m f([38;5;121mint[m a, [38;5;121mint[m b) { [93mreturn[m a - b; }
+
+[38;5;121mint[m
+main() {
+  [38;5;121mint[m a = [95m2[m;
+  [38;5;121mint[m b = [95m3[m;
+  std::cout
+    << [95m"f(a) = "[m << f(a)
+    << [95m"; f(&a) = "[m << f(&a)
+    << [95m"; f(a, b) = "[m << f(a, b)
+    << std::endl;
+}
+[94m~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"overload.cc" 16L, 282C[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m#include [m[95m<iostream>[m
+
+[38;5;121mint[m f([38;5;121mint[m *a) { [93mreturn[m *a * [95m2[m; }
+[38;5;121mint[m f([38;5;121mint[m a) { [93mreturn[m a + [95m1[m;}
+[38;5;121mint[m f([38;5;121mint[m a, [38;5;121mint[m b) { [93mreturn[m a - b; }
+
+[38;5;121mint[m
+main() {
+  [38;5;121mint[m a = [95m2[m;
+  [38;5;121mint[m b = [95m3[m;
+  std::cout
+    << [95m"f(a) = "[m << f(a)
+    << [95m"; f(&a) = "[m << f(&a)
+    << [95m"; f(a, b) = "[m << f(a, b)
+    << std::endl;
+}
+[94m~                                                                                                                                                                                             [18;1H~                                                                                                                                                                                             [19;1H~                                                                                                                                                                                             [20;1H~                                                                                                                                                                                             [21;1H~                                                                                                                                                                                             [22;1H~                                                                                                                                                                                             [23;1H~                                                                                                                                                                                             [24;1H~                                                                                                                                                                                             [25;1H~                                                                                                                                                                                             [26;1H~                                                                                                                                                                                             [27;1H~                                                                                                                                                                                             [28;1H~                                                                                                                                                                                             [29;1H~                                                                                                                                                                                             [30;1H~                                                                                                                                                                                             [31;1H~                                                                                                                                                                                             [32;1H~                                                                                                                                                                                             [33;1H~                                                                                                                                                                                             [34;1H~                                                                                                                                                                                             [35;1H~                                                                                                                                                                                             [36;1H~                                                                                                                                                                                             [37;1H~                                                                                                                                                                                             [38;1H~                                                                                                                                                                                             [39;1H~                                                                                                                                                                                             [40;1H~                                                                                                                                                                                             [41;1H~                                                                                                                                                                                             [42;1H~                                                                                                                                                                                             [43;1H~                                                                                                                                                                                             [44;1H~                                                                                                                                                                                             [45;1H~                                                                                                                                                                                             [46;1H~                                                                                                                                                                                             [47;1H~                                                                                                                                                                                             [48;1H~                                                                                                                                                                                             [49;1H~                                                                                                                                                                                             [50;1H~                                                                                                                                                                                             [51;1H~                                                                                                                                                                                             [52;1H~                                                                                                                                                                                             [m[53;173H1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m#include [m[95m<iostream>[m
+
+[38;5;121mint[m f([38;5;121mint[m *a) { [93mreturn[m *a * [95m2[m; }
+[38;5;121mint[m f([38;5;121mint[m a) { [93mreturn[m a + [95m1[m;}
+[38;5;121mint[m f([38;5;121mint[m a, [38;5;121mint[m b) { [93mreturn[m a - b; }
+
+[38;5;121mint[m
+main() {
+  [38;5;121mint[m a = [95m2[m;
+  [38;5;121mint[m b = [95m3[m;
+  std::cout
+    << [95m"f(a) = "[m << f(a)
+    << [95m"; f(&a) = "[m << f(&a)
+    << [95m"; f(a, b) = "[m << f(a, b)
+    << std::endl;
+}
+[94m~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25h[?25l[12;22H[46m([ma[46m)[m[24;64H2,24[12;24H[?25h[?25l[24;53H^[[12;24H[24;53H  [12;24H[24;53H^[[12;24H[24;53H  [12;24H[?25h[?25l[24;53H:[12;24H[24;53H[K[24;1H:[?2004h[?25h:[?25l[?25hx[?25l[?25h[?25l[?1006l[?1002l[?2004l]2;Terminal - ]1;Terminal - [23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l[23;0;0taceylan1@g7-23:~/i240a/submit/lab2/3-overload$ ./overload.cc[K[K[K[K[K[K[K[K[K[K[K[K[Kmake
+g++ -g -Wall -std=c++17    overload.cc   -o overload
+aceylan1@g7-23:~/i240a/submit/lab2/3-overload$ ./ob[Kverload
+f(a) = 3; f(&a) = 4; f(a, b) = -1
+aceylan1@g7-23:~/i240a/submit/lab2/3-overload$ gdb overload
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from overload...done.
+(gdb) l
+1	#include <iostream>
+2	
+3	int f(int *a) { return *a * 2; }
+4	int f(int a) { return a + 1;}
+5	int f(int a, int b) { return a - b; }
+6	
+7	int
+8	main() {
+9	  int a = 2;
+10	  int b = 3;
+(gdb) b f(int a)
+Function "f(int a)" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) b f(int))[K
+Breakpoint 1 at 0x118e: file overload.cc, line 4.
+(gdb) r
+Starting program: /import/linux/home1/aceylan1/i240a/submit/lab2/3-overload/overload 
+
+Breakpoint 1, f (a=2) at overload.cc:4
+4	int f(int a) { return a + 1;}
+(gdb) p a
+$1 = 2
+(gdb) p *a
+Cannot access memory at address 0x2
+(gdb) p *a =[K[K=5
+Cannot access memory at address 0x2
+(gdb) start
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Temporary breakpoint 2 at 0x5555555551b1: file overload.cc, line 9.
+Starting program: /import/linux/home1/aceylan1/i240a/submit/lab2/3-overload/overload 
+
+Temporary breakpoint 2, main () at overload.cc:9
+9	  int a = 2;
+(gdb)  [Kpa[K a 
+$2 = 1431654544
+(gdb) n
+10	  int b = 3;
+(gdb) p a
+$3 = 2
+(gdb) n
+12	    << "f(a) = " << f(a)
+(gdb) n
+13	    << "; f(&a) = " << f(&a)
+(gdb) p a
+$4 = 2
+(gdb) a [K=5
+Ambiguous command "a=5": .
+(gdb) p 
+$5 = 2
+(gdb) p a 
+$6 = 2
+(gdb) p *as[K=5
+Cannot access memory at address 0x2
+(gdb) start
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Temporary breakpoint 3 at 0x5555555551b1: file overload.cc, line 9.
+Starting program: /import/linux/home1/aceylan1/i240a/submit/lab2/3-overload/overload 
+
+Temporary breakpoint 3, main () at overload.cc:9
+9	  int a = 2;
+(gdb) p a=5
+$7 = 5
+(gdb) p a
+$8 = 5
+(gdb) b f
+Note: breakpoint 1 also set at pc 0x55555555518e.
+Breakpoint 4 at 0x55555555517d: f. (3 locations)
+(gdb) 9[Kq
+A debugging session is active.
+
+	Inferior 1 [process 15551] will be killed.
+
+Quit anyway? (y or n) y
+aceylan1@g7-23:~/i240a/submit/lab2/3-overload$ gdb
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+(gdb) gdb[K[K[Kq
+aceylan1@g7-23:~/i240a/submit/lab2/3-overload$ y[Kgdb overload
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from overload...done.
+(gdb) start
+Temporary breakpoint 1 at 0x11b1: file overload.cc, line 9.
+Starting program: /import/linux/home1/aceylan1/i240a/submit/lab2/3-overload/overload 
+
+Temporary breakpoint 1, main () at overload.cc:9
+9	  int a = 2;
+(gdb) l
+4	int f(int a) { return a + 1;}
+5	int f(int a, int b) { return a - b; }
+6	
+7	int
+8	main() {
+9	  int a = 2;
+10	  int b = 3;
+11	  std::cout 
+12	    << "f(a) = " << f(a)
+13	    << "; f(&a) = " << f(&a)
+(gdb) b =[Kf [K(int8[K*)
+Breakpoint 2 at 0x55555555517d: file overload.cc, line 3.
+(gdb) p a
+$1 = 1431654544
+(gdb) p *a
+Cannot access memory at address 0x55555090
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /import/linux/home1/aceylan1/i240a/submit/lab2/3-overload/overload 
+
+Breakpoint 2, f (a=0x7fffffffe698) at overload.cc:3
+3	int f(int *a) { return *a * 2; }
+(gdb) p a*
+A syntax error in expression, near `'.
+(gdb) p *a
+$2 = 2
+(gdb) p *a=5
+$3 = 5
+(gdb) p *a
+$4 = 5
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /import/linux/home1/aceylan1/i240a/submit/lab2/3-overload/overload 
+
+Breakpoint 2, f (a=0x7fffffffe698) at overload.cc:3
+3	int f(int *a) { return *a * 2; }
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 16092] will be killed.
+
+Quit anyway? (y or n) y
+aceylan1@g7-23:~/i240a/submit/lab2/3-overload$ make
+make: 'overload' is up to date.
+aceylan1@g7-23:~/i240a/submit/lab2/3-overload$ ./overload
+f(a) = 3; f(&a) = 4; f(a, b) = -1
+aceylan1@g7-23:~/i240a/submit/lab2/3-overload$ exit
+
+Script done on 2020-02-06 17:07:04-05:00 [COMMAND_EXIT_CODE="0"]
