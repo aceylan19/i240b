@@ -1,0 +1,1138 @@
+Script started on 2020-02-27 16:39:53-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+aceylan1@g7-04:~/i240a/submit/lab5$ cd exercises [K[K[K[K[K[K[K[K[K[Kexercises
+bash: cd: exercises: No such file or directory
+aceylan1@g7-04:~/i240a/submit/lab5$ cd exercises/1-animal
+bash: cd: exercises/1-animal: No such file or directory
+aceylan1@g7-04:~/i240a/submit/lab5$ ls
+lab5.LOG
+aceylan1@g7-04:~/i240a/submit/lab5$ cd
+aceylan1@g7-04:~$ cd i249[K-0a[K[K[K0a
+aceylan1@g7-04:~/i240a$ cd submit
+aceylan1@g7-04:~/i240a/submit$ cd lab5
+aceylan1@g7-04:~/i240a/submit/lab5$ cd[Kp =[K0-[K[K-t [K[Kr ~/cs240/labn[Ks/lab5/exercises/[K .
+aceylan1@g7-04:~/i240a/submit/lab5$ ls
+exercises  lab5.LOG
+aceylan1@g7-04:~/i240a/submit/lab5$ cd ee[Kx*
+aceylan1@g7-04:~/i240a/submit/lab5/exercises$ ls
+1-animal  2-expr  Makefile
+aceylan1@g7-04:~/i240a/submit/lab5/exercises$ c d[K[Kd 1*
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ ls
+animal.hh  main.cc
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ gedit animal.hh
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ gedit ms[Kain.cc
+
+(gedit:340371): Gtk-[1;33mWARNING[0m **: [34m16:47:20.764[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ gedit main.cc
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ gedit anima;[Kl.hh&
+[1] 340487
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ gedit main.cc&
+[2] 340518
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ gedit main.cc&
+[3] 340554
+[2]   Done                    gedit main.cc
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ 
+(gedit:340487): Gtk-[1;33mWARNING[0m **: [34m16:50:17.800[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+gedit main.cc&animal.hh&[3Pmain.cc[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit animal.hhls[Kcd 1*[3Plscd ex*[4Pls[K[Kmak =[K[Ke--[K [K[K -f ...[K/Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:19:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope
+   for (auto animalP : *[01;31m[Kanimals[m[K) {
+                        [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:24:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/8/string:51[m[K,
+                 from [01m[Kanimal.hh:1[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::begin[m[K’
+   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&);
+                                     [01;36m[K^~~~~[m[K
+[01m[Kmain.cc:19:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope
+   for (auto animalP : *[01;31m[Kanimals[m[K) {
+                        [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:24:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/8/string:51[m[K,
+                 from [01m[Kanimal.hh:1[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/range_access.h:107:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::end[m[K’
+   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&);
+                                     [01;36m[K^~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+[3]+  Done                    gedit main.cc
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ ./animal.[K
+bash: ./animal: No such file or directory
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ anim[K[K[K[K./main
+bessie says moo
+bossy says moo
+fido says woof
+fluffy says meow
+rufus says woof
+simba says meow
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ ./mainanimalmake -f ../Makefile\
+> 
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/locale_classes.h:43:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/locale_classes.h:851[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/locale_classes.tcc:39:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/system_error:39[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/error_constants.h:36:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/stdexcept:41:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/ios_base.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/system_error:43:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/system_error:378:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/ios_base.h:49:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/ios:43[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/streambuf:45:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/streambuf:862[m[K,
+                 from [01m[K/usr/include/c++/8/ios:43[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/streambuf.tcc:39:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/features.h:424[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/os_defines.h:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++config.h:508[m[K,
+                 from [01m[K/usr/include/c++/8/string:38[m[K,
+                 from [01m[Kanimal.hh:1[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:87:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+ [01;31m[K__BEGIN_DECLS[m[K
+ [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/wctype.h:44:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+ [01;31m[K__BEGIN_DECLS[m[K
+ [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/locale_facets.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/8/ios:44[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/cwctype:80:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/locale_facets.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/8/ios:44[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/ctype_base.h:36:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/locale_facets.h:48[m[K,
+                 from [01m[K/usr/include/c++/8/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/8/ios:44[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/streambuf_iterator.h:38:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/8/ios:44[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/locale_facets.h:50:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/locale_facets.h:1538[m[K,
+                 from [01m[K/usr/include/c++/8/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/8/ios:44[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/ctype_inline.h:37:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/8/ios:44[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/locale_facets.h:1540:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/locale_facets.h:2655[m[K,
+                 from [01m[K/usr/include/c++/8/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/8/ios:44[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/locale_facets.tcc:35:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/ios:44[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/basic_ios.h:41:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/basic_ios.h:516[m[K,
+                 from [01m[K/usr/include/c++/8/ios:44[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/basic_ios.tcc:35:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/ostream:41:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/ostream:693[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/ostream.tcc:41:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/iostream:40[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/istream:41:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/istream:991[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:40[m[K,
+                 from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/bits/istream.tcc:41:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:3[m[K:
+[01m[K/usr/include/c++/8/iostream:42:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+ [01;31m[Knamespace[m[K std _GLIBCXX_VISIBILITY(default)
+ [01;31m[K^~~~~~~~~[m[K
+[01m[Kmain.cc:22:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:42:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+ class Cow : public Animal [01;36m[K{[m[K
+                           [01;36m[K^[m[K
+[01m[Kmain.cc:22:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+[01m[Kmain.cc:22:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:29:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+ class Cat : public Animal [01;36m[K{[m[K
+                           [01;36m[K^[m[K
+[01m[Kmain.cc:22:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+[01m[Kmain.cc:22:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:16:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+ class Dog : public Animal [01;36m[K{[m[K
+                           [01;36m[K^[m[K
+[01m[Kanimal.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string Dog::eats() const[m[K’:
+[01m[Kanimal.hh:25:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+     return "meat"
+                  [01;31m[K^[m[K
+                  [32m[K;[m[K
+[01m[Kanimal.hh:27:1:[m[K
+ [32m[K}[m[K;
+ [32m[K~[m[K                 
+[01m[Kanimal.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string Dog::Cat::eats() const[m[K’:
+[01m[Kanimal.hh:38:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+     return "fish"
+                  [01;31m[K^[m[K
+                  [32m[K;[m[K
+[01m[Kanimal.hh:40:1:[m[K
+ [32m[K}[m[K;
+ [32m[K~[m[K                 
+[01m[Kanimal.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string Dog::Cat::Cow::eats() const[m[K’:
+[01m[Kanimal.hh:51:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+     return "grass"
+                   [01;31m[K^[m[K
+                   [32m[K;[m[K
+[01m[Kanimal.hh:53:1:[m[K
+ [32m[K}[m[K;
+ [32m[K~[m[K                  
+[01m[Kmain.cc:[m[K In member function ‘[01m[Kint Dog::Cat::Cow::main(int, char**)[m[K’:
+[01m[Kmain.cc:6:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   std::ostream& out = std::[01;31m[Kcout[m[K;
+                            [01;31m[K^~~~[m[K
+[01m[Kmain.cc:6:28:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[Kmain.cc:4:1:[m[K
++[32m[K#include <iostream>[m[K
+ 
+[01m[Kmain.cc:6:28:[m[K
+   std::ostream& out = std::[01;36m[Kcout[m[K;
+                            [01;36m[K^~~~[m[K
+[01m[Kmain.cc:20:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::basic_ostream<char>[m[K’ and ‘[01m[Kconst char [7][m[K’)
+     [01;31m[Kout << animalP->name << " says "[m[K << animalP->says() << ", eats " << animalP->eats() << std::endl;
+     [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/basic_string.h:48[m[K,
+                 from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[Kanimal.hh:1[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/string_view:545:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::basic_string_view<_CharT, _Traits>)[m[K’
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/string_view:545:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[Kmain.cc:20:29:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’ and ‘[01m[Kconst char*[m[K’
+     out << animalP->name << [01;36m[K" says "[m[K << animalP->says() << ", eats " << animalP->eats() << std::endl;
+                             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[Kanimal.hh:1[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.h:6323:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.h:6323:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[Kmain.cc:20:29:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst char [7][m[K’
+     out << animalP->name << [01;36m[K" says "[m[K << animalP->says() << ", eats " << animalP->eats() << std::endl;
+                             [01;36m[K^~~~~~~~[m[K
+[01m[Kmain.cc:20:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ me << " says " << animalP->says() << ", eats " << animalP->eats() << std::[01;31m[Kendl[m[K;
+                                                                           [01;31m[K^~~~[m[K
+
+[01m[Kmain.cc:20:97:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[Kmain.cc:4:1:[m[K
++[32m[K#include <ostream>[m[K
+ 
+
+[01m[Kmain.cc:20:97:[m[K
+ me << " says " << animalP->says() << ", eats " << animalP->eats() << std::[01;36m[Kendl[m[K;
+                                                                           [01;36m[K^~~~[m[K
+
+[01m[Kmain.cc:22:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[Kmain.cc:[m[K At global scope:
+[01m[Kmain.cc:22:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+make: *** [../Makefile:48: main.o] Error 1
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile\
+> make -f ../Makefile\[C[C./main[Kanimal[C[C[C[C[2Pmain
+make: ../Makefile./main: No such file or directory
+make: *** No rule to make target '../Makefile./main'.  Stop.
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile./main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kn
+make: ../Makefile./main: No such file or directory
+make: *** No rule to make target '../Makefile./main'.  Stop.
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile./main [K[Aaceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile./main[K[K[K[K[K[K
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string Dog::eats() const[m[K’:
+[01m[Kanimal.hh:25:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+     return "meat"
+                  [01;31m[K^[m[K
+                  [32m[K;[m[K
+   [32m[K}[m[K
+   [32m[K~[m[K               
+[01m[Kanimal.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string Cat::eats() const[m[K’:
+[01m[Kanimal.hh:38:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+     return "fish"
+                  [01;31m[K^[m[K
+                  [32m[K;[m[K
+   [32m[K}[m[K
+   [32m[K~[m[K               
+[01m[Kanimal.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string Cow::eats() const[m[K’:
+[01m[Kanimal.hh:51:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+     return "grass"
+                   [01;31m[K^[m[K
+                   [32m[K;[m[K
+   [32m[K}[m[K
+   [32m[K~[m[K                
+make: *** [../Makefile:48: main.o] Error 1
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ ./main
+bessie says moo, eats grass
+bossy says moo, eats grass
+fido says woof, eats meat
+fluffy says meow, eats fish
+rufus says woof, eats meat
+simba says meow, eats fish
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/1-animal$ cd ..
+[1]+  Done                    gedit animal.hh  (wd: ~/i240a/submit/lab5/exercises/1-animal)
+(wd now: ~/i240a/submit/lab5/exercises)
+aceylan1@g7-04:~/i240a/submit/lab5/exercises$ ls
+1-animal  2-expr  Makefile
+aceylan1@g7-04:~/i240a/submit/lab5/exercises$ cd 2*
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ ls
+expr.cc  expr.hh  main.cc  parse.cc  parse.hh  tostring.cc  tostring.hh
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ gdit[K[K[Kedit expr/cc[K[K[K.cc
+
+(gedit:342477): Gtk-[1;33mWARNING[0m **: [34m17:05:55.763[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+gedit expr.hh
+
+^[[A^[[A^[[A            ^C
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ gedit expr.hh
+
+(gedit:344804): Gtk-[1;33mWARNING[0m **: [34m17:27:01.915[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+gedit b main.cc
+^C
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ gedit main.cc
+
+(gedit:345401): Gtk-[1;33mWARNING[0m **: [34m17:34:15.054[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ gedit main.ccexpr.hhccls[Kcd 2*[3Plscd .../mainmake -f ../Makefile
+g++ -MT tostring.o -MMD -MP -MF .deps/tostring.d -g -Wall -std=c++17 -c tostring.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:19:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:128:29:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+ class DivExpr : public Expr [01;36m[K{[m[K
+                             [01;36m[K^[m[K
+[01m[Kmain.cc:19:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+[01m[Kmain.cc:19:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:102:29:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+ class MulExpr : public Expr [01;36m[K{[m[K
+                             [01;36m[K^[m[K
+[01m[Kmain.cc:19:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+[01m[Kmain.cc:19:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:75:29:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+ class SubExpr : public Expr [01;36m[K{[m[K
+                             [01;36m[K^[m[K
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string SubExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:89:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+     return [01;31m[Kleft->dcCode() - right->dcCode()[m[K + "-";
+            [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/ios:40[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:89:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+     return left->dcCode() - right->dcCode([01;36m[K)[m[K + "-";
+                                           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/ios:40[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:1188:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:1188:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:89:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+     return left->dcCode() - right->dcCode([01;36m[K)[m[K + "-";
+                                           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/ios:40[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:954:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR, class _Container> decltype ((__lhs.base() - __rhs.base())) __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)[m[K’
+     [01;36m[Koperator[m[K-(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:954:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:89:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+     return left->dcCode() - right->dcCode([01;36m[K)[m[K + "-";
+                                           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/ios:40[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:966:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+     [01;36m[Koperator[m[K-(const __normal_iterator<_Iterator, _Container>& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:966:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:89:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+     return left->dcCode() - right->dcCode([01;36m[K)[m[K + "-";
+                                           [01;36m[K^[m[K
+[01m[Kexpr.hh:93:51:[m[K [01;31m[Kerror: [m[Kinvalid cast to abstract class type ‘[01m[KSubExpr[m[K’
+   SubExpr(ExprPtr& left, ExprPtr& right, Private x[01;31m[K)[m[K :
+                                                   [01;31m[K^[m[K
+[01m[Kexpr.hh:75:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KSubExpr[m[K’:
+ class [01;36m[KSubExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:12:15:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int Expr::eval() const[m[K’
+   virtual int [01;36m[Keval[m[K() const = 0;
+               [01;36m[K^~~~[m[K
+[01m[Kexpr.hh:93:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+   SubExpr[01;31m[K([m[KExprPtr& left, ExprPtr& right, Private x) :
+          [01;31m[K^[m[K
+[01m[Kexpr.hh:93:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K&[m[K’ token
+   SubExpr(ExprPtr[01;31m[K&[m[K left, ExprPtr& right, Private x) :
+                  [01;31m[K^[m[K
+[01m[Kexpr.hh:93:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K&[m[K’ token
+   SubExpr(ExprPtr& left, ExprPtr[01;31m[K&[m[K right, Private x) :
+                                 [01;31m[K^[m[K
+[01m[Kexpr.hh:93:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kx[m[K’
+   SubExpr(ExprPtr& left, ExprPtr& right, Private [01;31m[Kx[m[K) :
+                                                  [01;31m[K^[m[K
+[01m[Kexpr.hh:97:20:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   int eval() const [01;31m[K{[m[K return left->eval() - right->eval(); }
+                    [01;31m[K^[m[K
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string SubExpr::MulExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:116:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+     return [01;31m[Kleft->dcCode() * right->dcCode()[m[K + "*";
+            [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[Kexpr.hh:120:51:[m[K [01;31m[Kerror: [m[Kinvalid cast to abstract class type ‘[01m[KSubExpr::MulExpr[m[K’
+   MulExpr(ExprPtr& left, ExprPtr& right, Private x[01;31m[K)[m[K :
+                                                   [01;31m[K^[m[K
+[01m[Kexpr.hh:102:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KSubExpr::MulExpr[m[K’:
+ class [01;36m[KMulExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:12:15:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int Expr::eval() const[m[K’
+   virtual int [01;36m[Keval[m[K() const = 0;
+               [01;36m[K^~~~[m[K
+[01m[Kexpr.hh:120:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+   MulExpr[01;31m[K([m[KExprPtr& left, ExprPtr& right, Private x) :
+          [01;31m[K^[m[K
+[01m[Kexpr.hh:120:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K&[m[K’ token
+   MulExpr(ExprPtr[01;31m[K&[m[K left, ExprPtr& right, Private x) :
+                  [01;31m[K^[m[K
+[01m[Kexpr.hh:120:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K&[m[K’ token
+   MulExpr(ExprPtr& left, ExprPtr[01;31m[K&[m[K right, Private x) :
+                                 [01;31m[K^[m[K
+[01m[Kexpr.hh:120:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kx[m[K’
+   MulExpr(ExprPtr& left, ExprPtr& right, Private [01;31m[Kx[m[K) :
+                                                  [01;31m[K^[m[K
+[01m[Kexpr.hh:124:20:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   int eval() const [01;31m[K{[m[K return left->eval() * right->eval(); }
+                    [01;31m[K^[m[K
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string SubExpr::MulExpr::DivExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:142:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator/[m[K’ (operand types are ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+     return [01;31m[Kleft->dcCode() / right->dcCode()[m[K + "/";
+            [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[Kexpr.hh:146:51:[m[K [01;31m[Kerror: [m[Kinvalid cast to abstract class type ‘[01m[KSubExpr::MulExpr::DivExpr[m[K’
+   DivExpr(ExprPtr& left, ExprPtr& right, Private x[01;31m[K)[m[K :
+                                                   [01;31m[K^[m[K
+[01m[Kexpr.hh:128:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KSubExpr::MulExpr::DivExpr[m[K’:
+ class [01;36m[KDivExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:12:15:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int Expr::eval() const[m[K’
+   virtual int [01;36m[Keval[m[K() const = 0;
+               [01;36m[K^~~~[m[K
+[01m[Kexpr.hh:146:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+   DivExpr[01;31m[K([m[KExprPtr& left, ExprPtr& right, Private x) :
+          [01;31m[K^[m[K
+[01m[Kexpr.hh:146:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K&[m[K’ token
+   DivExpr(ExprPtr[01;31m[K&[m[K left, ExprPtr& right, Private x) :
+                  [01;31m[K^[m[K
+[01m[Kexpr.hh:146:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K&[m[K’ token
+   DivExpr(ExprPtr& left, ExprPtr[01;31m[K&[m[K right, Private x) :
+                                 [01;31m[K^[m[K
+[01m[Kexpr.hh:146:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kx[m[K’
+   DivExpr(ExprPtr& left, ExprPtr& right, Private [01;31m[Kx[m[K) :
+                                                  [01;31m[K^[m[K
+[01m[Kexpr.hh:150:20:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   int eval() const [01;31m[K{[m[K return left->eval() / right->eval(); }
+                    [01;31m[K^[m[K
+[01m[Kmain.cc:[m[K At global scope:
+[01m[Kmain.cc:19:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<IntExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {int&, IntExpr::Private}; _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = IntExpr; _Args = {int&, IntExpr::Private}][m[K’
+[01m[Kexpr.hh:29:55:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KIntExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:21:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KIntExpr[m[K’:
+ class [01;36m[KIntExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+In file included from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[Ktostring.hh:10:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string ToString::toString() const[m[K’
+   virtual std::string [01;36m[KtoString[m[K() const = 0;
+                       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = SubExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = SubExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<SubExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr; _Alloc = std::allocator<SubExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = SubExpr; _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = SubExpr; _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = SubExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}][m[K’
+[01m[Kexpr.hh:84:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KSubExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = SubExpr::MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::Private}; _Tp = SubExpr::MulExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = SubExpr::MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::Private}; _Tp = SubExpr::MulExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<SubExpr::MulExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::Private}; _Tp = SubExpr::MulExpr; _Alloc = std::allocator<SubExpr::MulExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = SubExpr::MulExpr; _Alloc = std::allocator<SubExpr::MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SubExpr::MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::Private}; _Tp = SubExpr::MulExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SubExpr::MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::Private}; _Tp = SubExpr::MulExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = SubExpr::MulExpr; _Alloc = std::allocator<SubExpr::MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = SubExpr::MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::Private}][m[K’
+[01m[Kexpr.hh:111:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KSubExpr::MulExpr[m[K’
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = SubExpr::MulExpr::DivExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::DivExpr::Private}; _Tp = SubExpr::MulExpr::DivExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = SubExpr::MulExpr::DivExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::DivExpr::Private}; _Tp = SubExpr::MulExpr::DivExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<SubExpr::MulExpr::DivExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::DivExpr::Private}; _Tp = SubExpr::MulExpr::DivExpr; _Alloc = std::allocator<SubExpr::MulExpr::DivExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = SubExpr::MulExpr::DivExpr; _Alloc = std::allocator<SubExpr::MulExpr::DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::DivExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SubExpr::MulExpr::DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::DivExpr::Private}; _Tp = SubExpr::MulExpr::DivExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SubExpr::MulExpr::DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::DivExpr::Private}; _Tp = SubExpr::MulExpr::DivExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = SubExpr::MulExpr::DivExpr; _Alloc = std::allocator<SubExpr::MulExpr::DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::DivExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = SubExpr::MulExpr::DivExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::MulExpr::DivExpr::Private}][m[K’
+[01m[Kexpr.hh:137:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KSubExpr::MulExpr::DivExpr[m[K’
+make: *** [../Makefile:48: main.o] Error 1
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ gedit expr.hh
+
+(gedit:348269): Gtk-[1;33mWARNING[0m **: [34m17:58:08.266[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ gedit expr.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string SubExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:99:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+     return [01;31m[Kleft->dcCode() - right->dcCode()[m[K + "-";
+            [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/ios:40[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:99:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+     return left->dcCode() - right->dcCode([01;36m[K)[m[K + "-";
+                                           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/ios:40[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:1188:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:1188:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:99:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+     return left->dcCode() - right->dcCode([01;36m[K)[m[K + "-";
+                                           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/ios:40[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:954:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR, class _Container> decltype ((__lhs.base() - __rhs.base())) __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)[m[K’
+     [01;36m[Koperator[m[K-(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:954:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:99:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+     return left->dcCode() - right->dcCode([01;36m[K)[m[K + "-";
+                                           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/ios:40[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:966:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+     [01;36m[Koperator[m[K-(const __normal_iterator<_Iterator, _Container>& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:966:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:99:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+     return left->dcCode() - right->dcCode([01;36m[K)[m[K + "-";
+                                           [01;36m[K^[m[K
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string MulExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:127:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+     return [01;31m[Kleft->dcCode() * right->dcCode()[m[K + "*";
+            [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string DivExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:156:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator/[m[K’ (operand types are ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+     return [01;31m[Kleft->dcCode() / right->dcCode()[m[K + "/";
+            [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<IntExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {int&, IntExpr::Private}; _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = IntExpr; _Args = {int&, IntExpr::Private}][m[K’
+[01m[Kexpr.hh:29:55:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KIntExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:21:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KIntExpr[m[K’:
+ class [01;36m[KIntExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+In file included from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[Ktostring.hh:10:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string ToString::toString() const[m[K’
+   virtual std::string [01;36m[KtoString[m[K() const = 0;
+                       [01;36m[K^~~~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ gedit expr.hh
+
+(gedit:348779): Gtk-[1;33mWARNING[0m **: [34m18:01:17.798[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ gedit expr.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<IntExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {int&, IntExpr::Private}; _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = IntExpr; _Args = {int&, IntExpr::Private}][m[K’
+[01m[Kexpr.hh:29:55:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KIntExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:21:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KIntExpr[m[K’:
+ class [01;36m[KIntExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+In file included from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[Ktostring.hh:10:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string ToString::toString() const[m[K’
+   virtual std::string [01;36m[KtoString[m[K() const = 0;
+                       [01;36m[K^~~~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit expr.hhmake -f ../Makefile[6Pgedit expr.hh
+
+(gedit:349123): Gtk-[1;33mWARNING[0m **: [34m18:03:50.049[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ gedit expr.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<IntExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {int&, IntExpr::Private}; _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = IntExpr; _Args = {int&, IntExpr::Private}][m[K’
+[01m[Kexpr.hh:29:55:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KIntExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:21:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KIntExpr[m[K’:
+ class [01;36m[KIntExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+In file included from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[Ktostring.hh:10:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string ToString::toString() const[m[K’
+   virtual std::string [01;36m[KtoString[m[K() const = 0;
+                       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:13:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Expr::dcCode()[m[K’
+   virtual std::string [01;36m[KdcCode[m[K() = 0;
+                       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = AddExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; _Tp = AddExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = AddExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; _Tp = AddExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<AddExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; _Tp = AddExpr; _Alloc = std::allocator<AddExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = AddExpr; _Alloc = std::allocator<AddExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AddExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; _Tp = AddExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AddExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; _Tp = AddExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = AddExpr; _Alloc = std::allocator<AddExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = AddExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}][m[K’
+[01m[Kexpr.hh:56:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KAddExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:47:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KAddExpr[m[K’:
+ class [01;36m[KAddExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:13:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Expr::dcCode()[m[K’
+   virtual std::string [01;36m[KdcCode[m[K() = 0;
+                       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = SubExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = SubExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<SubExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr; _Alloc = std::allocator<SubExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = SubExpr; _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = SubExpr; _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = SubExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}][m[K’
+[01m[Kexpr.hh:85:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KSubExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:76:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KSubExpr[m[K’:
+ class [01;36m[KSubExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:13:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Expr::dcCode()[m[K’
+   virtual std::string [01;36m[KdcCode[m[K() = 0;
+                       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<MulExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr; _Alloc = std::allocator<MulExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MulExpr; _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MulExpr; _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}][m[K’
+[01m[Kexpr.hh:114:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KMulExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:105:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KMulExpr[m[K’:
+ class [01;36m[KMulExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:13:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Expr::dcCode()[m[K’
+   virtual std::string [01;36m[KdcCode[m[K() = 0;
+                       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = DivExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; _Tp = DivExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = DivExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; _Tp = DivExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<DivExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; _Tp = DivExpr; _Alloc = std::allocator<DivExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = DivExpr; _Alloc = std::allocator<DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; _Tp = DivExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; _Tp = DivExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = DivExpr; _Alloc = std::allocator<DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = DivExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}][m[K’
+[01m[Kexpr.hh:142:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KDivExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:133:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KDivExpr[m[K’:
+ class [01;36m[KDivExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:13:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Expr::dcCode()[m[K’
+   virtual std::string [01;36m[KdcCode[m[K() = 0;
+                       [01;36m[K^~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit expr.hh
+
+(gedit:349360): Gtk-[1;33mWARNING[0m **: [34m18:05:47.951[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ gedit expr.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<IntExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {int&, IntExpr::Private}; _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = IntExpr; _Args = {int&, IntExpr::Private}][m[K’
+[01m[Kexpr.hh:29:55:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KIntExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:21:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KIntExpr[m[K’:
+ class [01;36m[KIntExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+In file included from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[Ktostring.hh:10:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string ToString::toString() const[m[K’
+   virtual std::string [01;36m[KtoString[m[K() const = 0;
+                       [01;36m[K^~~~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit expr.hh&
+[1] 349438
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ gedit expr.hh&make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<IntExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {int&, IntExpr::Private}; _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = IntExpr; _Args = {int&, IntExpr::Private}][m[K’
+[01m[Kexpr.hh:29:55:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KIntExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:21:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KIntExpr[m[K’:
+ class [01;36m[KIntExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+In file included from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[Ktostring.hh:10:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string ToString::toString() const[m[K’
+   virtual std::string [01;36m[KtoString[m[K() const = 0;
+                       [01;36m[K^~~~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ 
+(gedit:349438): Gtk-[1;33mWARNING[0m **: [34m18:07:16.344[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+make -f ../Makefile[5Pgedit expr.hh&make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<IntExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {int&, IntExpr::Private}; _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = IntExpr; _Args = {int&, IntExpr::Private}][m[K’
+[01m[Kexpr.hh:29:55:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KIntExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:21:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KIntExpr[m[K’:
+ class [01;36m[KIntExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+In file included from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[Ktostring.hh:10:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string ToString::toString() const[m[K’
+   virtual std::string [01;36m[KtoString[m[K() const = 0;
+                       [01;36m[K^~~~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ [Kaceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -MT parse.o -MMD -MP -MF .deps/parse.d -g -Wall -std=c++17 -c parse.cc
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -MT parse.o -MMD -MP -MF .deps/parse.d -g -Wall -std=c++17 -c parse.cc
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ ./main ``[K[K[K[K[K[K[K[K[K./main "- 3 2" "* + 1 2 5" | dc
+1
+15
+aceylan1@g7-04:~/i240a/submit/lab5/exercises/2-expr$ exit
+
+Script done on 2020-02-27 18:14:48-05:00 [COMMAND_EXIT_CODE="0"]
