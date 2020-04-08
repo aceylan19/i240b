@@ -1,0 +1,1267 @@
+Script started on 2020-04-08 12:03:59-0400
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ cp -r ~{[K/cs240/labs/lab7/exercises .
+cp: '/home/aleyna/cs240/labs/lab7/exercises' durumlanamadı: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ cp -r ~/cs240/labs/lab7/exercises .[K[K
+cp: '/home/aleyna/cs240/labs/lab7/exercises' sonrasında hedef dosya işleyeni eksik
+Try 'cp --help' for more information.
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ cp -r ~/cs240/labs/lab7/exercises .[K.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[KM/cs240/labs/lab7/exercises[1P/cs240/labs/lab7/exercises[CMcs240/labs/lab7/exercisesacs240/labs/lab7/exercisesscs240/labs/lab7/exercisesacs240/labs/lab7/exercisesücs240/labs/lab7/exercisesscs240/labs/lab7/exercisestcs240/labs/lab7/exercisesücs240/labs/lab7/exercises/cs240/labs/lab7/exercisesCcs240/labs/lab7/exercisesScs240/labs/lab7/exercises*cs240/labs/lab7/exercises [A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs240/labs/lab7/exercises
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/cs240/labs/lab7/exercises [A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+cp: '/home/aleyna/Masaüstü/CS/cs240/labs/lab7/exercises' sonrasında hedef dosya işleyeni eksik
+Try 'cp --help' for more information.
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ cp -r ~/Masaüstü/CS/cs240/labs/lab7/exercises [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/S/cs240/labs/lab7/exercisess[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CS/cs240/labs/lab7/exercises [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0S/cs240/labs/lab7/exercisess[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CS/cs240/labs/lab7/exercises [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/cs240/labs/lab7/exercisess[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc/cs240/labs/lab7/exercises[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs/cs240/labs/lab7/exercises[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2/cs240/labs/lab7/exercises[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4/cs240/labs/lab7/exercises[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0/cs240/labs/lab7/exercises[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C,/cs240/labs/lab7/exercises[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/cs240/labs/lab7/exer[1Pcises[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+cp: '/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab7/exercises' sonrasında hedef dosya işleyeni eksik
+Try 'cp --help' for more information.
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ cp -r ~/Masaüstü/CS/cs240/cs240/labs/lab7/exerrcises .
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ ls
+[0m[01;34mexercises[0m  lab7.LOG
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7[00m$ cd w[Kexercises/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ ls
+[0m[01;34m1-out[0m  [01;34m2-find[0m  [01;34m3-sort[0m  [01;34m4-rm[0m  Makefile  test.data
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 1-out/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ls
+main.cc  out.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ./main deque ../test.data
+bash: ./main: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ Makefile
+Makefile: komut bulunamadı
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make ü[K
+make: *** Hedef belirtilmemiş ve makefile dosyası bulunamadı. Durdu.
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ cat test.data
+cat: test.data: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ls
+main.cc  out.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ cd..
+cd..: komut bulunamadı
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cat test.data
+22
+43
+12
+56
+64
+42
+11
+22
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 1-out/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ LS
+
+Command 'LS' not found, but can be installed with:
+
+sudo apt install sl
+
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ls
+main.cc  out.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ges[Kdit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ./main deque ../test.data 
+[ ]
+[ 22 43 12 56 64 42 11 22 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedıt[K[Kit outç[Kç[K.g[Khh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit out.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit out.hh./main deque ../test.data [7Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kout.hh:[m[K In function ‘[01m[Kvoid loopFn(Iterator, Iterator, int)[m[K’:
+[01m[Kout.hh:18:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   std::cout<< p*[01;31m[K<<[m[K "-";
+                 [01;31m[K^~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[7Pgedit out.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit out.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[7Pgedit out.hhmake -f ../Makefile[7Pgedit out.hh./main deque ../test.data 
+[ 22-43-12-56-64-42-11-22-]
+[ 22 43 12 56 64 42 11 22 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit man[Kin.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.cc./main deque ../test.data 
+[ 22-43-12-56-64-42-11-22-]
+[ 22 43 12 56 64 42 11 22 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ./main deque ../test.data [13Pgedit main.cc./main deque ../test.data [7Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:52:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+   [01;31m[Kelse[m[K if (containerSpec == "deque") {
+   [01;31m[K^~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gd[K[Kmake -f ../Makefile./main deque ../test.data [13Pgedit main.cc./main deque ../test.data [7Pmake -f ../Makefile[7Pgedit out.hhmake -f ../Makefile[7Pgedit out.hh./main deque ../test.data [7Pmake -f ../Makefile[6Pgedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[6Pgedit main.ccmake -f ../Makefile./main deque ../test.data 
+[ 22-43-12-56-64-42-11-22-]
+[ 22 43 12 56 64 42 11 22 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ./[K[Kgedit.main[K[K[K[K[K main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.cc./main deque ../test.data [1P[1P[1P[1P[1P[1@[[1@]
+2243125664421122]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ./main [] ../test.data [10Pgedit main.cc./main deque ../test.data [7Pmake -f ../Makefile./main deque ../test.data [13Pgedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.cc./main [] ../test.data [10Pgedit main.cc./main deque ../test.data [7Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[6Pgedit main.cc./main [] ../test.data 
+
+22
+43
+12
+56
+64
+42
+11
+22]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ./main [] ../test.data [4Pmake -f ../Makefile[6Pgedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.cc./main [] ../test.data [4Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:54:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin_point[m[K’ cannot be used as a function
+     loopFn(begin_point([01;31m[K)[m[K, end_point(), arg);
+                        [01;31m[K^[m[K
+[01m[Kmain.cc:54:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_point[m[K’ cannot be used as a function
+     loopFn(begin_point(), end_point([01;31m[K)[m[K, arg);
+                                     [01;31m[K^[m[K
+[01m[Kmain.cc:55:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin_point[m[K’ cannot be used as a function
+     noloopFn(begin_point([01;31m[K)[m[K, end_point(), arg);
+                          [01;31m[K^[m[K
+[01m[Kmain.cc:55:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_point[m[K’ cannot be used as a function
+     noloopFn(begin_point(), end_point([01;31m[K)[m[K, arg);
+                                       [01;31m[K^[m[K
+[01m[Kmain.cc:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[KnoloopFn[m[K’ was not declared in this scope
+     [01;31m[KnoloopFn[m[K(begin_point(), end_point(), arg);
+     [01;31m[K^~~~~~~~[m[K
+[01m[Kmain.cc:55:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KnoLoopFn[m[K’
+     [01;36m[KnoloopFn[m[K(begin_point(), end_point(), arg);
+     [01;36m[K^~~~~~~~[m[K
+     [32m[KnoLoopFn[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[6Pgedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[KnoloopFn[m[K’ was not declared in this scope
+     [01;31m[KnoloopFn[m[K(begin_point, end_point, arg);
+     [01;31m[K^~~~~~~~[m[K
+[01m[Kmain.cc:55:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KnoLoopFn[m[K’
+     [01;36m[KnoloopFn[m[K(begin_point, end_point, arg);
+     [01;36m[K^~~~~~~~[m[K
+     [32m[KnoLoopFn[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[6Pgedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:47:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kint_array[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     int [01;35m[Kint_array[m[K[ints.size()];
+         [01;35m[K^~~~~~~~~[m[K
+[01m[Kmain.cc:54:11:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbegin_point[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     [01;35m[KloopFn(begin_point, end_point, arg)[m[K;
+     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.cc:54:11:[m[K [01;35m[Kwarning: [m[K‘[01m[Kend_point[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.cc./main [] ../test.data 
+Parçalama arızası (çekirdek döküldü)
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ./main [] ../test.data [4Pmake -f ../Makefile[6Pgedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.cc./main [] ../test.data [4Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:54:32:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+     &begin_point = &int_array[0[01;31m[K][m[K;
+                                [01;31m[K^[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[6Pgedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.cc./main [] ../test.data 
+[ 22-43-12-56-64-42-11-22-215953152-32764--1063281205-22010-8-0-0-0-215953280-32764-45149440-0-215953232-32764-215953328-32764-8-0-215953282-8-7-0-215952800-32764-215952800-32764-215952792-32764-215953024-32764--1063262640-22010-0-0--1063262406-22010-215953008-32764-215953282-32764-215953280-32764-215953328-32764-215953072-32764-45149440--1862954421-215953088-32764--1063266709-22010-0-0--1063266772-22010-215953088-32764-215953282-32764-215953280-32764-215953328-32764-215953152-32764--1063271760-22010-215953264-32764-45149440--1862954421-0-0--1063282400-22010-215953616-32764-0-0-215953392-32764--1063278638-22010-215953624-32764--1555449944-3--1555451296-0--1558120432-32679--1028771600-22010--1028771568-22010--1028771568-22010--1561340376-32679--1028779872-22010--1028779840-22010--1028779840-22010-1-0-215953280-32764-2-0-23899-0--1063278104-22010-215953312-32764-12-0-1949249070-779383653-1635017060-21760-215953344-32764-2-0-1946180955-779383653-1635017060-0--1063247888-22010-45149440--1862954421-0-0--1063282400-22010--1063247888-22010--1565332585-32679--112--1-215953624-32764--112-3--1063279085-22010-0-0--35391527-1664154572--1063282400-22010-215953616-32764-0-0-0-0--1576798247-926769970-345896921-931807209-0-0-0-0-0-0--1555368141-32679--1555500360-32679-5846148-0-0-0-0-0-0-0--1063282400-22010-215953616-32764--1063282358-22010-215953608-32764-28-0-3-0-215958225-32764-215958232-32764-215958235-32764-0-0-215958248-32764-215958270-32764-215959786-32764-215959813-32764-215959847-32764-215959868-32764-215959892-32764-215959915-32764-215959932-32764-215959943-32764-215960011-32764-215960043-32764-215960063-32764-215960079-32764-215960090-32764-215960131-32764-215960151-32764-215960168-32764-215960180-32764-215960203-32764-215960221-32764-215960254-32764-215960340-32764-215960411-32764-215960429-32764-215960450-32764-215960469-32764-215960488-32764-215960509-32764-215960594-32764-215960621-32764-215960644-32764-215960668-32764-215960691-32764-215960719-32764-215960732-32764-215960748-32764-215960768-32764-215960785-32764-215960802-32764-215960822-32764-215960840-32764-215960873-32764-215960925-32764-215960954-32764-215960962-32764-215960977-32764-215961002-32764-215961020-32764-215961064-32764-215961079-32764-215961133-32764-215961164-32764-215961205-32764-215961250-32764-215961354-32764-215961384-32764-215961417-32764-215961505-32764-215961537-32764-215961556-32764-215961576-32764-0-0-33-0-215990272-32764-16-0--1075053569-0-6-0-4096-0-17-0-100-0-3-0--1063292864-22010-4-0-56-0-5-0-9-0-7-0--1555435520-32679-8-0-0-0-9-0--1063282400-22010-11-0-1000-0-12-0-1000-0-13-0-1000-0-14-0-1000-0-23-0-0-0-25-0-215954489-32764-26-0-0-0-31-0-215961585-32764-15-0-215954505-32764-0-0-0-0-0-0--1326584320--174961918-1180762512--320576835-909670651-3421791-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1831808512-7235937-771775835-1702113070-1680766067-6386785-1414876227-1599227220-1298091337-1280656463-1769487685-1397489773-1280263007-1028870735-809333618-1030317114-859517232-1852586548-993079357-1832531507-808467816-1030320186-859516980-1869822515-993079357-1681536307-825245039-976565051-876438626-858995504-976302139-876438627-858995504-976302139-876442223-825441072-976302139-809331053-1970485808-993473341-1933193524-808664423-976434235-859660643-825506608-1031238714-876294195-2003778098-993276733-1933193780-926104948-976499771-809334885-842218289-1949182522-809333345-825441073-1949182522-809335399-825441073-1630415418-809329522-825441073-1630415418-809331314-825441073-1949182522-809335393-825441073-1814964794-809329000-825441073-1814964794-809317498-825441073-1814964794-809330810-825441073-1814964794-1029795194-859517232-774519345-1031433332-859517232-774519345-1031436404-859517232-774519345-1030716020-859517232-774519345-1031419764-859517232-774519345-1030777210-859517232-774519345-825245050-976302907-1029320234-859517232-774519345-809335396-825441073-1731078714-825245050-976302907-1919692330-825245050-976302907-2053910058-993079357-708456755-1870294062-993079357-708456755-1031436334-859517232-774519345-1031041914-859517232-774519345-1953725044-993079357-708456755-846881326-993079357-708456755-1031430702-859517232-774519345-1031430772-859517232-774519345-846881396-993079357-708456755-1031435310-859517232-774519345-1029858660-859517232-774519345-1030582386-859517232-774519345-1030906218-859517232-774519345-1030906231-859517232-774519345-1030906213-859517232-774519345-1030906227-859517232-774519345-1030906226-859517232-774519345-1031433313-859517232-774519345-1030054753-859517232-774519345-1030713210-859517232-774519345-1869181027-993079357-708456755-1031419694-859517232-774519345-809335410-825441073-1663969850-809329249-825441073-1999514170-809332073-825441073-1932405306-809332087-825441073-1680747066-809332087-825441073-1697524282-809329779-825441073-1781410362-809330544-892549937-1781410362-1030186352-859517232-774519349-1735420525-993079357-708457779-1886022958-809330533-892549937-1731078714-809330281-892549937-1647192634-809332845-892549937-1882073658-809332066-892549937-1882073658-809332071-892549937-1882073658-809332080-892549937-1949182522-809328999-892549937-2016291386-809332066-892549937-2016291386-809332080-892549937-1949182522-809330281-892549937-1949182522-1030121065-859517232-774519349-1030188656-859517232-774519349-1030190707-859517232-774519349-2053600883-993079357-708457779-1735290158-993079357-708457779-2019782702-993079357-708457779-1987013934-993079357-708457779-1735421230-993079357-708457779-1701866798-825245031-976565051-846016042-825245046-976565051-1802317354-825245046-976565051-1702309418-809332066-892549937-1865296442-809332071-892549937-1831742010-809317488-892549937-1831742010-809334324-892549937-1831742010-1031156848-859517232-774519349-1029861238-859517232-774519349-809333873-892549937-1848519226-809334389-892549937-1999514170-809334381-892549937-1630415418-809330291-892549937-1915628090-825245037-976565051-1836199466-809329270-892549937-1714301498-809329516-892549937-1630415418-809331062-892549937-1714301498-809331052-892549937-1714301498-809334380-892549937-1731078714-825245036-976565051-1818504746-993079357-708457779-1717794862-993079357-708457779-1685551150-993079357-708457779-1987410222-993079357-708457779-1835492142-993079357-708457779-1718445358-993079357-708457779-1986490158-993079357-708457779-2020044590-993079357-708457779-1667326254-993013821-708458035-1031102766-859516976-774519350-1667329126-993013821-708458035-1630825774-993013821-708458035-1684630830-993013821-708458035-1684630830-808467817-976630587-1802317354-808467809-976630587-1886203434-808467763-976630587-1886203434-808467811-976630587-1735339562-808467815-976630587-1634872874-993013821-708458035-1986098990-993013821-708458035-1634168622-993013821-708458035-1970302766-808467827-976630587-1886596650-808467832-976630587-1937255978-809330288-909327152-1129054266-1095060831-1163023699-1414415693-1601070397-1429099349-942491220-1397050368-1330398035-792544595-796029813-795765090-1936942444-1701865840-544417056-1275097893-1095786307-1028801872-1432317541-1414868563-3681606-1298088780-1413828175-1029263937-1432317541-1414868563-3681606-1598506072-1431192909-1163022431-1029196102-1836019303-1275080037-1028083265-1415541364-1414868562-3681606-1347635524-1029259596-1325412410-1464878156-1747926340-795176303-2036690017-1294950766--1017023647--1015778372-1396912060-875718959-1764713008-1647326258-1651864367-796158317-929194348-1702389039-1936286578-1191211877-1162694478-1162367839-1398754380-1230197573-1298091599-1027949647-1853186677-1124103540-1380928591-1297237332-1970435133-1819239269-1426092655-1314014547-1027951937-2036690017-1476419950-1449084740-1028804180-1397948466-1430347592-1398753364-1028342607-1853190703-1702065455-808529778-1798254640-1769109861-1932486510-1275095155-1095655235-1698514253-1398103918-1179931950-1476409389-1398753092-1230197573-1230982735-3292484-1380275029-1701601597-6385273-1263748420-1599098708-1397966163-1028542281-1853186677-1358984564-1230976084-1330470733-1162630468-1835628605-1480938496-1297040468-1145981249-792547913-796029813-1918986355-1869360997-1701601635-1313275951-1598377295-1297237332-1279348297-1380143967-1028539717-1735552815-1869506351-1412392301-1768780389-795631982-1701995379-808414821-842282295-1600205369-808674098-1698051167-892886833-1700737081-962880309-1664692579-6370402-1027888976-1836017711-1818308453-1634629989-1935756591-1941750625-800899956-1764709187-1647326258-875718959-1932485168-1768776309-1634479988-1697593186-1668441464-1936028521-1865232687-1207989365-1027951951-1836017711-1818308453-1634629989-1480938496-1297040468-1028540737-1663921513-1768320623-1397948519-1195466568-1599360581-1027885392-926429234-1599361280-1162036033-1112101715-1414089801-3226969-1598506072-1397966163-1598967625-1162893652-825325629-1195661312-1413563487-1229217601-792548178-796029813-1918986355-1651847013-1970564725-1937059642-1869361010-795631971-1918986355-792342373-796029813-1918986355-792342373-796025206-794978668-1885433459-1701064548-1869900659-1146617968-1163091783-1330205523-1162108750-1330924371-1651850576-1970564725-1598245888-1380205633-1028870981-1432317541-1414868563-3681606-1599294023-1430406468-1431265095-1414877268-1685353277-7500389-1314865996-1380273493-1698513737-1398103918-1179931950-1191196717-1298090836-1280656463-1732072261-980183393-762016865-1684632162-1459643751-1329876553-1413566551-3292488-1279608915-1647263052-1647275625-6845281-1297237332-1702131773-841837938-1868772917-7499628-1598379094-1397900630-1028542281-842019381-1599361280-1298091337-1280656463-1769487685-1297612909-1179206735-1397900617-1835614269-1969383741-1296629875-1313817439-1598507334-1396787280-3292485-1598506072-1381127491-1599360581-1263748420-1028673364-1853186677-1195013492-1162694478-1196443392-1162297695-1230984270-1028605518-1853190703-1702065455-808529778-1731145776-1735423342-1731089199-1630365552-1953391975-825897018-1330530048-1415529805-1229804101-1598832974-1448232275-1027949385-925774138-1213399097-1028413004-1146617906-1163091783-1933399105-812933477-1598245888-1162626388-1313818704-1852128581-777213279-759583829-1145503800-1397052237-1313818963-1969386813-7697518-1297043015-1162108741-1330924371-1163091792-1330205523-1145659214-1768453181-1936272755-1885692973-1633903986-6579572-1313296204-1027951937-2036690017-1140875630-1599296834-1397966163-1598967625-1599296834-1380205633-1028870981-2020175477-1952542778-1915698536-1966042741-796026227-808464433-1937072687-1195661312-1314214495-1162692948-1380533343-1970417469-1937059694-825193061-3158064-1414873432-1230131016-792549716-795768178-1919251317-808464687-1684483888-1633169261-1869116533-2037672306-1195661312-1313817439-1598507334-1397901636-1952788285-1685598051-1685598055-1651846503-1970564725-1952788282-1685598051-1095762023-792545364-796029813-1633906540-1651715948-792358505-796029813-1633906540-1768042348-1966029422-1932489331-980314466-1920169263-1852400175-1651715898-792358505-980314466-1920169263-1835099951-792359781-796029813-1633906540-1634152300-980641133-1634628399-1768042352-1129054318-1162103135-1179210830-1413563209-1028542281-1432317541-1414868563-3681606-1599294023-1430406468-1330929479-1396918608-542329405-1330795077-1397373778-1196379168-1397052160-1313818963-1312902495-1380271937-1668246589-1630497889-1853449580-1668296033-1949253690-774860909-759513929-2020175477-960049455-1853172785-1630500969-1853449580-1668296033-1836330810-1227763568-1965901123-796420462-825833777-1397050368-1162891091-545013070-1Parçalama arızası (çekirdek döküldü)
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ./main [] ../test.data [4Pmake -f ../Makefile[6Pgedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.cc./main [] ../test.data [4Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:55:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kint_array[m[K’, which is of non-class type ‘[01m[Kint [(<anonymous> + 1)][m[K’
+     end_point = &int_array[int_array.[01;31m[Ksize[m[K()-2];
+                                      [01;31m[K^~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[6Pgedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[6Pgedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ make -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.cc./main [] ../test.data 
+[ 22-43-12-56-64-42-]
+[ 22 43 12 56 64 42 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ ls
+[0m[01;34m1-out[0m  [01;34m2-find[0m  [01;34m3-sort[0m  [01;34m4-rm[0m  Makefile  test.data
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 2-find/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ls
+find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ cd find.hh
+bash: cd: find.hh: Bir dizin değil
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh 
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 1-out/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ls
+[0m[01;32mmain[0m  main.cc  main.o  out.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit man[Kin.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd [K2[K 2-find/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit out.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit oıt.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit oıt.hhut.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit out.hhıt.hhut.hhfind.hh[3Pcd 2-find/..[Kgedit main.ccls[Kcd 1-out/[4P..gedit find.hh [4Pcd find.hhls[Kcd 2-find/ls[Kcd .../main [] ../test.data [4Pmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile
+g++  -o main
+[01m[Kg++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+../Makefile:18: recipe for target 'main' failed
+make: *** [main] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[7Pgedit out.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[7Pgedit out.hhıt.hhut.hhfind.hh[3Pcd 2-find/..[Kgedit main.ccls[Kcd 1-out/[4P..gedit find.hh [4Pcd find.hh
+bash: cd: find.hh: Bir dizin değil
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ cd find.hhmake -f ../Makefile[7Pgedit out.hhmake -f ../Makefile[7Pgedit out.hhıt.hhut.hhfind.hh[3Pcd 2-find/..[Kgedit main.ccls[Kcd 1-out/[4P..gedit find.hh [4Pcd find.hhls[Kcd 2-find/ls[Kcd .../main [] ../test.data [4Pmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile./main [] ../test.data [K[1P[C[1P ../test.data[1P../test.data[1P ../test.datan ../test.data[C ../test.data[C[C[C[C[C[C[C[C[C[C[C[C[C
+usage: ./main CONTAINER_SPEC INTS_DATA_FILE [INT]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit öan[K[K[Kmq[Kaim.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit mainn.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit ö[Kmain.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ls
+find.hh  [0m[01;32mmain[0m  main.cc  main.o
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 1-out/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ ls
+[0m[01;32mmain[0m  main.cc  main.o  out.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit out.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 2-find/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ls
+find.hh  [0m[01;32mmain[0m  main.cc  main.o
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hhls[Kcd 2-find/..[Kgedit out.hhls[Kcd 1-out/[4P..[3Plsgedit find.hhmain.ccn.cc[1Pm.cc./main  ../test.data[10Pcd find.hh./main  ../test.data[10Pcd find.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:[m[K In function ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int)[m[K’:
+[01m[Kfind.hh:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+   [01;31m[Kp[m[K = std::find(begin,end,arg);
+   [01;31m[K^[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:[m[K In function ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int)[m[K’:
+[01m[Kfind.hh:29:9:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if(p==[01;31m[Karg[m[K){
+         [01;31m[K^~~[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = int*][m[K’:
+[01m[Kmain.cc:58:41:[m[K   required from here
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Deque_iterator<int, int&, int*>][m[K’:
+[01m[Kmain.cc:63:53:[m[K   required from here
+[01m[Kfind.hh:28:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Deque_iterator<int, int&, int*>[m[K’ to ‘[01m[Kint*[m[K’ in assignment
+   [01;31m[Kp = std::find(begin,end,arg)[m[K;
+   [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:28:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ to ‘[01m[Kint*[m[K’ in assignment
+   [01;31m[Kp = std::find(begin,end,arg)[m[K;
+   [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_List_iterator<int>][m[K’:
+[01m[Kmain.cc:73:53:[m[K   required from here
+[01m[Kfind.hh:28:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_List_iterator<int>[m[K’ to ‘[01m[Kint*[m[K’ in assignment
+   [01;31m[Kp = std::find(begin,end,arg)[m[K;
+   [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Rb_tree_const_iterator<int>][m[K’:
+[01m[Kmain.cc:78:53:[m[K   required from here
+[01m[Kfind.hh:28:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ to ‘[01m[Kint*[m[K’ in assignment
+   [01;31m[Kp = std::find(begin,end,arg)[m[K;
+   [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >][m[K’:
+[01m[Kmain.cc:87:43:[m[K   required from here
+[01m[Kfind.hh:28:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__normal_iterator<int*, std::vector<int> >[m[K’ to ‘[01m[Kint*[m[K’ in assignment
+   [01;31m[Kp = std::find(begin,end,arg)[m[K;
+   [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gd[Kedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:[m[K In function ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int)[m[K’:
+[01m[Kfind.hh:29:9:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if(p==[01;31m[Karg[m[K){
+         [01;31m[K^~~[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = int*][m[K’:
+[01m[Kmain.cc:58:41:[m[K   required from here
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Deque_iterator<int, int&, int*>][m[K’:
+[01m[Kmain.cc:63:53:[m[K   required from here
+[01m[Kfind.hh:28:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Deque_iterator<int, int&, int*>[m[K’ to ‘[01m[Kint*[m[K’ in assignment
+   [01;31m[Kp = std::find(begin,end,arg)[m[K;
+   [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:28:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ to ‘[01m[Kint*[m[K’ in assignment
+   [01;31m[Kp = std::find(begin,end,arg)[m[K;
+   [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_List_iterator<int>][m[K’:
+[01m[Kmain.cc:73:53:[m[K   required from here
+[01m[Kfind.hh:28:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_List_iterator<int>[m[K’ to ‘[01m[Kint*[m[K’ in assignment
+   [01;31m[Kp = std::find(begin,end,arg)[m[K;
+   [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Rb_tree_const_iterator<int>][m[K’:
+[01m[Kmain.cc:78:53:[m[K   required from here
+[01m[Kfind.hh:28:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ to ‘[01m[Kint*[m[K’ in assignment
+   [01;31m[Kp = std::find(begin,end,arg)[m[K;
+   [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >][m[K’:
+[01m[Kmain.cc:87:43:[m[K   required from here
+[01m[Kfind.hh:28:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__normal_iterator<int*, std::vector<int> >[m[K’ to ‘[01m[Kint*[m[K’ in assignment
+   [01;31m[Kp = std::find(begin,end,arg)[m[K;
+   [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kfind.hh:29:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+   if([01;31m[Kp==arg[m[K){
+      [01;31m[K~^~~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefıle[K[K[Kile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:[m[K In function ‘[01m[Kvoid loopFn(Iterator, Iterator, int)[m[K’:
+[01m[Kfind.hh:14:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope
+     std::cout<< "FOUND"<<[01;31m[Kendl[m[K;
+                          [01;31m[K^~~~[m[K
+[01m[Kfind.hh:14:26:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/istream:39:0[m[K,
+                 from [01m[K/usr/include/c++/7/fstream:38[m[K,
+                 from [01m[Kmain.cc:2[m[K:
+[01m[K/usr/include/c++/7/ostream:590:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::endl[m[K’
+     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+     [01;36m[K^~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:18:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope
+   std::cout<<"NOT FOUND"<<[01;31m[Kendl[m[K;
+                           [01;31m[K^~~~[m[K
+[01m[Kfind.hh:18:27:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/istream:39:0[m[K,
+                 from [01m[K/usr/include/c++/7/fstream:38[m[K,
+                 from [01m[Kmain.cc:2[m[K:
+[01m[K/usr/include/c++/7/ostream:590:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::endl[m[K’
+     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+     [01;36m[K^~~~[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedıt[K[Kit.[K fın[K[Kinf[Kd.bh[K[Khh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hhls[Kcd 2-find/..[Kgedit out.hhls[Kcd 1-out/[4P..[3Plsgedit find.hhmain.ccn.cc[1Pm.cc./main  ../test.data[C[C ../test.data[1@d[1@e[1@q[1@u[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C 2 2
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main deque  ../test.data 22[K5
+NOT FOUND
+NOTFOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main deque  ../test.data 25[K[K55
+NOT FOUND
+NOTFOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main deque  ../test.data 55[K[K11
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main deque  ../test.data 11[K[K43
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main deque  ../test.data 43[K[K12
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ 1[K./main deque  ../test.data 12[K[K56
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main deque  ../test.data 5612431155252[10Pmake -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh./main deque  ../test.data 5612431155252[10Pmake -f ../Makefile[6Pgedit find.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hh./main deque  ../test.data 56
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main deque  ../test.data 56[1P[1P[1P[1P[1P[1@s[1@e[1@t
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main set  ../test.data 56[C[1@m[1@u[1@l[1@t[1@ı[1P[1@i
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main multiset  ../test.data 56[1P[1P[1P[1P[1P[1P[1P[1P[1@l[1@ı[1P[1@i[1@t[1P[1@s[1@t
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main list  ../test.data 56[1@f[1@o[1@r[1@w[1@a[1@r[1@d[1@_
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main forward_list  ../test.data 56[K5
+NOT FOUND
+Parçalama arızası (çekirdek döküldü)
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main forward_list  ../test.data 556[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@multise[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@deque[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pmake -f ../Makefile[6Pgedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh./main forward_list  ../test.data 556[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@multise[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@deque[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:26:27:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Koperator--(int)[m[K’ declared for postfix ‘[01m[K--[m[K’ [[01;31m[K-fpermissive[m[K]
+   if(*(std::find(begin,[01;31m[Kend--[m[K,arg)) == arg){
+                        [01;31m[K~~~^~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[6Pgedit find.hh./main forward_list  ../test.data 55[23Pgedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:26:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ and ‘[01m[Kint[m[K’)
+   if(*(std::find(begin,[01;31m[Kend-1[m[K,arg)) == arg){
+                        [01;31m[K~~~^~[m[K
+In file included from [01m[K/usr/include/c++/7/vector:65:0[m[K,
+                 from [01m[Kmain.cc:12[m[K:
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[Kcandidate: std::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)
+   [01;36m[Koperator[m[K-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
+   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ to ‘[01m[Kconst std::_Bit_iterator_base&[m[K’
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Ref, class _Ptr> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_List_iterator<int>][m[K’:
+[01m[Kmain.cc:73:53:[m[K   required from here
+[01m[Kfind.hh:26:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::_List_iterator<int>[m[K’ and ‘[01m[Kint[m[K’)
+In file included from [01m[K/usr/include/c++/7/vector:65:0[m[K,
+                 from [01m[Kmain.cc:12[m[K:
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[Kcandidate: std::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)
+   [01;36m[Koperator[m[K-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
+   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_List_iterator<int>[m[K’ to ‘[01m[Kconst std::_Bit_iterator_base&[m[K’
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Ref, class _Ptr> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Rb_tree_const_iterator<int>][m[K’:
+[01m[Kmain.cc:78:53:[m[K   required from here
+[01m[Kfind.hh:26:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ and ‘[01m[Kint[m[K’)
+In file included from [01m[K/usr/include/c++/7/vector:65:0[m[K,
+                 from [01m[Kmain.cc:12[m[K:
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[Kcandidate: std::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)
+   [01;36m[Koperator[m[K-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
+   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ to ‘[01m[Kconst std::_Bit_iterator_base&[m[K’
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Ref, class _Ptr> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   if(*(std::find(begin,[01;36m[Kend-1[m[K,arg)) == arg){
+                        [01;36m[K~~~^~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[6Pgedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = int*][m[K’:
+[01m[Kmain.cc:58:41:[m[K   required from here
+[01m[Kfind.hh:26:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kfind(int*&, int&, int&)[m[K’
+   if(*[01;31m[K(std::find(begin,*(end-1),arg))[m[K == arg){
+       [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_algo.h:3899:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IIter, class _Tp> _IIter std::find(_IIter, _IIter, const _Tp&)
+     [01;36m[Kfind[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_algo.h:3899:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:17:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_IIter[m[K’ (‘[01m[Kint*[m[K’ and ‘[01m[Kint[m[K’)
+   if(*[01;36m[K(std::find(begin,*(end-1),arg))[m[K == arg){
+       [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/locale_facets.h:48:0[m[K,
+                 from [01m[K/usr/include/c++/7/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/ios:44[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/fstream:38[m[K,
+                 from [01m[Kmain.cc:2[m[K:
+[01m[K/usr/include/c++/7/bits/streambuf_iterator.h:369:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT2> typename __gnu_cxx::__enable_if<std::__is_char<_CharT2>::__value, std::istreambuf_iterator<_CharT> >::__type std::find(std::istreambuf_iterator<_CharT>, std::istreambuf_iterator<_CharT>, const _CharT2&)
+     [01;36m[Kfind[m[K(istreambuf_iterator<_CharT> __first,
+     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/streambuf_iterator.h:369:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:17:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::istreambuf_iterator<_CharT>[m[K’ and ‘[01m[Kint*[m[K’
+   if(*[01;36m[K(std::find(begin,*(end-1),arg))[m[K == arg){
+       [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Deque_iterator<int, int&, int*>][m[K’:
+[01m[Kmain.cc:63:53:[m[K   required from here
+[01m[Kfind.hh:26:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kfind(std::_Deque_iterator<int, int&, int*>&, int&, int&)[m[K’
+In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_algo.h:3899:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IIter, class _Tp> _IIter std::find(_IIter, _IIter, const _Tp&)
+     [01;36m[Kfind[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_algo.h:3899:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:17:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_IIter[m[K’ (‘[01m[Kstd::_Deque_iterator<int, int&, int*>[m[K’ and ‘[01m[Kint[m[K’)
+   if(*[01;36m[K(std::find(begin,*(end-1),arg))[m[K == arg){
+       [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/locale_facets.h:48:0[m[K,
+                 from [01m[K/usr/include/c++/7/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/ios:44[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/fstream:38[m[K,
+                 from [01m[Kmain.cc:2[m[K:
+[01m[K/usr/include/c++/7/bits/streambuf_iterator.h:369:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT2> typename __gnu_cxx::__enable_if<std::__is_char<_CharT2>::__value, std::istreambuf_iterator<_CharT> >::__type std::find(std::istreambuf_iterator<_CharT>, std::istreambuf_iterator<_CharT>, const _CharT2&)
+     [01;36m[Kfind[m[K(istreambuf_iterator<_CharT> __first,
+     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/streambuf_iterator.h:369:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:17:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Deque_iterator<int, int&, int*>[m[K’ is not derived from ‘[01m[Kstd::istreambuf_iterator<_CharT>[m[K’
+   if(*[01;36m[K(std::find(begin,*(end-1),arg))[m[K == arg){
+       [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:26:29:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ and ‘[01m[Kint[m[K’)
+   if(*(std::find(begin,*[01;31m[K(end-1)[m[K,arg)) == arg){
+                         [01;31m[K~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/7/vector:65:0[m[K,
+                 from [01m[Kmain.cc:12[m[K:
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[Kcandidate: std::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)
+   [01;36m[Koperator[m[K-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
+   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ to ‘[01m[Kconst std::_Bit_iterator_base&[m[K’
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Ref, class _Ptr> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_List_iterator<int>][m[K’:
+[01m[Kmain.cc:73:53:[m[K   required from here
+[01m[Kfind.hh:26:29:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::_List_iterator<int>[m[K’ and ‘[01m[Kint[m[K’)
+In file included from [01m[K/usr/include/c++/7/vector:65:0[m[K,
+                 from [01m[Kmain.cc:12[m[K:
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[Kcandidate: std::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)
+   [01;36m[Koperator[m[K-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
+   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_List_iterator<int>[m[K’ to ‘[01m[Kconst std::_Bit_iterator_base&[m[K’
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Ref, class _Ptr> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Rb_tree_const_iterator<int>][m[K’:
+[01m[Kmain.cc:78:53:[m[K   required from here
+[01m[Kfind.hh:26:29:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ and ‘[01m[Kint[m[K’)
+In file included from [01m[K/usr/include/c++/7/vector:65:0[m[K,
+                 from [01m[Kmain.cc:12[m[K:
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[Kcandidate: std::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)
+   [01;36m[Koperator[m[K-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
+   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:208:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ to ‘[01m[Kconst std::_Bit_iterator_base&[m[K’
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+                 from [01m[Kmain.cc:8[m[K:
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Ref, class _Ptr> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     [01;36m[Koperator[m[K-(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_deque.h:351:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   if(*(std::find(begin,*[01;36m[K(end-1)[m[K,arg)) == arg){
+                         [01;36m[K~~~~^~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >][m[K’:
+[01m[Kmain.cc:87:43:[m[K   required from here
+[01m[Kfind.hh:26:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kfind(__gnu_cxx::__normal_iterator<int*, std::vector<int> >&, int&, int&)[m[K’
+   if(*[01;31m[K(std::find(begin,*(end-1),arg))[m[K == arg){
+       [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_algo.h:3899:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IIter, class _Tp> _IIter std::find(_IIter, _IIter, const _Tp&)
+     [01;36m[Kfind[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_algo.h:3899:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:17:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_IIter[m[K’ (‘[01m[K__gnu_cxx::__normal_iterator<int*, std::vector<int> >[m[K’ and ‘[01m[Kint[m[K’)
+   if(*[01;36m[K(std::find(begin,*(end-1),arg))[m[K == arg){
+       [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/locale_facets.h:48:0[m[K,
+                 from [01m[K/usr/include/c++/7/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/ios:44[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/fstream:38[m[K,
+                 from [01m[Kmain.cc:2[m[K:
+[01m[K/usr/include/c++/7/bits/streambuf_iterator.h:369:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT2> typename __gnu_cxx::__enable_if<std::__is_char<_CharT2>::__value, std::istreambuf_iterator<_CharT> >::__type std::find(std::istreambuf_iterator<_CharT>, std::istreambuf_iterator<_CharT>, const _CharT2&)
+     [01;36m[Kfind[m[K(istreambuf_iterator<_CharT> __first,
+     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/streambuf_iterator.h:369:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:26:17:[m[K [01;36m[Knote: [m[K  ‘[01m[K__gnu_cxx::__normal_iterator<int*, std::vector<int> >[m[K’ is not derived from ‘[01m[Kstd::istreambuf_iterator<_CharT>[m[K’
+   if(*[01;36m[K(std::find(begin,*(end-1),arg))[m[K == arg){
+       [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[6Pgedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:26:24:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator--[m[K’ (operand type is ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’)
+   if(*(std::find(begin,[01;31m[K--end[m[K,arg)) == arg){
+                        [01;31m[K^~~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[6Pgedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:25:17:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator--[m[K’ (operand type is ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’)
+   auto p = end; [01;31m[K--p[m[K;
+                 [01;31m[K^~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:26:3:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator--[m[K’ (operand type is ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’)
+   [01;31m[K--p[m[K;
+   [01;31m[K^~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[6Pgedit find.hh&
+[1] 19741
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh&make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:26:4:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-=[m[K’ (operand types are ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’ and ‘[01m[Kint[m[K’)
+   [01;31m[Kp-=1[m[K;
+   [01;31m[K~^~~[m[K
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_List_iterator<int>][m[K’:
+[01m[Kmain.cc:73:53:[m[K   required from here
+[01m[Kfind.hh:26:4:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-=[m[K’ (operand types are ‘[01m[Kstd::_List_iterator<int>[m[K’ and ‘[01m[Kint[m[K’)
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Rb_tree_const_iterator<int>][m[K’:
+[01m[Kmain.cc:78:53:[m[K   required from here
+[01m[Kfind.hh:26:4:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-=[m[K’ (operand types are ‘[01m[Kstd::_Rb_tree_const_iterator<int>[m[K’ and ‘[01m[Kint[m[K’)
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+[1]+  Bitti                   gedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[5Pgedit find.hh&make -f ../Makefile[5Pgedit find.hh&
+[1] 19753
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh&make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:28:2:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator--[m[K’ (operand type is ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’)
+  [01;31m[K--p[m[K;
+  [01;31m[K^~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[5Pgedit find.hh&
+[2] 19778
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh&make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:[m[K In function ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int)[m[K’:
+[01m[Kfind.hh:26:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+   if(*(std::find(begin,[01;31m[Kp[m[K,arg)) == arg){
+                        [01;31m[K^[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+[2]+  Bitti                   gedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[5Pgedit find.hh&make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:17:0[m[K:
+[01m[Kfind.hh:[m[K In function ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int)[m[K’:
+[01m[Kfind.hh:25:3:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto p[m[K’ has no initializer
+   [01;31m[Kauto[m[K p;
+   [01;31m[K^~~~[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[5Pgedit find.hh&
+[2] 19794
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh&make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+[2]+  Bitti                   gedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile[5Pgedit find.hh&make -f ../Makefile[5Pgedit find.hh&make -f ../Makefile[5Pgedit find.hh&make -f ../Makefile[5Pgedit find.hh&make -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hhmake -f ../Makefile[6Pgedit find.hh./main forward_list  ../test.data 556[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@multise[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Plis[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main list  ../test.data 56[9Pmake -f ../Makefile[5Pgedit find.hh&make -f ../Makefile[5Pgedit find.hh&make -f ../Makefile./main list  ../test.data 56[1@f[1@o[1@r[1@w[1@a[1@r[1@d[1@_
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main forward_list  ../test.data 56[K[K22
+FOUND
+FOUND
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ./main forward_list  ../test.data 22[K3
+NOT FOUND
+Parçalama arızası (çekirdek döküldü)
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ^C
+
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ asd[K[K[Km[K./main forward_list  ../test.data 23256[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:27:24:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator--[m[K’ (operand type is ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’)
+   if(*(std::find(begin,[01;31m[K--p[m[K,arg)) == arg){
+                        [01;31m[K^~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile./main forward_list  ../test.data 23[17Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:27:25:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Koperator--(int)[m[K’ declared for postfix ‘[01m[K--[m[K’ [[01;31m[K-fpermissive[m[K]
+   if(*(std::find(begin,[01;31m[Kp--[m[K,arg)) == arg){
+                        [01;31m[K~^~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ make -f ../Makefile./main forward_list  ../test.data 23[17Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:17:0[m[K:
+find.hh: In instantiation of ‘[01m[Kvoid noLoopFn(Iterator, Iterator, int) [with Iterator = std::_Fwd_list_iterator<int>][m[K’:
+[01m[Kmain.cc:68:53:[m[K   required from here
+[01m[Kfind.hh:28:2:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator--[m[K’ (operand type is ‘[01m[Kstd::_Fwd_list_iterator<int>[m[K’)
+  [01;31m[K--p[m[K;
+  [01;31m[K^~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ cd ..
+[1]+  Bitti                   gedit find.hh  (wd: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find)
+(wd artık: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises)
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ ls
+[0m[01;34m1-out[0m  [01;34m2-find[0m  [01;34m3-sort[0m  [01;34m4-rm[0m  Makefile  test.data
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 3-sort/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 2-find/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ls
+find.hh  [0m[01;32mmain[0m  main.cc  main.o
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit main.ccls[Kcd 2-find/..[K3-sort/ls[Kcd ..make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:17:10:[m[K [01;31m[Kfatal error: [m[Ksort.hh: Böyle bir dosya ya da dizin yok
+ #include [01;31m[K"sort.hh"[m[K
+          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 3-sort/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[00m$ gedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[00m$ gedit main.cc[3Pcd 3-sort/..[Kgedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:53:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[00m$ make -f ../Makefile[6Pgedit main.cc[3Pcd 3-sort/..[Kgedit main.ccmake -f ../Makefile[6Pgedit main.ccls[Kcd 2-find/..[K3-sort/ls[Kcd ..make -f ../Makefile./main forward_list  ../test.data 23
+unknown container forward_list
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[00m$ ./main forward_list  ../test.data 23[17Pmake -f ../Makefile[6Pgedit main.cc[3Pcd 3-sort/..[Kgedit main.ccmake -f ../Makefile[6Pgedit main.ccls[Kcd 2-find/..[K3-sort/ls[Kcd ..make -f ../Makefile./main forward_list  ../test.data 23[Kvec tor[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K2[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@v[1@e[1@c[1@t[1@o[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[ 11 12 22 22 42 43 56 64 ]
+[ 11 12 22 22 42 43 56 64 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[00m$ ./main vector  ../test.data 22forward_list  ../test.data 23[6Pvector  ../test.data 22[K[K
+[ 11 12 22 22 42 43 56 64 ]
+[ 11 12 22 22 42 43 56 64 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[00m$ cdd[K ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 1-out/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ gedit ma,[Kin.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 4-rm/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ gedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ ls
+main.cc  rm.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ gedit rm.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ gedit manin.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ gedit main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd3[K 3-sort/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[00m$ ls
+[0m[01;32mmain[0m  main.cc  main.o  sort.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[00m$ gedit sorth.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[00m$ gedit sort.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 2-find/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ ls
+find.hh  [0m[01;32mmain[0m  main.cc  main.o
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ gedit find.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises[00m$ cd 4-rm/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ ls
+main.cc  rm.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ gedit [K rm.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ ./main vector  ../test.data 
+[ 22 43 12 56 64 42 11 22 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ ./main vector  ../test.data 22
+[ 43 12 56 64 42 11 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ ./main vector  ../test.data 22[K[9Pmake -f ../Makefile[8Pgedit rm.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ gedit rm.hh./main vector  ../test.data 22[K[9Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ make -f ../Makefile[8Pgedit rm.hh./main vector  ../test.data 22
+[ 43 12 56 64 42 11 22 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ ./main vector  ../test.data 22[Kgedit rm.hh
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ gedit rm.hh./main vector  ../test.data 22[11Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(std::__cxx11::string, std::vector<int>, int)[m[K’:
+[01m[Kmain.cc:48:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i=0; [01;35m[Ki<ints.size()[m[K; i++){
+                  [01;35m[K~^~~~~~~~~~~~[m[K
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ make -f ../Makefile[8Pgedit rm.hh./main vector  ../test.data 22[11Pmake -f ../Makefile./main vector  ../test.data 22
+[ 43 12 56 64 42 11 22 ]
+[ 43 12 56 64 42 11 22 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ ./main vector  ../test.data 22[K[K64
+[ 22 43 12 56 42 11 22 ]
+[ 22 43 12 56 42 11 22 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ ./main vector  ../test.data 64[K[K
+[ 22 43 12 56 64 42 11 22 ]
+[ 22 43 12 56 64 42 11 22 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ ./main vector  ../test.data [K [K 11
+[ 22 43 12 56 64 42 22 ]
+[ 22 43 12 56 64 42 22 ]
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm[00m$ exit
+
+Script done on 2020-04-08 17:01:57-0400
