@@ -22,7 +22,7 @@ void loopFn(Iterator begin, Iterator end, int arg) {
 template <typename Iterator>
 void noLoopFn(Iterator begin, Iterator end, int arg) {
   //@TODO
-  if(*(std::find(begin,p,arg)) == arg){
+  if(*(std::find(begin,end,arg)) == arg){
     std::cout<<"FOUND"<<std::endl;
   }
   
