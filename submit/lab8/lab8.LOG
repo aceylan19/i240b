@@ -1,0 +1,1621 @@
+Script started on 2020-04-09 14:12:18-0400
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ cp -r ~/cs[K[KMasaüstü/CS/i240b/i240b/labs/lab8/exe rcises
+cp: '/home/aleyna/Masaüstü/CS/i240b/i240b/labs/lab8/exercises' sonrasında hedef dosya işleyeni eksik
+Try 'cp --help' for more information.
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ cp -r ~/Masaüstü/CS/i240b/i240b/labs/lab8/exerrcises .
+cp: '/home/aleyna/Masaüstü/CS/i240b/i240b/labs/lab8/exercises' durumlanamadı: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ cp -r ~/Masaüstü/CS/i240b/i240b/labs/lab8/exerrcises .[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb/labs/lab8/exerc[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/labs/lab8/exerci[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/labs/lab8/exercis[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/labs/lab8/exercise[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/labs/lab8/exercises[1P .[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc/labs/lab8/exercises .[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs/labs/lab8/exercis[1@e[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2/labs/lab8/exerci[1@s[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4/labs/lab8/exerc[1@i[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0/labs/lab8/exer[1@c[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb/cs240/labs/lab8/exerc[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb/cs240/labs/lab8/exerci[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb/cs240/labs/lab8/exercis[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb/cs240/labs/lab8/exercise[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/cs240/labs/lab8/exercises[1P .[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc/cs240/labs/lab8/exercises .[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs/cs240/labs/lab8/exercis[1@e[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2/cs240/labs/lab8/exerci[1@s[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4/cs240/labs/lab8/exerc[1@i[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0/cs240/labs/lab8/exer[1@c[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ env
+CLUTTER_IM_MODULE=xim
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LC_MEASUREMENT=en_US.UTF-8
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_PAPER=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+XDG_MENU_PREFIX=gnome-
+LANG=tr_TR.UTF-8
+DISPLAY=:0
+OLDPWD=/home/aleyna/Masaüstü/CS/i240b/i240b
+GNOME_SHELL_SESSION_MODE=ubuntu
+COLORTERM=truecolor
+USERNAME=aleyna
+XDG_VTNR=2
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+LC_NAME=en_US.UTF-8
+XDG_SESSION_ID=2
+USER=aleyna
+DESKTOP_SESSION=ubuntu
+QT4_IM_MODULE=xim
+TEXTDOMAINDIR=/usr/share/locale/
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/3cd2e45a_2f31_4f55_834f_a63e09144a98
+PWD=/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab8
+HOME=/home/aleyna
+TEXTDOMAIN=im-config
+SSH_AGENT_PID=4050
+QT_ACCESSIBILITY=1
+XDG_SESSION_TYPE=x11
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_SESSION_DESKTOP=ubuntu
+LC_ADDRESS=en_US.UTF-8
+GJS_DEBUG_OUTPUT=stderr
+LC_NUMERIC=en_US.UTF-8
+GTK_MODULES=gail:atk-bridge
+WINDOWPATH=2
+SHELL=/bin/bash
+TERM=xterm-256color
+VTE_VERSION=5202
+QT_IM_MODULE=xim
+XMODIFIERS=@im=ibus
+IM_CONFIG_PHASE=2
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GNOME_TERMINAL_SERVICE=:1.86
+SHLVL=2
+XDG_SEAT=seat0
+LC_TELEPHONE=en_US.UTF-8
+GDMSESSION=ubuntu
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LOGNAME=aleyna
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+XDG_RUNTIME_DIR=/run/user/1000
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+LC_IDENTIFICATION=en_US.UTF-8
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+SESSION_MANAGER=local/aleyna-pc:@/tmp/.ICE-unix/3955,unix/aleyna-pc:/tmp/.ICE-unix/3955
+LESSOPEN=| /usr/bin/lesspipe %s
+GTK_IM_MODULE=ibus
+LC_TIME=en_US.UTF-8
+_=/usr/bin/env
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ echo $HOME 
+/home/aleyna
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ ECHO[K[K[K[Kexport xxx
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ xxx = 123
+
+Command 'xxx' not found, did you mean:
+
+  command 'xx' from deb fex-utils
+  command 'xdx' from deb xdx
+  command 'x2x' from deb x2x
+  command 'xxd' from deb xxd
+
+Try: sudo apt install <deb name>
+
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ export $xxx
+declare -x CLUTTER_IM_MODULE="xim"
+declare -x COLORTERM="truecolor"
+declare -x DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"
+declare -x DESKTOP_SESSION="ubuntu"
+declare -x DISPLAY=":0"
+declare -x GDMSESSION="ubuntu"
+declare -x GJS_DEBUG_OUTPUT="stderr"
+declare -x GJS_DEBUG_TOPICS="JS ERROR;JS LOG"
+declare -x GNOME_DESKTOP_SESSION_ID="this-is-deprecated"
+declare -x GNOME_SHELL_SESSION_MODE="ubuntu"
+declare -x GNOME_TERMINAL_SCREEN="/org/gnome/Terminal/screen/3cd2e45a_2f31_4f55_834f_a63e09144a98"
+declare -x GNOME_TERMINAL_SERVICE=":1.86"
+declare -x GPG_AGENT_INFO="/run/user/1000/gnupg/S.gpg-agent:0:1"
+declare -x GTK_IM_MODULE="ibus"
+declare -x GTK_MODULES="gail:atk-bridge"
+declare -x HOME="/home/aleyna"
+declare -x IM_CONFIG_PHASE="2"
+declare -x LANG="tr_TR.UTF-8"
+declare -x LC_ADDRESS="en_US.UTF-8"
+declare -x LC_IDENTIFICATION="en_US.UTF-8"
+declare -x LC_MEASUREMENT="en_US.UTF-8"
+declare -x LC_MONETARY="en_US.UTF-8"
+declare -x LC_NAME="en_US.UTF-8"
+declare -x LC_NUMERIC="en_US.UTF-8"
+declare -x LC_PAPER="en_US.UTF-8"
+declare -x LC_TELEPHONE="en_US.UTF-8"
+declare -x LC_TIME="en_US.UTF-8"
+declare -x LESSCLOSE="/usr/bin/lesspipe %s %s"
+declare -x LESSOPEN="| /usr/bin/lesspipe %s"
+declare -x LOGNAME="aleyna"
+declare -x LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"
+declare -x OLDPWD="/home/aleyna/Masaüstü/CS/i240b/i240b"
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+declare -x PWD="/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab8"
+declare -x QT4_IM_MODULE="xim"
+declare -x QT_ACCESSIBILITY="1"
+declare -x QT_IM_MODULE="xim"
+declare -x SESSION_MANAGER="local/aleyna-pc:@/tmp/.ICE-unix/3955,unix/aleyna-pc:/tmp/.ICE-unix/3955"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="2"
+declare -x SSH_AGENT_PID="4050"
+declare -x SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"
+declare -x TERM="xterm-256color"
+declare -x TEXTDOMAIN="im-config"
+declare -x TEXTDOMAINDIR="/usr/share/locale/"
+declare -x USER="aleyna"
+declare -x USERNAME="aleyna"
+declare -x VTE_VERSION="5202"
+declare -x WINDOWPATH="2"
+declare -x XAUTHORITY="/run/user/1000/gdm/Xauthority"
+declare -x XDG_CONFIG_DIRS="/etc/xdg/xdg-ubuntu:/etc/xdg"
+declare -x XDG_CURRENT_DESKTOP="ubuntu:GNOME"
+declare -x XDG_DATA_DIRS="/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"
+declare -x XDG_MENU_PREFIX="gnome-"
+declare -x XDG_RUNTIME_DIR="/run/user/1000"
+declare -x XDG_SEAT="seat0"
+declare -x XDG_SESSION_DESKTOP="ubuntu"
+declare -x XDG_SESSION_ID="2"
+declare -x XDG_SESSION_TYPE="x11"
+declare -x XDG_VTNR="2"
+declare -x XMODIFIERS="@im=ibus"
+declare -x xxx
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ xxx =1[K[K[K=123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ echo $xxx
+123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ env | grep xxx
+[01;31m[Kxxx[m[K=123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ export xxx
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ env | grep xx
+[01;31m[Kxx[m[Kx=123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ exo[Kport xx [K=456
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ env | grep xx
+[01;31m[Kxx[m[K=456
+[01;31m[Kxx[m[Kx=123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ export $p
+declare -x CLUTTER_IM_MODULE="xim"
+declare -x COLORTERM="truecolor"
+declare -x DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"
+declare -x DESKTOP_SESSION="ubuntu"
+declare -x DISPLAY=":0"
+declare -x GDMSESSION="ubuntu"
+declare -x GJS_DEBUG_OUTPUT="stderr"
+declare -x GJS_DEBUG_TOPICS="JS ERROR;JS LOG"
+declare -x GNOME_DESKTOP_SESSION_ID="this-is-deprecated"
+declare -x GNOME_SHELL_SESSION_MODE="ubuntu"
+declare -x GNOME_TERMINAL_SCREEN="/org/gnome/Terminal/screen/3cd2e45a_2f31_4f55_834f_a63e09144a98"
+declare -x GNOME_TERMINAL_SERVICE=":1.86"
+declare -x GPG_AGENT_INFO="/run/user/1000/gnupg/S.gpg-agent:0:1"
+declare -x GTK_IM_MODULE="ibus"
+declare -x GTK_MODULES="gail:atk-bridge"
+declare -x HOME="/home/aleyna"
+declare -x IM_CONFIG_PHASE="2"
+declare -x LANG="tr_TR.UTF-8"
+declare -x LC_ADDRESS="en_US.UTF-8"
+declare -x LC_IDENTIFICATION="en_US.UTF-8"
+declare -x LC_MEASUREMENT="en_US.UTF-8"
+declare -x LC_MONETARY="en_US.UTF-8"
+declare -x LC_NAME="en_US.UTF-8"
+declare -x LC_NUMERIC="en_US.UTF-8"
+declare -x LC_PAPER="en_US.UTF-8"
+declare -x LC_TELEPHONE="en_US.UTF-8"
+declare -x LC_TIME="en_US.UTF-8"
+declare -x LESSCLOSE="/usr/bin/lesspipe %s %s"
+declare -x LESSOPEN="| /usr/bin/lesspipe %s"
+declare -x LOGNAME="aleyna"
+declare -x LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"
+declare -x OLDPWD="/home/aleyna/Masaüstü/CS/i240b/i240b"
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+declare -x PWD="/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab8"
+declare -x QT4_IM_MODULE="xim"
+declare -x QT_ACCESSIBILITY="1"
+declare -x QT_IM_MODULE="xim"
+declare -x SESSION_MANAGER="local/aleyna-pc:@/tmp/.ICE-unix/3955,unix/aleyna-pc:/tmp/.ICE-unix/3955"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="2"
+declare -x SSH_AGENT_PID="4050"
+declare -x SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"
+declare -x TERM="xterm-256color"
+declare -x TEXTDOMAIN="im-config"
+declare -x TEXTDOMAINDIR="/usr/share/locale/"
+declare -x USER="aleyna"
+declare -x USERNAME="aleyna"
+declare -x VTE_VERSION="5202"
+declare -x WINDOWPATH="2"
+declare -x XAUTHORITY="/run/user/1000/gdm/Xauthority"
+declare -x XDG_CONFIG_DIRS="/etc/xdg/xdg-ubuntu:/etc/xdg"
+declare -x XDG_CURRENT_DESKTOP="ubuntu:GNOME"
+declare -x XDG_DATA_DIRS="/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"
+declare -x XDG_MENU_PREFIX="gnome-"
+declare -x XDG_RUNTIME_DIR="/run/user/1000"
+declare -x XDG_SEAT="seat0"
+declare -x XDG_SESSION_DESKTOP="ubuntu"
+declare -x XDG_SESSION_ID="2"
+declare -x XDG_SESSION_TYPE="x11"
+declare -x XDG_VTNR="2"
+declare -x XMODIFIERS="@im=ibus"
+declare -x xx="456"
+declare -x xxx="123"
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ echo $p
+
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ echo[K[K[K[Kp [K[Keho[K[Kcho $p [K0[K=PAR[KTH
+=PATH
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ echo $p
+
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ export p=¾[K$PATH:PATH[K[K[K[Kpath/to/my [K/rpog[K[K[K[Kprog[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ echo $path[K[K[K
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ Path[K[K[KATH [K=$()G)E)T)C)O)N)F)[1P)[1P)[1P)[1P)[1P)[1P)[1P)g)e)t)c)o)n)f) )A)T)H)[1P)[1P)[1P)P)A)T)H)[C
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ echo $PATH
+/bin:/usr/bin
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ LS[K[Kls
+[0m[01;34mexercises[0m  lab8.LOG
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ echo $PATH=p
+/bin:/usr/bin=p
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ echo $PATH
+/bin:/usr/bin
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ EC[K[Kec[Kxport PATH0[K=$p
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ ls ; wc *
+[0m[01;34mexercises[0m  lab8.LOG
+wc: exercises: Bir dizin
+      0       0       0 exercises
+    210     631   20480 lab8.LOG
+    210     631   20480 toplam
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/cs240 -name '*.c'
+find: ‘/home/aleyna/cs240’: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find [K[K[K[K[Kfind -L ~/cs240 -name '*.c' | wc -l
+find: ‘/home/aleyna/cs240’: Böyle bir dosya ya da dizin yok
+0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/cs240 -name '*.c' | wc -l[C[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+find: ‘/home/aleyna/cs240’: Böyle bir dosya ya da dizin yok
+0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ sk[Kleep 100 [K ¾[K&
+[1] 6934
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ jobs 
+[1]+  Çalışıyor           sleep 100 &
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/cs240 -name '*.c'
+find: ‘/home/aleyna/cs240’: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/cs240 -name '*.c'[1P[1P[1P[1P[1P[1@i[1@2[1@4[1@0[C[C[C[C[C[C[C[1@/[1@i[1@2[1@4[1@0[C[C[C[C[C[C[C[C[C[C[C[C
+find: ‘/home/aleyna/i240/i240’: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/i240/i240 -name '*.c'[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C
+find: ‘/home/aleyna/i240’: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/i240 -name '*.c'[5@/i240[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P~/Masaüstü/CS/cs240/cs240 -name '*.c' [A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[1]+  Bitti                   sleep 100
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/Masaüstü/CS/cs240/cs240 -name '*.c' | wc -l
+0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/Masaüstü/CS/cs240/cs240 -name '*.c' | wc -l
+0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/Masaüstü/CS/cs240/cs240 -name '*.c' | wc -l[K
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/Masaüstü/CS/cs240/cs240 -name '*.c'[1@/[1@l[1@a[1@b[1@s
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/Masaüstü/CS/cs240/cs240/labs -name '*.c'[1@/[1@l[1@a[1@b[1@7
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/Masaüstü/CS/cs240/cs240/labs/lab7 -name '*.c'[1@/[1@2[1@*
+find: ‘/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab7/2*’: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/Masaüstü/CS/cs240/cs240/labs/lab7/2* -name '*.c'[1@/
+find: ‘/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab7/2*/’: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/Masaüstü/CS/cs240/cs240/labs/lab7/2*/ -name '*.c'[C[C[1P[1@1
+find: ‘/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab7/1*/’: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ find -L ~/Masaüstü/CS/cs240/cs240/labs/lab7/1*/ -name '*.c'[C[C[1P[1P[1P[1P
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ ls
+[0m[01;34mexercises[0m  lab8.LOG
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ cd exercises/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ ls
+[0m[01;34m3-subshells[0m
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ kill %1
+bash: kill: %1: böyle bir iş yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ jobs 
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ cd ~
+]0;aleyna@aleyna-pc: ~[01;32maleyna@aleyna-pc[00m:[01;34m~[00m$ pwd
+/home/aleyna
+]0;aleyna@aleyna-pc: ~[01;32maleyna@aleyna-pc[00m:[01;34m~[00m$ xx0123[K[K[K[K=123
+]0;aleyna@aleyna-pc: ~[01;32maleyna@aleyna-pc[00m:[01;34m~[00m$ pwd; echo $xx; ()x)x)=)a)b)c);) )c)d)/);) )p)w)d);) )e)c)h)o) )+)x)x)[C; pwd; echo +xx[K[K[K+[K+[K%[K$xx
+/home/aleyna
+123
+bash: cd/: Böyle bir dosya ya da dizin yok
+/home/aleyna
++xx
+/home/aleyna
+123
+]0;aleyna@aleyna-pc: ~[01;32maleyna@aleyna-pc[00m:[01;34m~[00m$ cd Masaüstü
+]0;aleyna@aleyna-pc: ~/Masaüstü[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü[00m$ cd CS/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS[00m$ cd i240b/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b[00m$ cd i240b/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b[00m$ cds
+
+Command 'cds' not found, but there are 16 similar ones.
+
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b[00m$ cd submit/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ cd lab8
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ ls
+[0m[01;34mexercises[0m  lab8.LOG
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ cd exercises/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ ls
+[0m[01;34m3-subshells[0m
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ cd 3-subshells/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ ls
+Makefile
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ Mkefi[K[K[K[Kakefile 
+Makefile: komut bulunamadı
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ cd m[KM[K[K[K[Kgedşt[K[Kşt [K[K[Kit Make [Kfil [Ke 
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ ls
+Makefile
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ make 
+cd ~/cs240
+/bin/sh: 1: cd: can't cd to /home/aleyna/cs240
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 2
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ ls
+Makefile
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ gedit Makefile 
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ make [K[K[K[K[Kmake 
+cd ~/Masaüstü/CS/i240b/i240b/submit/lab8
+ls
+Makefile
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ M[Kmake -f
+make: seçenek bir argümanla kullanılır -- f
+Kullanım: make [seçenekler] [hedef] ...
+Seçenekler:
+  -b, -m                      Uyumluluk için yoksayıldı.
+  -B, --always-make           Tüm hedefler koşulsuz olarak oluşturulur.
+  -C DİZİN, --directory=DIZIN Birşey yapmadan önce DİZİNe geçilir.
+  -b, -m                      Bir sürü hata ayıklama bilgisi basar.
+  --debug[=SEÇENEKLER]        Çeşitli türde hata ayıklama bilgileri basar.
+  -e, --environment-overrides Ortam değişkenleri makefile'ları değiştirir.
+  --eval=STRING               Evaluate STRING as a makefile statement.
+  -f DOSYA, --file=DOSYA, --makefile=DOSYA
+                              DOSYAyı bir makefile olarak okur.
+  -h, --help                  Bu iletiyi basar ve çıkar.
+  -i, --ignore-errors         Ignore errors from recipes.
+  -I DİZİN, --include-dir=DİZİN
+                              Eklenecek makefile'ları DİZİNde arar.
+  -j [N], --jobs[=N]          Bir defada N işe izin verir; argumansız iş
+                              sayısı sınırsızdır.
+  -k, --keep-going            Bazı hedefler yapılmadığında devam eder.
+  -l [N], --load-average[=N], --max-load[=N]
+                              Yük N'den az olmadıkça çoklu işler başlatılmaz.
+  -L, --check-symlink-times   sembolik bağlarla hedef arasında en son mtime
+                              kullanılır
+  -n, --just-print, --dry-run, --recon
+                              Don't actually run any recipe; just print them.
+  -o DOSYA, --old-file=DOSYA, --assume-old=DOSYA
+                              DOSYAnın çok eski olduğu varsayılır ve
+                              yeniden işlem yapılmaz.
+  -O[TYPE], --output-sync[=TYPE]
+                              Synchronize output of parallel jobs by TYPE.
+  -p, --print-data-base       make'in içsel veritabanını basar.
+  -q, --question              Run no recipe; exit status says if up to date.
+  -r, --no-builtin-rules      Oluşumiçi örtük kuralları etkisizleştirir.
+  -R, --no-builtin-variables  Oluşumiçi değişken ayarlarını etkisizleştirir
+  -s, --silent, --quiet       Don't echo recipes.
+  -S, --no-keep-going, --stop Bazı hedefler yapılmadığında devam etmez.
+  -t, --touch                 Yeniden derlemek yerine hedeflere bakıp geçer.
+  --trace                     Print tracing information.
+  -v, --version               make sürüm numarasını basar ve çıkar.
+  -w, --print-directory       Kullanılan dizini basar.
+  --no-print-directory        Dolaylı olarak açılmış olsa bile -w 'yi kapatır
+  -W DOSYA, --what-if=DOSYA, --new-file=DOSYA, --assume-new=DOSYA
+                              DOSYA sonsuz yeni varsayılır.
+  --warn-undefined-variables  Atanmamış bir değişkene bağıntı yapıldığında
+                              uyarır.
+
+Bu program x86_64-pc-linux-gnu için kurgulanmış
+Yazılım hatalarını <bug-make@gnu.org> adresine,
+çeviri hatalarını <gnu-tr@belgeler.org> adresine bildiriniz.
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ make -f[K[K[K
+cd ~/Masaüstü/CS/i240b/i240b/submit/lab8
+ls
+Makefile
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ ls
+Makefile
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ gedıt[K[Kit[K[K[K[K[Kcat Makefıl[K[Kile
+all:
+		cd ~/Masaüstü/CS/i240b/i240b/submit/lab8
+		ls
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'MAIN(' `find ~/cs240/projeccts -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -n[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -na[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -nam[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name[1P '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name [1P'*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '[1P*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*[1P.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*.[1Pcc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*.c[C[1P'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*.cc[1P'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CM -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca -name '*.[Cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cü -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cü -na[1@m[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ -n[1@a[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC -[1@n[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CS [1@-[1@/[1@i[1@2[1@4[1@0[1@/[1@i[1@3[1@4[1@0[1P[1P[1P[1@2[1@4[1@0[1@/[1@s[1@u[1@b[1@m[1@i[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+find: ‘/home/aleyna/Masaüstü/CS/i240/i240/submit’: Böyle bir dosya ya da dizin yok
+^[[A    q ^[[D^[[D        ^[[D^[[A        ^C
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ find -L ~/cs240 -name '*.c'[1P[1P[1P[1P[1@l[1@o[1@c[1@a[1@t[1@e[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1@M[1@a[1@s[1@a[1@ü[1@s[1@t[1@ü[1@/[1@C[1@S[1@/[1@i[1@2[1@4[1@0[1@b[1@/[1@i[1@2[1@4[1@0b -name '*.c' [A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+locate: invalid value `ame' of --limit
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ locate -L ~/Masaüstü/CS/i240b/i240b -name '*.c' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'*.c'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'*.c'[1P'*.c'[1P'*.c'[1P'*.c'[1P'*.c'[1P'*.c' '*.c'
+/home/aleyna/.vscode/extensions/ms-python.python-2020.2.64397/pythonFiles/lib/python/new_ptvsd/no_wheels/ptvsd/_vendored/pydevd/_pydevd_bundle/pydevd_cython.c
+/home/aleyna/.vscode/extensions/ms-python.python-2020.2.64397/pythonFiles/lib/python/new_ptvsd/no_wheels/ptvsd/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.c
+/home/aleyna/.vscode/extensions/ms-python.python-2020.2.64397/pythonFiles/lib/python/new_ptvsd/wheels/ptvsd/_vendored/pydevd/_pydevd_bundle/pydevd_cython.c
+/home/aleyna/.vscode/extensions/ms-python.python-2020.2.64397/pythonFiles/lib/python/new_ptvsd/wheels/ptvsd/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.c
+/home/aleyna/.vscode/extensions/ms-python.python-2020.2.64397/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/_pydevd_bundle/pydevd_cython.c
+/home/aleyna/.vscode/extensions/ms-python.python-2020.2.64397/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.c
+/home/aleyna/Masaüstü/CS/Assignment 1/functions.c
+/home/aleyna/Masaüstü/CS/Assignment 1/main.c
+/home/aleyna/Masaüstü/CS/Assignment 1/test.c
+/home/aleyna/Masaüstü/CS/GRUP ÇALIŞMASI/lab5.c
+/home/aleyna/Masaüstü/CS/GRUP ÇALIŞMASI/test.c
+/home/aleyna/Masaüstü/CS/Project 1/chess.c
+/home/aleyna/Masaüstü/CS/i240b/i240b
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git
+/home/aleyna/Masaüstü/CS/i240b/i240b/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/README.md
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/COMMIT_EDITMSG
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/HEAD
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/ORIG_HEAD
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/branches
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/config
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/description
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/index
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/info
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/packed-refs
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks/applypatch-msg.sample
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks/commit-msg.sample
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks/fsmonitor-watchman.sample
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks/post-update.sample
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks/pre-applypatch.sample
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks/pre-commit.sample
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks/pre-push.sample
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks/pre-rebase.sample
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks/pre-receive.sample
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks/prepare-commit-msg.sample
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/hooks/update.sample
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/info/exclude
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/HEAD
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/refs
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/refs/heads
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/refs/remotes
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/refs/heads/lab6
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/refs/heads/lab7
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/refs/heads/master
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/refs/remotes/origin
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/refs/remotes/origin/HEAD
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/refs/remotes/origin/lab6
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/refs/remotes/origin/lab7
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/logs/refs/remotes/origin/master
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/07
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/08
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/09
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/16
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/29
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/2f
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/34
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/4b
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/54
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/5c
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/5d
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/72
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/81
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/83
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/8e
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/9e
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/a4
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/ab
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/ad
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/b6
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/bc
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/be
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/c1
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/cf
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/d9
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/db
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/e2
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/e6
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/ff
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/info
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/pack
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/07/fc9eb9a76db63fa093afded9a3f5159430f66c
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/08/81a0c80f8365409074a89fdd47c514e4cf262b
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/09/54afadb77a2318a38f14179f8d7f26f7ce5930
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/16/2f1b1b8c1050158fea1d163c3860baf9407cc5
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/29/2fe061362a1d28ff6660891c6186fcd6c255cd
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/2f/e8f0f93c8b123855013595f3969f1d1232f267
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/34/1652e9367517870239b06ed848c26d5774b176
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/34/ff9e10a01a552fcd4c53e539d993d465ab198c
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/4b/7b1020fff7c70ac9a8fa23696a8a7f1c340663
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/54/105f2e8c4aaea241a75c91792d822346f00980
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/5c/60f6a3c8fc424a8eae7bf82d9f88ab4cd37c5c
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/5d/9011857480e0fa218a38abffb0afedc3105a9a
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/72/4d5a33c1bed5ce1d0c7635c165f80d19e0564e
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/81/75569c5a3925248bb42db2005e32a378c7ff0d
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/83/62e63bf5d5987905cc871c489b40022329c3a7
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/8e/bcca787c2718ae8cd79cbb5f68e93e7dc5b41e
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/9e/c3d7c0819ec522c460b146d3f1eeb0ec4b2af6
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/a4/d222414c3cb6690e66b3943a08c70508ce4825
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/ab/96a8108cbb9dd33c667346ba7525019f458865
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/ad/86cf50eef632fe9c46b29a89614670633b8292
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/b6/87c4b016c6a3f7edc6b89431a1af05ffd2eed5
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/bc/395bb068e3d479b034fc30fb7944ff2bb1c653
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/be/140a5c7fcc193fb62d37c8b6d97dcfa43d54da
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/be/89447877b9317cdea4372b85a1fbd23866c611
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/c1/b7ffc5049cf1a0be9040deb8308fe5f74a42de
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/cf/0f71c525a06717f40bdac6a19847aa0591005b
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/d9/b7eb8f39f8cc7e3c216579c8ca8856912cdffe
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/db/622468ed0c36e254b2b5786c03cfd9fbca625f
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/e2/0b3dfa81459bde8c4c0fe9e51b7712ce04acf4
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/ff/d152abda8b3da9f91c34aa75ce5e0497edde82
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/pack/pack-1fd6badf0241d1b8f3fc04845c1f353a644595f6.idx
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/objects/pack/pack-1fd6badf0241d1b8f3fc04845c1f353a644595f6.pack
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs/heads
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs/remotes
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs/tags
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs/heads/lab6
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs/heads/lab7
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs/heads/master
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs/remotes/origin
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs/remotes/origin/HEAD
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs/remotes/origin/lab6
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs/remotes/origin/lab7
+/home/aleyna/Masaüstü/CS/i240b/i240b/.git/refs/remotes/origin/master
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab0
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/prj1-sol
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/word-counts.cpp
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab0/lab0.LOG
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/0-hello
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/1-monolithic
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/2-separate-compilation
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1.LOG
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/0-hello/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/0-hello/hello.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/1-monolithic/fns-compare
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/1-monolithic/fns-compare.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/2-separate-compilation/fns-compare
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/2-separate-compilation/fns-compare.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/2-separate-compilation/fns-compare.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/2-separate-compilation/linear.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/2-separate-compilation/quadratic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/constant.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/cubic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/exponential.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/fact.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/fns-compare
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/fns-compare.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/fns-compare.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/lg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/linear.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/nlg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/3-makefile/quadratic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/constant.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/cubic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/exponential.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/fact.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/fns-compare
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/fns-compare.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/fns-compare.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/lg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/linear.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/nlg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/4-dependencies/quadratic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/constant.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/cubic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/exponential.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/fact.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/fns-compare
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/fns-compare.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/fns-compare.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/fns-compare.tar
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/lg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/linear.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/nlg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/5-auto-dependencies/quadratic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/lab1
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/lab1.html
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/lab1.pdf
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/lab1.umt
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/0-hello
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/1-monolithic
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/2-separate-compilation
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/0-hello/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/0-hello/hello.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/1-monolithic/fns-compare.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/2-separate-compilation/fns-compare.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/2-separate-compilation/fns-compare.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/2-separate-compilation/linear.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile/constant.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile/cubic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile/exponential.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile/fact.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile/fns-compare.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile/fns-compare.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile/lg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile/linear.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile/nlg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/3-makefile/quadratic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies/constant.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies/cubic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies/exponential.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies/fact.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies/fns-compare.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies/fns-compare.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies/lg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies/linear.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies/nlg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/4-dependencies/quadratic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/constant.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/cubic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/exponential.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/fact.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/fns-compare.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/fns-compare.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/lg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/linear.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/nlg.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/exercises/5-auto-dependencies/quadratic.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/lab1/hl-fine_blue.css
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab1/lab1/lab1/hl-fine_blue.sty
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/1-hello
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/2-hello
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/3-overload
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/cs240
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/lab2.LOG
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/1-hello/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/1-hello/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/1-hello/README
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/1-hello/hello.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/2-hello/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/2-hello/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/2-hello/README
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/2-hello/hello.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/3-overload/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/3-overload/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab2/3-overload/overload.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/1-greet
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/2-greet
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/3-greet
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/4-sortnums
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/5-numpaths
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/lab3.LOG
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/1-greet/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/1-greet/README
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/1-greet/greet.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/2-greet/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/2-greet/README
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/2-greet/greet.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/3-greet/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/3-greet/README
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/3-greet/greet.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/4-sortnums/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/4-sortnums/nums1.dat
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/4-sortnums/nums2.dat
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/4-sortnums/sortnums.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/5-numpaths/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab3/5-numpaths/numpaths.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/1-point
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/2-shape
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/3-expr
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/lab4.LOG
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/1-point/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/1-point/line.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/1-point/line.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/1-point/main.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/1-point/point.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/1-point/point.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/2-shape/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/2-shape/main.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/2-shape/point.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/2-shape/point.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/2-shape/shapes.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/2-shape/tostring.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/2-shape/tostring.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/3-expr/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/3-expr/expr.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/3-expr/expr.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/3-expr/main.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/3-expr/parse.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/3-expr/parse.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/3-expr/tostring.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab4/3-expr/tostring.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/lab5.LOG
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/1-animal
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/2-expr
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/1-animal/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/1-animal/animal.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/1-animal/main.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/2-expr/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/2-expr/expr.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/2-expr/expr.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/2-expr/main.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/2-expr/parse.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/2-expr/parse.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/2-expr/tostring.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab5/exercises/2-expr/tostring.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/lab6.LOG
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/4-quoting
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/T1.s
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/abcdefg
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/bin-c.log
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/cat.log
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/dir
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/ls.log
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/tl.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/v.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/v1.s
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/x.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/4-quoting/'12
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/4-quoting/**
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/4-quoting/-l
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/4-quoting/1"2
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/4-quoting/1$2
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/4-quoting/\\ab
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/4-quoting/a"b
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/4-quoting/a$b
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/4-quoting/a'b
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/dir/T2.s1
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/dir/t2.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/dir/t3
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/lab7.LOG
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/Makefile
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/test.data
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out/.deps
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out/main
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out/main.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out/main.o
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out/out.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/1-out/.deps/main.d
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find/.deps
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find/find.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find/main
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find/main.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find/main.o
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/2-find/.deps/main.d
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort/.deps
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort/main
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort/main.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort/main.o
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort/sort.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/3-sort/.deps/main.d
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm/.deps
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm/.gitignore
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm/main
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm/main.cc
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm/main.o
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm/rm.hh
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab7/exercises/4-rm/.deps/main.d
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/prj1-sol/word-counts.cpp
+/home/aleyna/Masaüstü/CS/lab5/test.c
+/home/aleyna/Masaüstü/CS/lab6/Prog.c
+/lib/firmware/carl9170fw/carlfw/src/cam.c
+/lib/firmware/carl9170fw/carlfw/src/cmd.c
+/lib/firmware/carl9170fw/carlfw/src/dma.c
+/lib/firmware/carl9170fw/carlfw/src/fw.c
+/lib/firmware/carl9170fw/carlfw/src/gpio.c
+/lib/firmware/carl9170fw/carlfw/src/hostif.c
+/lib/firmware/carl9170fw/carlfw/src/main.c
+/lib/firmware/carl9170fw/carlfw/src/printf.c
+/lib/firmware/carl9170fw/carlfw/src/rf.c
+/lib/firmware/carl9170fw/carlfw/src/uart.c
+/lib/firmware/carl9170fw/carlfw/src/wlan.c
+/lib/firmware/carl9170fw/carlfw/src/wol.c
+/lib/firmware/carl9170fw/carlfw/usb/fifo.c
+/lib/firmware/carl9170fw/carlfw/usb/main.c
+/lib/firmware/carl9170fw/carlfw/usb/usb.c
+/lib/firmware/carl9170fw/config/conf.c
+/lib/firmware/carl9170fw/config/confdata.c
+/lib/firmware/carl9170fw/config/expr.c
+/lib/firmware/carl9170fw/config/menu.c
+/lib/firmware/carl9170fw/config/symbol.c
+/lib/firmware/carl9170fw/config/util.c
+/lib/firmware/carl9170fw/tools/carlu/src/cmd.c
+/lib/firmware/carl9170fw/tools/carlu/src/debug.c
+/lib/firmware/carl9170fw/tools/carlu/src/fw.c
+/lib/firmware/carl9170fw/tools/carlu/src/main.c
+/lib/firmware/carl9170fw/tools/carlu/src/rx.c
+/lib/firmware/carl9170fw/tools/carlu/src/test.c
+/lib/firmware/carl9170fw/tools/carlu/src/tx.c
+/lib/firmware/carl9170fw/tools/carlu/src/usb.c
+/lib/firmware/carl9170fw/tools/lib/carlfw.c
+/lib/firmware/carl9170fw/tools/src/checksum.c
+/lib/firmware/carl9170fw/tools/src/eeprom_fix.c
+/lib/firmware/carl9170fw/tools/src/fwinfo.c
+/lib/firmware/carl9170fw/tools/src/miniboot.c
+/lib/firmware/carl9170fw/tools/src/wol.c
+/lib/firmware/isci/create_fw.c
+/snap/core/8689/usr/lib/python3/dist-packages/probert/_nl80211module.c
+/snap/core/8689/usr/lib/python3/dist-packages/probert/_rtnetlinkmodule.c
+/snap/core/8935/usr/lib/python3/dist-packages/probert/_nl80211module.c
+/snap/core/8935/usr/lib/python3/dist-packages/probert/_rtnetlinkmodule.c
+/snap/core18/1668/usr/lib/python3/dist-packages/probert/_nl80211module.c
+/snap/core18/1668/usr/lib/python3/dist-packages/probert/_rtnetlinkmodule.c
+/snap/core18/1705/usr/lib/python3/dist-packages/probert/_nl80211module.c
+/snap/core18/1705/usr/lib/python3/dist-packages/probert/_rtnetlinkmodule.c
+/snap/pycharm-community/188/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_cython.c
+/snap/pycharm-community/188/plugins/python-ce/helpers/pydev/_pydevd_frame_eval/pydevd_frame_evaluator.c
+/snap/pycharm-community/192/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_cython.c
+/snap/pycharm-community/192/plugins/python-ce/helpers/pydev/_pydevd_frame_eval/pydevd_frame_evaluator.c
+/usr/share/doc/gdb/contrib/expect-read1.c
+/usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring.c
+/usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret.c
+/usr/share/doc/git/contrib/credential/osxkeychain/git-credential-osxkeychain.c
+/usr/share/doc/git/contrib/credential/wincred/git-credential-wincred.c
+/usr/share/doc/git/contrib/examples/builtin-fetch--tool.c
+/usr/share/doc/git/contrib/svn-fe/svn-fe.c
+/usr/share/doc/libpam-modules/examples/upperLOWER.c
+/usr/share/doc/lp-solve/examples/demo.c
+/usr/share/doc/pciutils/examples/example.c
+/usr/share/doc/xz-utils/extra/scanlzma/scanlzma.c
+/usr/share/gettext/intl/bindtextdom.c
+/usr/share/gettext/intl/dcgettext.c
+/usr/share/gettext/intl/dcigettext.c
+/usr/share/gettext/intl/dcngettext.c
+/usr/share/gettext/intl/dgettext.c
+/usr/share/gettext/intl/dngettext.c
+/usr/share/gettext/intl/explodename.c
+/usr/share/gettext/intl/finddomain.c
+/usr/share/gettext/intl/gettext.c
+/usr/share/gettext/intl/hash-string.c
+/usr/share/gettext/intl/intl-compat.c
+/usr/share/gettext/intl/intl-exports.c
+/usr/share/gettext/intl/l10nflist.c
+/usr/share/gettext/intl/langprefs.c
+/usr/share/gettext/intl/loadmsgcat.c
+/usr/share/gettext/intl/localcharset.c
+/usr/share/gettext/intl/localealias.c
+/usr/share/gettext/intl/localename.c
+/usr/share/gettext/intl/lock.c
+/usr/share/gettext/intl/log.c
+/usr/share/gettext/intl/ngettext.c
+/usr/share/gettext/intl/os2compat.c
+/usr/share/gettext/intl/osdep.c
+/usr/share/gettext/intl/plural-exp.c
+/usr/share/gettext/intl/plural.c
+/usr/share/gettext/intl/printf-args.c
+/usr/share/gettext/intl/printf-parse.c
+/usr/share/gettext/intl/printf.c
+/usr/share/gettext/intl/relocatable.c
+/usr/share/gettext/intl/setlocale.c
+/usr/share/gettext/intl/textdomain.c
+/usr/share/gettext/intl/threadlib.c
+/usr/share/gettext/intl/tsearch.c
+/usr/share/gettext/intl/vasnprintf.c
+/usr/share/gettext/intl/version.c
+/usr/share/gettext/intl/xsize.c
+/usr/share/help/C/examples/example-tmdb.c
+/usr/src/linux-headers-5.3.0-42/scripts/asn1_compiler.c
+/usr/src/linux-headers-5.3.0-42/scripts/bin2c.c
+/usr/src/linux-headers-5.3.0-42/scripts/conmakehash.c
+/usr/src/linux-headers-5.3.0-42/scripts/extract-cert.c
+/usr/src/linux-headers-5.3.0-42/scripts/insert-sys-cert.c
+/usr/src/linux-headers-5.3.0-42/scripts/kallsyms.c
+/usr/src/linux-headers-5.3.0-42/scripts/pnmtologo.c
+/usr/src/linux-headers-5.3.0-42/scripts/recordmcount.c
+/usr/src/linux-headers-5.3.0-42/scripts/sign-file.c
+/usr/src/linux-headers-5.3.0-42/scripts/sortextable.c
+/usr/src/linux-headers-5.3.0-42/scripts/unifdef.c
+/usr/src/linux-headers-5.3.0-42/scripts/basic/fixdep.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/checks.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/data.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/dtc.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/fdtdump.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/fdtget.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/fdtput.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/flattree.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/fstree.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/livetree.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/srcpos.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/treesource.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/util.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/yamltree.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/libfdt/fdt.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/libfdt/fdt_addresses.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/libfdt/fdt_empty_tree.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/libfdt/fdt_overlay.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/libfdt/fdt_ro.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/libfdt/fdt_rw.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/libfdt/fdt_strerror.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/libfdt/fdt_sw.c
+/usr/src/linux-headers-5.3.0-42/scripts/dtc/libfdt/fdt_wip.c
+/usr/src/linux-headers-5.3.0-42/scripts/gcc-plugins/arm_ssp_per_task_plugin.c
+/usr/src/linux-headers-5.3.0-42/scripts/gcc-plugins/cyc_complexity_plugin.c
+/usr/src/linux-headers-5.3.0-42/scripts/gcc-plugins/latent_entropy_plugin.c
+/usr/src/linux-headers-5.3.0-42/scripts/gcc-plugins/randomize_layout_plugin.c
+/usr/src/linux-headers-5.3.0-42/scripts/gcc-plugins/sancov_plugin.c
+/usr/src/linux-headers-5.3.0-42/scripts/gcc-plugins/stackleak_plugin.c
+/usr/src/linux-headers-5.3.0-42/scripts/gcc-plugins/structleak_plugin.c
+/usr/src/linux-headers-5.3.0-42/scripts/genksyms/genksyms.c
+/usr/src/linux-headers-5.3.0-42/scripts/genksyms/keywords.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/conf.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/confdata.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/expr.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/gconf.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/images.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/mconf.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/menu.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/nconf.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/nconf.gui.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/preprocess.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/symbol.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/util.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/lxdialog/checklist.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/lxdialog/inputbox.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/lxdialog/menubox.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/lxdialog/textbox.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/lxdialog/util.c
+/usr/src/linux-headers-5.3.0-42/scripts/kconfig/lxdialog/yesno.c
+/usr/src/linux-headers-5.3.0-42/scripts/mod/devicetable-offsets.c
+/usr/src/linux-headers-5.3.0-42/scripts/mod/empty.c
+/usr/src/linux-headers-5.3.0-42/scripts/mod/file2alias.c
+/usr/src/linux-headers-5.3.0-42/scripts/mod/mk_elfconfig.c
+/usr/src/linux-headers-5.3.0-42/scripts/mod/modpost.c
+/usr/src/linux-headers-5.3.0-42/scripts/mod/sumversion.c
+/usr/src/linux-headers-5.3.0-42/scripts/selinux/genheaders/genheaders.c
+/usr/src/linux-headers-5.3.0-42/scripts/selinux/mdp/mdp.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/asn1_compiler.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/bin2c.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/conmakehash.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/extract-cert.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/insert-sys-cert.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kallsyms.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/pnmtologo.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/recordmcount.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/sign-file.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/sortextable.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/unifdef.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/basic/fixdep.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/checks.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/data.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/dtc.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/fdtdump.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/fdtget.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/fdtput.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/flattree.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/fstree.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/livetree.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/srcpos.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/treesource.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/util.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/dtc/yamltree.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/conf.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/confdata.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/expr.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/gconf.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/images.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/lexer.lex.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/mconf.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/menu.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/nconf.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/nconf.gui.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/parser.tab.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/preprocess.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/symbol.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/util.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/lxdialog/checklist.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/lxdialog/inputbox.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/lxdialog/menubox.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/lxdialog/textbox.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/lxdialog/util.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/kconfig/lxdialog/yesno.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/mod/devicetable-offsets.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/mod/empty.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/mod/file2alias.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/mod/mk_elfconfig.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/mod/modpost.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/mod/sumversion.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/selinux/genheaders/genheaders.c
+/usr/src/linux-headers-5.3.0-42-generic/scripts/selinux/mdp/mdp.c
+/usr/src/linux-headers-5.3.0-42-generic/tools/objtool/arch/x86/lib/inat-tables.c
+/usr/src/linux-headers-5.3.0-46/scripts/asn1_compiler.c
+/usr/src/linux-headers-5.3.0-46/scripts/bin2c.c
+/usr/src/linux-headers-5.3.0-46/scripts/conmakehash.c
+/usr/src/linux-headers-5.3.0-46/scripts/extract-cert.c
+/usr/src/linux-headers-5.3.0-46/scripts/insert-sys-cert.c
+/usr/src/linux-headers-5.3.0-46/scripts/kallsyms.c
+/usr/src/linux-headers-5.3.0-46/scripts/pnmtologo.c
+/usr/src/linux-headers-5.3.0-46/scripts/recordmcount.c
+/usr/src/linux-headers-5.3.0-46/scripts/sign-file.c
+/usr/src/linux-headers-5.3.0-46/scripts/sortextable.c
+/usr/src/linux-headers-5.3.0-46/scripts/unifdef.c
+/usr/src/linux-headers-5.3.0-46/scripts/basic/fixdep.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/checks.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/data.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/dtc.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/fdtdump.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/fdtget.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/fdtput.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/flattree.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/fstree.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/livetree.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/srcpos.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/treesource.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/util.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/yamltree.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/libfdt/fdt.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/libfdt/fdt_addresses.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/libfdt/fdt_empty_tree.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/libfdt/fdt_overlay.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/libfdt/fdt_ro.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/libfdt/fdt_rw.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/libfdt/fdt_strerror.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/libfdt/fdt_sw.c
+/usr/src/linux-headers-5.3.0-46/scripts/dtc/libfdt/fdt_wip.c
+/usr/src/linux-headers-5.3.0-46/scripts/gcc-plugins/arm_ssp_per_task_plugin.c
+/usr/src/linux-headers-5.3.0-46/scripts/gcc-plugins/cyc_complexity_plugin.c
+/usr/src/linux-headers-5.3.0-46/scripts/gcc-plugins/latent_entropy_plugin.c
+/usr/src/linux-headers-5.3.0-46/scripts/gcc-plugins/randomize_layout_plugin.c
+/usr/src/linux-headers-5.3.0-46/scripts/gcc-plugins/sancov_plugin.c
+/usr/src/linux-headers-5.3.0-46/scripts/gcc-plugins/stackleak_plugin.c
+/usr/src/linux-headers-5.3.0-46/scripts/gcc-plugins/structleak_plugin.c
+/usr/src/linux-headers-5.3.0-46/scripts/genksyms/genksyms.c
+/usr/src/linux-headers-5.3.0-46/scripts/genksyms/keywords.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/conf.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/confdata.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/expr.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/gconf.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/images.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/mconf.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/menu.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/nconf.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/nconf.gui.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/preprocess.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/symbol.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/util.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/lxdialog/checklist.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/lxdialog/inputbox.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/lxdialog/menubox.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/lxdialog/textbox.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/lxdialog/util.c
+/usr/src/linux-headers-5.3.0-46/scripts/kconfig/lxdialog/yesno.c
+/usr/src/linux-headers-5.3.0-46/scripts/mod/devicetable-offsets.c
+/usr/src/linux-headers-5.3.0-46/scripts/mod/empty.c
+/usr/src/linux-headers-5.3.0-46/scripts/mod/file2alias.c
+/usr/src/linux-headers-5.3.0-46/scripts/mod/mk_elfconfig.c
+/usr/src/linux-headers-5.3.0-46/scripts/mod/modpost.c
+/usr/src/linux-headers-5.3.0-46/scripts/mod/sumversion.c
+/usr/src/linux-headers-5.3.0-46/scripts/selinux/genheaders/genheaders.c
+/usr/src/linux-headers-5.3.0-46/scripts/selinux/mdp/mdp.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/asn1_compiler.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/bin2c.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/conmakehash.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/extract-cert.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/insert-sys-cert.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kallsyms.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/pnmtologo.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/recordmcount.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/sign-file.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/sortextable.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/unifdef.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/basic/fixdep.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/checks.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/data.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/dtc.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/fdtdump.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/fdtget.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/fdtput.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/flattree.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/fstree.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/livetree.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/srcpos.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/treesource.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/util.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/dtc/yamltree.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/conf.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/confdata.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/expr.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/gconf.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/images.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/lexer.lex.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/mconf.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/menu.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/nconf.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/nconf.gui.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/parser.tab.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/preprocess.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/symbol.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/util.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/lxdialog/checklist.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/lxdialog/inputbox.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/lxdialog/menubox.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/lxdialog/textbox.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/lxdialog/util.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/kconfig/lxdialog/yesno.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/mod/devicetable-offsets.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/mod/empty.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/mod/file2alias.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/mod/mk_elfconfig.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/mod/modpost.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/mod/sumversion.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/selinux/genheaders/genheaders.c
+/usr/src/linux-headers-5.3.0-46-generic/scripts/selinux/mdp/mdp.c
+/usr/src/linux-headers-5.3.0-46-generic/tools/objtool/arch/x86/lib/inat-tables.c
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ man loaca[K[K[Kcate
+[?1049h[22;0;0t[?1h=locate(1)                                   General Commands Manual                                  locate(1)[m
+[m
+[1mNAME[0m[m
+       locate - find files by name[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mlocate[0m [[4mOPTION[24m]... [4mPATTERN[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mlocate[0m  reads one or more databases prepared by [1mupdatedb[0m(8) and writes file names matching at least one[m
+       of the [4mPATTERN[24ms to standard output, one per line.[m
+[m
+       If [1m--regex[0m is not specified, [4mPATTERN[24ms can contain globbing characters.   If  any  [4mPATTERN[24m  contains  no[m
+       globbing characters, [1mlocate[0m behaves as if the pattern were [1m*[0m[4mPATTERN[24m[1m*[0m.[m
+[m
+       By  default, [1mlocate[0m does not check whether files found in database still exist (but it does require all[m
+       parent directories to exist if the database was built with [1m--require-visibility[0m [1mno[0m).  [1mlocate[0m can  never[m
+       report files created after the most recent update of the relevant database.[m
+[m
+[1mEXIT[0m [1mSTATUS[0m[m
+       [1mlocate[0m  exits  with status 0 if any match was found or if [1mlocate[0m was invoked with one of the [1m--limit[0m [1m0[0m,[m
+       [1m--help[0m, [1m--statistics[0m or [1m--version[0m options.  If no match was found or a  fatal  error  was  encountered,[m
+       [1mlocate[0m exits with status 1.[m
+[m
+       Errors  encountered  while  reading a database are not fatal, search continues in other specified data‐[m
+       bases, if any.[m
+[m
+[1mOPTIONS[0m[m
+       [1m-A[0m, [1m--all[0m[m
+              Print only entries that match all [4mPATTERN[24ms instead of requiring only one of them to match.[m
+[m
+       [1m-b[0m, [1m--basename[0m[m
+              Match only the base name against the specified patterns.  This is the opposite of [1m--wholename[0m.[m
+[m
+       [1m-c[0m, [1m--count[0m[m
+              Instead of writing file names on standard output, write the number of matching entries only.[m
+[m
+       [1m-d,[0m [1m--database[0m [4mDBPATH[24m[m
+              Replace the default database with [4mDBPATH[24m.  [4mDBPATH[24m is a [1m:[0m-separated list of database file  names.[m
+              If  more  than  one [1m--database[0m option is specified, the resulting path is a concatenation of the[m
+              separate paths.[m
+[m
+              An empty database file name is replaced by the default database.  A database file name [1m-[0m  refers[m
+              to the standard input.  Note that a database can be read from the standard input only once.[m
+[m
+       [1m-e[0m, [1m--existing[0m[m
+              Print only entries that refer to files existing at the time [1mlocate[0m is run.[m
+[m
+       [1m-L[0m, [1m--follow[0m[m
+              When  checking whether files exist (if the [1m--existing[0m option is specified), follow trailing sym‐[m
+              bolic links.  This causes broken symbolic links to be omitted from the output.[m
+[m
+              This is the default behavior.  The opposite can be specified using [1m--nofollow[0m.[m
+[m
+[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m, [1m--help[0m[m
+[7m Manual page locate(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Write a summary of the available options to standard output and exit successfully.[m
+[7m Manual page locate(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page locate(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m, [1m--ignore-case[0m[m
+[7m Manual page locate(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Ignore case distinctions when matching patterns.[m
+[7m Manual page locate(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page locate(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[0m, [1m--ignore-spaces[0m[m
+[7m Manual page locate(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Ignore punctuation and spaces when matching patterns.[m
+[7m Manual page locate(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page locate(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m, [1m--transliterate[0m[m
+[7m Manual page locate(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Ignore accents using iconv transliteration when matching patterns.[m
+[7m Manual page locate(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page locate(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[55;1H[K[7m Manual page locate(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       of the [4mPATTERN[24ms to standard output, one per line.[m
+[55;1H[K[7m Manual page locate(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mlocate[0m  reads one or more databases prepared by [1mupdatedb[0m(8) and writes file names matching at least one[m
+[55;1H[K[7m Manual page locate(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[55;1H[K[7m Manual page locate(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[55;1H[K[7m Manual page locate(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mlocate[0m [[4mOPTION[24m]... [4mPATTERN[24m...[m
+[55;1H[K[7m Manual page locate(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[55;1H[K[7m Manual page locate(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[55;1H[K[7m Manual page locate(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       locate - find files by name[m
+[55;1H[K[7m Manual page locate(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[55;1H[K[7m Manual page locate(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[55;1H[K[7m Manual page locate(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMlocate(1)                                   General Commands Manual                                  locate(1)[m
+[55;1H[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page locate(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ man dı[K[Kfın[K[Kind
+[?1049h[22;0;0t[?1h=FIND(1)                                     General Commands Manual                                    FIND(1)[m
+[m
+[1mNAME[0m[m
+       find - search for files in a directory hierarchy[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mfind[0m [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression][m
+[m
+[1mDESCRIPTION[0m[m
+       This  manual  page  documents  the GNU version of [1mfind[0m.  GNU [1mfind[0m searches the directory tree rooted at[m
+       each given starting-point by evaluating the given expression from left to right, according to the rules[m
+       of  precedence (see section OPERATORS), until the outcome is known (the left hand side is false for [4mand[24m[m
+       operations, true for [4mor[24m), at which point [1mfind[0m moves on to the next file name.  If no starting-point  is[m
+       specified, `.' is assumed.[m
+[m
+       If you are using [1mfind[0m in an environment where security is important (for example if you are using it to[m
+       search directories that are writable by other users), you should  read  the  `Security  Considerations'[m
+       chapter  of the findutils documentation, which is called [1mFinding[0m [1mFiles[0m and comes with findutils.   That[m
+       document also includes a lot more detail and discussion than this manual page, so you  may  find  it  a[m
+       more useful source of information.[m
+[m
+[1mOPTIONS[0m[m
+       The  [1m-H[0m,  [1m-L[0m  and [1m-P[0m options control the treatment of symbolic links.  Command-line arguments following[m
+       these are taken to be names of files or directories to be examined,  up  to  the  first  argument  that[m
+       begins with `-', or the argument `(' or `!'.  That argument and any following arguments are taken to be[m
+       the expression describing what is to be searched for.  If no paths are given, the current directory  is[m
+       used.  If no expression is given, the expression [1m-print[0m is used (but you should probably consider using[m
+       [1m-print0[0m instead, anyway).[m
+[m
+       This manual page talks about `options' within the expression list.  These options control the behaviour[m
+       of [1mfind[0m but are specified immediately after the last path name.  The five `real' options [1m-H[0m, [1m-L[0m, [1m-P[0m, [1m-D[0m[m
+       and [1m-O[0m must appear before the first path name, if at all.  A double dash [1m--[0m can also be used to  signal[m
+       that  any  remaining arguments are not options (though ensuring that all start points begin with either[m
+       `./' or `/' is generally safer if you use wildcards in the list of start points).[m
+[m
+       -P     Never follow symbolic links.  This is the default  behaviour.   When  [1mfind[0m  examines  or  prints[m
+              information  a  file,  and the file is a symbolic link, the information used shall be taken from[m
+              the properties of the symbolic link itself.[m
+[m
+       -L     Follow symbolic links.  When [1mfind[0m examines or prints information about  files,  the  information[m
+              used  shall be taken from the properties of the file to which the link points, not from the link[m
+              itself (unless it is a broken symbolic link or [1mfind[0m is unable to examine the file to  which  the[m
+              link points).  Use of this option implies [1m-noleaf[0m.  If you later use the [1m-P[0m option, [1m-noleaf[0m will[m
+              still be in effect.  If [1m-L[0m is in effect and [1mfind[0m discovers a symbolic  link  to  a  subdirectory[m
+              during its search, the subdirectory pointed to by the symbolic link will be searched.[m
+[m
+              When  the  [1m-L[0m option is in effect, the [1m-type[0m predicate will always match against the type of the[m
+              file that a symbolic link points to rather than the link itself (unless  the  symbolic  link  is[m
+              broken).   Actions  that  can cause symbolic links to become broken while [1mfind[0m is executing (for[m
+              example [1m-delete[0m) can give rise to confusing behaviour.  Using [1m-L[0m causes the [1m-lname[0m  and  [1m-ilname[0m[m
+              predicates always to return false.[m
+[m
+       -H     Do  not  follow  symbolic  links, except while processing the command line arguments.  When [1mfind[0m[m
+              examines or prints information about files, the information used shall be taken from the proper‐[m
+[7m Manual page find(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ fın[K[Kind ç [K[Kç[K. -name *.c
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ ls
+[0m[01;34m3-subshells[0m
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ cd 3-subshells/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ ls
+Makefile
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ ccd [K[K[Kd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ cd[K[Kls
+[0m[01;34mlab0[0m  [01;34mlab1[0m  [01;34mlab2[0m  [01;34mlab3[0m  [01;34mlab4[0m  [01;34mlab5[0m  [01;34mlab6[0m  [01;34mlab7[0m  [01;34mlab8[0m  [01;34mprj1-sol[0m  word-counts.cpp
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ lscd ..[3Plscd 3-subshells/ls[Kfind . -name *.c
+./lab6/exercises/dir/t2.c
+./lab6/exercises/v.c
+./lab6/exercises/tl.c
+./lab6/exercises/x.c
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ find . -name *.c[1P[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ find  -name *.c[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ find  -name *.c[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ find  -name *.c[Klocate -L ~/Masaüstü/CS/i240b/i240b -name '*.c'[C[K[1P*.c[1P[1P[1P[1P[1P[1P[1P[1@f[1@ı[1P[1@i[1@n[1@d[1@ 
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/dir/t2.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/v.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/tl.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/x.c
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ cd lB8
+bash: cd: lB8: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ CD[K[Kcd lab8
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ ls
+[0m[01;34mexercises[0m  lab8.LOG
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8[00m$ cd exercises/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ cd[K[Kls
+[0m[01;34m3-subshells[0m
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ cd 3-subshells/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ cd 3-subshells/ls[Kcd exercises/ls[Kcd lab8[1PB8find -L ~/Masaüstü/CS/i240b/i240b -naame *.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/dir/t2.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/v.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/tl.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/x.c
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ find -L ~/Masaüstü/CS/i240b/i240b -naame *.c[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C240b/i240b -nam[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc240b/i240b -na[1@m[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw240b/i240b -n[1@a[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C240b/i240b -na[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw240b/i240b -n[1@a[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C240b/i240b -na[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs240b/i240b -n[1@a[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/i240b -na[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C240b -nam[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc240b -na[1@m[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs240b -n[1@a[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -na[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ find -L ~/Masaüstü/CS/cs240/cs240 -name *.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2/extras/command.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2/extras/seq-test.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2-sol/nums.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2-sol/command.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2-sol/seq-test.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj1-sol/wordcounts.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-non-const.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-literal.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-1.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-2.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/const-ptr-inc.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ptr-to-non-const.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/uninit-ref.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-expr.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/complexity1/code/max-find.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/complexity1/code/seq-search.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/complexity1/code/sq.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections2/code/int-bst.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections2/code/maxheap.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/autogen-fns1.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/alloc-dealloc.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/exercises/call-params.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/exercises/autogen-fns.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/exercises/constness.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/exercises/ref-ptrs.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/class-point.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/sum-array.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/smart-ptr.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/ptr.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/autogen-fns2.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/struct-point.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/hello.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/sorting/code/sorts.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/sorting/code/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/queues/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/binary-search/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/lists/command.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/lists/tostring.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/lists/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/ordered-linear-search/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/linear-search/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab7/exercises/1-out/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab5/exercises/1-animal/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab5/exercises/2-expr/tostring.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab5/exercises/2-expr/expr.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab5/exercises/2-expr/parse.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab5/exercises/2-expr/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/2-greet/greet.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/data/gen-nums.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/4-sortnums/sortnums.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/3-greet/greet.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/5-numpaths/numpaths.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/1-greet/greet.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab2/exercises/3-overload/overload.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab2/exercises/2-hello/hello.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab2/exercises/1-hello/hello.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/constant.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/cubic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/lg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/fns-compare.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/exponential.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/quadratic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/linear.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/fact.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/nlg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/1-monolithic/fns-compare.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/constant.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/cubic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/lg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/fns-compare.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/exponential.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/quadratic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/linear.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/fact.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/nlg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/constant.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/cubic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/lg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/fns-compare.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/exponential.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/quadratic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/linear.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/fact.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/nlg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/0-hello/hello.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/2-separate-compilation/fns-compare.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/2-separate-compilation/linear.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/2-shape/tostring.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/2-shape/point.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/2-shape/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/3-expr/tostring.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/3-expr/expr.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/3-expr/parse.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/3-expr/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/1-point/point.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/1-point/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/3-stats/ops.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/3-stats/sorts.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/3-stats/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/4-time/now.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/2-sorts/sorts.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/2-sorts/main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ find -L ~/Masaüstü/CS/cs240/cs240 -name *.cc''*.cc'
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2/extras/command.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2/extras/seq-test.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2-sol/nums.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2-sol/command.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2-sol/seq-test.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj1-sol/wordcounts.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-non-const.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-literal.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-1.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-2.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/const-ptr-inc.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ptr-to-non-const.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/uninit-ref.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-expr.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/complexity1/code/max-find.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/complexity1/code/seq-search.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/complexity1/code/sq.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections2/code/int-bst.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections2/code/maxheap.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/autogen-fns1.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/alloc-dealloc.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/exercises/call-params.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/exercises/autogen-fns.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/exercises/constness.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/exercises/ref-ptrs.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/class-point.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/sum-array.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/smart-ptr.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/ptr.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/autogen-fns2.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/struct-point.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/c++-intro/code/hello.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/sorting/code/sorts.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/sorting/code/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/queues/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/binary-search/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/lists/command.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/lists/tostring.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/lists/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/ordered-linear-search/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/slides/collections1/code/linear-search/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab7/exercises/1-out/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab5/exercises/1-animal/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab5/exercises/2-expr/tostring.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab5/exercises/2-expr/expr.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab5/exercises/2-expr/parse.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab5/exercises/2-expr/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/2-greet/greet.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/data/gen-nums.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/4-sortnums/sortnums.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/3-greet/greet.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/5-numpaths/numpaths.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab3/exercises/1-greet/greet.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab2/exercises/3-overload/overload.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab2/exercises/2-hello/hello.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab2/exercises/1-hello/hello.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/constant.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/cubic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/lg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/fns-compare.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/exponential.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/quadratic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/linear.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/fact.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/3-makefile/nlg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/1-monolithic/fns-compare.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/constant.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/cubic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/lg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/fns-compare.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/exponential.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/quadratic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/linear.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/fact.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/4-dependencies/nlg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/constant.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/cubic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/lg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/fns-compare.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/exponential.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/quadratic.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/linear.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/fact.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/5-auto-dependencies/nlg.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/0-hello/hello.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/2-separate-compilation/fns-compare.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab1/exercises/2-separate-compilation/linear.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/2-shape/tostring.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/2-shape/point.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/2-shape/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/3-expr/tostring.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/3-expr/expr.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/3-expr/parse.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/3-expr/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/1-point/point.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab4/exercises/1-point/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/3-stats/ops.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/3-stats/sorts.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/3-stats/main.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/4-time/now.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/2-sorts/sorts.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab9/exercises/2-sorts/main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ find -L ~/Masaüstü/CS/cs240/cs240 -name '*.cc'[1P'[C[1P[1P[1@ıcs240 -name *.cc[Ki240b/i240b[C[C[C[C[C[C[C[C[C[C
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/dir/t2.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/v.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/tl.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/x.c
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ find -L ~/Masaüstü/CS/i240b/i240b -name *.c'[C[C[C'*.c'
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/dir/t2.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/v.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/tl.c
+/home/aleyna/Masaüstü/CS/i240b/i240b/submit/lab6/exercises/x.c
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ find -L ~/Masaüstü/CS/i240b/i240b -name '*.c'[2P*.ccs240/ı240 -name '*.c'cs240 -name *.cc[Ki240b/i240b[C[C[C[C[C[C[C[C[C[C[28Pcd 3-subshells/ls[Kcd exercises/ls[Kcd lab8[1PB8find -L ~/Masaüstü/CS/i240b/i240b -name *.c -name *.c[Kls[Kcd ..[3Plscd ..[3Plsfind  -name *.c[28@-L ~/Masaüstü/CS/i240b/i240b[C[C[C[C[C[C[C[C[C[Ccd lB8[Kfind -L ~/Masaüstü/CS/i240b/i240b -name *.c -name *.c[Kls[Kcd ..[3Plscd 3-subshells/ls[Kfind . -name *.c[8Pman findlocatelocate -L ~/Masaüstü/CS/i240b/i240b '*.c'-name '*.c'cd ..[Kgrep -i 'MAIN(' `find ~/Masaüstü/CS/i240/i240/submitt -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ cat Makefile[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmake -f[K[10@gedit Makefil[C[Cls[Kmake [3Plsgedit Makefile [10Pmak[C[C-f[K[2Plscat Makefilegrep -i 'MAIN(' `find ~/Masaüstü/CS/i240/i240/submitt -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kgrep -i 'MAIN(' `find ~/Masaüstü/CS/i240/i240/submitt -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ cat Makefile[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -i 'MAIN(' `find ~/Masaüstü/CS/i240/i240/submitt -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -n[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -na[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -nam[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name[1P '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name [1P'*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '[1P*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*[1P.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*.[1Pcc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*.c[C[1P'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*.cc[1P'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*.cc'[1P`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*.cc'`[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*.cc'` [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc -name '*.cc'` [A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs -name '*.cc'``[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2 -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4 -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C* -name '*.[Cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*[1P.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*.[1Pcc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name '*.c[C[1P'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ -name '*.[Cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2 -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4 -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 -name '*.cc'`[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C* -na[1@m[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -nam[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ -na[1@m[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp -n[1@a[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr -[1@n[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co [1@-[1@j[1@e[1@c[1@t[1@s
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'MAIN(' `find ~/Masaüstü/CS/cs240/cs240/projjects -name '*.cc'`[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P*.cc'`[C[C[C[C[C[1P`
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'MAIN(' `find ~/Masaüstü/CS/cs240/cs240/projjects -name *.cc`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind ~/Masaüstü/CS/cs240/cs240/proje[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0find ~/Masaüstü/CS/cs240/cs240/proj[1@e[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0find ~/Masaüstü/CS/cs240/cs240/pro[1@j[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0find ~/Masaüstü/CS/cs240/cs240/pr[1@o[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind ~/Masaüstü/CS/cs240/cs240/pro[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind ~/Masaüstü/CS/cs240/cs240/proj[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind ~/Masaüstü/CS/cs240/cs240/proje[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+grep: en çok miktarı geçersiz
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'MAIN(' find ~/Masaüstü/CS/cs240/cs240/projeects -name *.cc"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" find ~/Masaüstü/CS/cs240/cs240/proj[1@e[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C find ~/Masaüstü/CS/cs240/cs240/proje[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"find ~/Masaüstü/CS/cs240/cs240/proj[1@e[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+grep: find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2/extras/command.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2/extras/seq-test.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2-sol/nums.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2-sol/command.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2-sol/seq-test.cc
+/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj1-sol/wordcounts.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ find ~/Masaüstü/CS/cs240/cs240/projects -name *.ccgrep -i 'MAIN(' "find ~/Masaüstü/CS/cs240/cs240/projjects -name *.cc"[C[C[C[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind ~/Masaüstü/CS/cs240/cs240/proje[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C,find ~/Masaüstü/CS/cs240/cs240/proj[1@e[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind ~/Masaüstü/CS/cs240/cs240/proje[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'find ~/Masaüstü/CS/cs240/cs240/proj[1@e[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pfind ~/Masaüstü/CS/cs240/cs240/projects -name *.cc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -i 'MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/projjects -name *.cc'
+grep: find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/projjects -name *.cc'[K[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/proojects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'MAIN(' 'find ~/Masaüstü/CS/cs240/css240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'MAIN(' 'find ~/Masaüstü//CS/cs240/cs240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'MAIN(' 'find ~/Maasaüstü/CS/cs240/cs240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'MAIN('  'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i ''MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep --i 'MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep  -i 'MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ 
+grep -i 'MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$$ grep -i 'MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00mm$ grep -i 'MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$$ grep -i 'MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$  grep -i 'MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ 
+grep -i 'MAIN(' 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc[17P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17@grep -i 'MAIN(' '[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[1@/[1P[1@([C[1P[1@"[1P[1@"[C[C[C[C[C[C[C[C[1P[1@"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'[1P[1@'
+grep: find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[000m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[000m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ g
+rep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i
+ "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "
+MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN
+(" 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'f
+ind ~/Masaüstü/CS/cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/
+Masaüstü/CS/cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüs
+tü/CS/cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/
+CS/cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS
+/cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/
+cs240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/c
+s240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs
+240/cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/
+cs240/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240
+/projects -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/proje
+cts -name *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/projects -na
+me *.cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.
+cc'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc
+'[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc'
+[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc'[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" 'find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc'[K[1P[1@`[1@0[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C`
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" `find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc`
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "MAIN(" `find ~/Masaüstü/CS/cs240/cs240/projects -name *.cc`[C[C[C[1P[1P[1P[1P[1@m[1@a[1@ı[1@n[1P[1P[1@i[1@n[1@4[1P
+[35m[K/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2/extras/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2-sol/nums.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char* argv[])
+[35m[K/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj2-sol/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/aleyna/Masaüstü/CS/cs240/cs240/projects/prj1-sol/wordcounts.cc[m[K[36m[K:[m[K[01;31m[Kmain([m[Kint argc, char *argv[])
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "main(" `ffind ~/Masaüstü/CS/cs240/cs240/projects -name *.cc` [A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [Ccc[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Ksudo apt install ggcc[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -i "main(" `ffind ~/Masaüstü/CS/cs240/cs240/projects -name *.cc` <[K| wc -l
+4
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "main(" `ffind ~/Masaüstü/CS/cs240/cs240/projects -name *.cc` | wc -l[C[C[C[C[C[C[C[1P[1@)[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfi[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C(f[1@i
+bash: beklenmeyen dizgecik `(' yakınında sözdizimi hatası
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i "main(" (ffind ~/Masaüstü/CS/cs240/cs240/projects -name *.cc) | wc -l[1P[1@'[1P[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C`f[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@`[C[C[C[C[C[C[C[C
+4
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ echo $?
+0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises/3-subshells[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ false; ecx[Kho 1"23[K[K[K23
+123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ true [K; echo 123
+123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ false && echo 123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ true && echo 123
+123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ false [3Pgcc[K[K[Kfalse || echo1[K 123
+123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ true [2Pgcc[K[K[Kr[Ktrue || echo 123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ sleep 5 [K,[K; echo 123
+123
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab8/exercises[00m$ exit
+
+Script done on 2020-04-09 16:02:17-0400
