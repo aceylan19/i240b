@@ -1,0 +1,689 @@
+Script started on 2020-05-01 16:53:15-0400
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ cp -r ~/Masaüstü/CS/i20[K[K40[K[K240b/i240b/[K[K[K[K[K[K[K[K[K[K[K[Kcs240/labs/lab10/exercise s .
+cp: '/home/aleyna/Masaüstü/CS/cs240/labs/lab10/exercises' durumlanamadı: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ cp -r ~/Masaüstü/CS/cs240/labs/lab10/exercisess .[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/labs/lab10/exercises .[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp -r ~/Masaüstü/CS/cs240//labs/lab10/exercisees .[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc/labs/lab10/exercis[1@e[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs/labs/lab10/exerci[1@s[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp -r ~/Masaüstü/CS/cs240/cs/labs/lab10/exerciises .[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2/labs/lab10/exerc[1@i[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4/labs/lab10/exer[1@c[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0/labs/lab10/exe[1@r[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+cp: '/home/aleyna/Masaüstü/CS/cs240/cs240/labs/lab10/exercises' durumlanamadı: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ cp -r ~/Masaüstü/CS/cs240/cs240/labs/lab10/exeercises .[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ cp -r ~/Masaüstü/CS/cs2440/cs240/labs/lab10/exercises .[C[C[C[6P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ [Cd Cs[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CMasaüstü/./bomb_aceylan1 project22.txt[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ [11Pcd Masaüstü/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CCs[Kp -r ~/Masaüstü/CS/cs2440/labs/lab10/exercises .[C[C[C[6@cs240/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b[00m$  cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS[00m$ cd cd[Ks240/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240[00m$ git clone ssh://aceylan1@remote.cs.binghamtton.edu/~umrigar/git-repos/cs240.git
+fatal: destination path 'cs240' already exists and is not an empty directory.
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240[00m$ gıt[K[Kit update
+git: 'update' bir git komutu değil. Bkz. 'git --help'.
+
+The most similar command is
+	update-ref
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240[00m$ gıt [K[K[Kit pull
+fatal: not a git repository (or any of the parent directories): .git
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240[00m$ gı[Kit [K[K[K[Kc[Kd[Kcd s[Kcs240/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240/cs240[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240/cs240[00m$ gıt[K[Kit pull
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.202' to the list of known hosts.
+aceylan1@remote.cs.binghamton.edu's password: 
+Permission denied, please try again.
+aceylan1@remote.cs.binghamton.edu's password: 
+remote: Enumerating objects: 487, done.[K
+remote: Counting objects:   0% (1/487)   [Kremote: Counting objects:   1% (5/487)   [Kremote: Counting objects:   2% (10/487)   [Kremote: Counting objects:   3% (15/487)   [Kremote: Counting objects:   4% (20/487)   [Kremote: Counting objects:   5% (25/487)   [Kremote: Counting objects:   6% (30/487)   [Kremote: Counting objects:   7% (35/487)   [Kremote: Counting objects:   8% (39/487)   [Kremote: Counting objects:   9% (44/487)   [Kremote: Counting objects:  10% (49/487)   [Kremote: Counting objects:  11% (54/487)   [Kremote: Counting objects:  12% (59/487)   [Kremote: Counting objects:  13% (64/487)   [Kremote: Counting objects:  14% (69/487)   [Kremote: Counting objects:  15% (74/487)   [Kremote: Counting objects:  16% (78/487)   [Kremote: Counting objects:  17% (83/487)   [Kremote: Counting objects:  18% (88/487)   [Kremote: Counting objects:  19% (93/487)   [Kremote: Counting objects:  20% (98/487)   [Kremote: Counting objects:  21% (103/487)   [Kremote: Counting objects:  22% (108/487)   [Kremote: Counting objects:  23% (113/487)   [Kremote: Counting objects:  24% (117/487)   [Kremote: Counting objects:  25% (122/487)   [Kremote: Counting objects:  26% (127/487)   [Kremote: Counting objects:  27% (132/487)   [Kremote: Counting objects:  28% (137/487)   [Kremote: Counting objects:  29% (142/487)   [Kremote: Counting objects:  30% (147/487)   [Kremote: Counting objects:  31% (151/487)   [Kremote: Counting objects:  32% (156/487)   [Kremote: Counting objects:  33% (161/487)   [Kremote: Counting objects:  34% (166/487)   [Kremote: Counting objects:  35% (171/487)   [Kremote: Counting objects:  36% (176/487)   [Kremote: Counting objects:  37% (181/487)   [Kremote: Counting objects:  38% (186/487)   [Kremote: Counting objects:  39% (190/487)   [Kremote: Counting objects:  40% (195/487)   [Kremote: Counting objects:  41% (200/487)   [Kremote: Counting objects:  42% (205/487)   [Kremote: Counting objects:  43% (210/487)   [Kremote: Counting objects:  44% (215/487)   [Kremote: Counting objects:  45% (220/487)   [Kremote: Counting objects:  46% (225/487)   [Kremote: Counting objects:  47% (229/487)   [Kremote: Counting objects:  48% (234/487)   [Kremote: Counting objects:  49% (239/487)   [Kremote: Counting objects:  50% (244/487)   [Kremote: Counting objects:  51% (249/487)   [Kremote: Counting objects:  52% (254/487)   [Kremote: Counting objects:  53% (259/487)   [Kremote: Counting objects:  54% (263/487)   [Kremote: Counting objects:  55% (268/487)   [Kremote: Counting objects:  56% (273/487)   [Kremote: Counting objects:  57% (278/487)   [Kremote: Counting objects:  58% (283/487)   [Kremote: Counting objects:  59% (288/487)   [Kremote: Counting objects:  60% (293/487)   [Kremote: Counting objects:  61% (298/487)   [Kremote: Counting objects:  62% (302/487)   [Kremote: Counting objects:  63% (307/487)   [Kremote: Counting objects:  64% (312/487)   [Kremote: Counting objects:  65% (317/487)   [Kremote: Counting objects:  66% (322/487)   [Kremote: Counting objects:  67% (327/487)   [Kremote: Counting objects:  68% (332/487)   [Kremote: Counting objects:  69% (337/487)   [Kremote: Counting objects:  70% (341/487)   [Kremote: Counting objects:  71% (346/487)   [Kremote: Counting objects:  72% (351/487)   [Kremote: Counting objects:  73% (356/487)   [Kremote: Counting objects:  74% (361/487)   [Kremote: Counting objects:  75% (366/487)   [Kremote: Counting objects:  76% (371/487)   [Kremote: Counting objects:  77% (375/487)   [Kremote: Counting objects:  78% (380/487)   [Kremote: Counting objects:  79% (385/487)   [Kremote: Counting objects:  80% (390/487)   [Kremote: Counting objects:  81% (395/487)   [Kremote: Counting objects:  82% (400/487)   [Kremote: Counting objects:  83% (405/487)   [Kremote: Counting objects:  84% (410/487)   [Kremote: Counting objects:  85% (414/487)   [Kremote: Counting objects:  86% (419/487)   [Kremote: Counting objects:  87% (424/487)   [Kremote: Counting objects:  88% (429/487)   [Kremote: Counting objects:  89% (434/487)   [Kremote: Counting objects:  90% (439/487)   [Kremote: Counting objects:  91% (444/487)   [Kremote: Counting objects:  92% (449/487)   [Kremote: Counting objects:  93% (453/487)   [Kremote: Counting objects:  94% (458/487)   [Kremote: Counting objects:  95% (463/487)   [Kremote: Counting objects:  96% (468/487)   [Kremote: Counting objects:  97% (473/487)   [Kremote: Counting objects:  98% (478/487)   [Kremote: Counting objects:  99% (483/487)   [Kremote: Counting objects: 100% (487/487)   [Kremote: Counting objects: 100% (487/487), done.[K
+remote: Compressing objects:   0% (1/429)   [Kremote: Compressing objects:   1% (5/429)   [Kremote: Compressing objects:   2% (9/429)   [Kremote: Compressing objects:   3% (13/429)   [Kremote: Compressing objects:   4% (18/429)   [Kremote: Compressing objects:   5% (22/429)   [Kremote: Compressing objects:   6% (26/429)   [Kremote: Compressing objects:   7% (31/429)   [Kremote: Compressing objects:   8% (35/429)   [Kremote: Compressing objects:   9% (39/429)   [Kremote: Compressing objects:  10% (43/429)   [Kremote: Compressing objects:  11% (48/429)   [Kremote: Compressing objects:  12% (52/429)   [Kremote: Compressing objects:  13% (56/429)   [Kremote: Compressing objects:  14% (61/429)   [Kremote: Compressing objects:  15% (65/429)   [Kremote: Compressing objects:  16% (69/429)   [Kremote: Compressing objects:  17% (73/429)   [Kremote: Compressing objects:  18% (78/429)   [Kremote: Compressing objects:  19% (82/429)   [Kremote: Compressing objects:  20% (86/429)   [Kremote: Compressing objects:  21% (91/429)   [Kremote: Compressing objects:  22% (95/429)   [Kremote: Compressing objects:  23% (99/429)   [Kremote: Compressing objects:  24% (103/429)   [Kremote: Compressing objects:  25% (108/429)   [Kremote: Compressing objects:  26% (112/429)   [Kremote: Compressing objects:  27% (116/429)   [Kremote: Compressing objects:  28% (121/429)   [Kremote: Compressing objects:  29% (125/429)   [Kremote: Compressing objects:  30% (129/429)   [Kremote: Compressing objects:  31% (133/429)   [Kremote: Compressing objects:  32% (138/429)   [Kremote: Compressing objects:  33% (142/429)   [Kremote: Compressing objects:  34% (146/429)   [Kremote: Compressing objects:  35% (151/429)   [Kremote: Compressing objects:  36% (155/429)   [Kremote: Compressing objects:  37% (159/429)   [Kremote: Compressing objects:  38% (164/429)   [Kremote: Compressing objects:  39% (168/429)   [Kremote: Compressing objects:  40% (172/429)   [Kremote: Compressing objects:  41% (176/429)   [Kremote: Compressing objects:  42% (181/429)   [Kremote: Compressing objects:  43% (185/429)   [Kremote: Compressing objects:  44% (189/429)   [Kremote: Compressing objects:  45% (194/429)   [Kremote: Compressing objects:  46% (198/429)   [Kremote: Compressing objects:  47% (202/429)   [Kremote: Compressing objects:  48% (206/429)   [Kremote: Compressing objects:  49% (211/429)   [Kremote: Compressing objects:  50% (215/429)   [Kremote: Compressing objects:  51% (219/429)   [Kremote: Compressing objects:  52% (224/429)   [Kremote: Compressing objects:  53% (228/429)   [Kremote: Compressing objects:  54% (232/429)   [Kremote: Compressing objects:  55% (236/429)   [Kremote: Compressing objects:  56% (241/429)   [Kremote: Compressing objects:  57% (245/429)   [Kremote: Compressing objects:  58% (249/429)   [Kremote: Compressing objects:  59% (254/429)   [Kremote: Compressing objects:  60% (258/429)   [Kremote: Compressing objects:  61% (262/429)   [Kremote: Compressing objects:  62% (266/429)   [Kremote: Compressing objects:  63% (271/429)   [Kremote: Compressing objects:  64% (275/429)   [Kremote: Compressing objects:  65% (279/429)   [Kremote: Compressing objects:  66% (284/429)   [Kremote: Compressing objects:  67% (288/429)   [Kremote: Compressing objects:  68% (292/429)   [Kremote: Compressing objects:  69% (297/429)   [Kremote: Compressing objects:  70% (301/429)   [Kremote: Compressing objects:  71% (305/429)   [Kremote: Compressing objects:  72% (309/429)   [Kremote: Compressing objects:  73% (314/429)   [Kremote: Compressing objects:  74% (318/429)   [Kremote: Compressing objects:  75% (322/429)   [Kremote: Compressing objects:  76% (327/429)   [Kremote: Compressing objects:  77% (331/429)   [Kremote: Compressing objects:  78% (335/429)   [Kremote: Compressing objects:  79% (339/429)   [Kremote: Compressing objects:  80% (344/429)   [Kremote: Compressing objects:  81% (348/429)   [Kremote: Compressing objects:  82% (352/429)   [Kremote: Compressing objects:  83% (357/429)   [Kremote: Compressing objects:  84% (361/429)   [Kremote: Compressing objects:  85% (365/429)   [Kremote: Compressing objects:  86% (369/429)   [Kremote: Compressing objects:  87% (374/429)   [Kremote: Compressing objects:  88% (378/429)   [Kremote: Compressing objects:  89% (382/429)   [Kremote: Compressing objects:  90% (387/429)   [Kremote: Compressing objects:  91% (391/429)   [Kremote: Compressing objects:  92% (395/429)   [Kremote: Compressing objects:  93% (399/429)   [Kremote: Compressing objects:  94% (404/429)   [Kremote: Compressing objects:  95% (408/429)   [Kremote: Compressing objects:  96% (412/429)   [Kremote: Compressing objects:  97% (417/429)   [Kremote: Compressing objects:  98% (421/429)   [Kremote: Compressing objects:  99% (425/429)   [Kremote: Compressing objects: 100% (429/429)   [Kremote: Compressing objects: 100% (429/429), done.[K
+Nesneler alınıyor:   0% (1/438)   Nesneler alınıyor:   1% (5/438)   Nesneler alınıyor:   2% (9/438)   Nesneler alınıyor:   3% (14/438)   Nesneler alınıyor:   4% (18/438)   Nesneler alınıyor:   5% (22/438)   Nesneler alınıyor:   6% (27/438)   Nesneler alınıyor:   7% (31/438)   Nesneler alınıyor:   8% (36/438)   Nesneler alınıyor:   9% (40/438)   Nesneler alınıyor:  10% (44/438)   Nesneler alınıyor:  11% (49/438)   Nesneler alınıyor:  12% (53/438)   Nesneler alınıyor:  13% (57/438)   Nesneler alınıyor:  14% (62/438)   Nesneler alınıyor:  15% (66/438), 52.00 KiB | 69.00 KiB/s   Nesneler alınıyor:  15% (66/438), 76.00 KiB | 55.00 KiB/s   Nesneler alınıyor:  15% (66/438), 188.00 KiB | 70.00 KiB/s   Nesneler alınıyor:  16% (71/438), 188.00 KiB | 70.00 KiB/s   Nesneler alınıyor:  17% (75/438), 188.00 KiB | 70.00 KiB/s   Nesneler alınıyor:  18% (79/438), 188.00 KiB | 70.00 KiB/s   Nesneler alınıyor:  19% (84/438), 188.00 KiB | 70.00 KiB/s   Nesneler alınıyor:  19% (87/438), 284.00 KiB | 81.00 KiB/s   Nesneler alınıyor:  20% (88/438), 284.00 KiB | 81.00 KiB/s   Nesneler alınıyor:  21% (92/438), 284.00 KiB | 81.00 KiB/s   Nesneler alınıyor:  21% (92/438), 380.00 KiB | 88.00 KiB/s   Nesneler alınıyor:  22% (97/438), 380.00 KiB | 88.00 KiB/s   Nesneler alınıyor:  23% (101/438), 380.00 KiB | 88.00 KiB/s   Nesneler alınıyor:  24% (106/438), 380.00 KiB | 88.00 KiB/s   Nesneler alınıyor:  25% (110/438), 380.00 KiB | 88.00 KiB/s   Nesneler alınıyor:  26% (114/438), 380.00 KiB | 88.00 KiB/s   Nesneler alınıyor:  26% (117/438), 476.00 KiB | 96.00 KiB/s   Nesneler alınıyor:  27% (119/438), 476.00 KiB | 96.00 KiB/s   Nesneler alınıyor:  28% (123/438), 476.00 KiB | 96.00 KiB/s   Nesneler alınıyor:  29% (128/438), 476.00 KiB | 96.00 KiB/s   Nesneler alınıyor:  30% (132/438), 476.00 KiB | 96.00 KiB/s   Nesneler alınıyor:  31% (136/438), 476.00 KiB | 96.00 KiB/s   Nesneler alınıyor:  32% (141/438), 476.00 KiB | 96.00 KiB/s   Nesneler alınıyor:  33% (145/438), 476.00 KiB | 96.00 KiB/s   Nesneler alınıyor:  34% (149/438), 476.00 KiB | 96.00 KiB/s   Nesneler alınıyor:  35% (154/438), 604.00 KiB | 109.00 KiB/s   Nesneler alınıyor:  36% (158/438), 604.00 KiB | 109.00 KiB/s   Nesneler alınıyor:  37% (163/438), 604.00 KiB | 109.00 KiB/s   Nesneler alınıyor:  38% (167/438), 604.00 KiB | 109.00 KiB/s   Nesneler alınıyor:  39% (171/438), 604.00 KiB | 109.00 KiB/s   Nesneler alınıyor:  40% (176/438), 604.00 KiB | 109.00 KiB/s   Nesneler alınıyor:  40% (176/438), 796.00 KiB | 129.00 KiB/s   Nesneler alınıyor:  41% (180/438), 796.00 KiB | 129.00 KiB/s   Nesneler alınıyor:  42% (184/438), 796.00 KiB | 129.00 KiB/s   Nesneler alınıyor:  43% (189/438), 796.00 KiB | 129.00 KiB/s   Nesneler alınıyor:  43% (192/438), 1.12 MiB | 181.00 KiB/s   Nesneler alınıyor:  44% (193/438), 1.12 MiB | 181.00 KiB/s   Nesneler alınıyor:  45% (198/438), 1.12 MiB | 181.00 KiB/s   Nesneler alınıyor:  46% (202/438), 1.53 MiB | 249.00 KiB/s   Nesneler alınıyor:  47% (206/438), 1.53 MiB | 249.00 KiB/s   Nesneler alınıyor:  48% (211/438), 1.53 MiB | 249.00 KiB/s   Nesneler alınıyor:  49% (215/438), 1.53 MiB | 249.00 KiB/s   Nesneler alınıyor:  50% (219/438), 1.53 MiB | 249.00 KiB/s   Nesneler alınıyor:  51% (224/438), 1.53 MiB | 249.00 KiB/s   Nesneler alınıyor:  52% (228/438), 1.53 MiB | 249.00 KiB/s   Nesneler alınıyor:  53% (233/438), 1.53 MiB | 249.00 KiB/s   Nesneler alınıyor:  54% (237/438), 1.53 MiB | 249.00 KiB/s   Nesneler alınıyor:  55% (241/438), 1.53 MiB | 249.00 KiB/s   Nesneler alınıyor:  56% (246/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  57% (250/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  58% (255/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  59% (259/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  60% (263/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  61% (268/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  62% (272/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  63% (276/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  64% (281/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  65% (285/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  66% (290/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  67% (294/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  68% (298/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  69% (303/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  70% (307/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  71% (311/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  72% (316/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  73% (320/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  74% (325/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  75% (329/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  76% (333/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  77% (338/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  78% (342/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  79% (347/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  80% (351/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  81% (355/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  82% (360/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  83% (364/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  84% (368/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  85% (373/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  86% (377/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  87% (382/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  88% (386/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  89% (390/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  90% (395/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  91% (399/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  92% (403/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  93% (408/438), 1.87 MiB | 301.00 KiB/s   remote: Total 438 (delta 242), reused 0 (delta 0)[K
+Nesneler alınıyor:  94% (412/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  95% (417/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  96% (421/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  97% (425/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  98% (430/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor:  99% (434/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor: 100% (438/438), 1.87 MiB | 301.00 KiB/s   Nesneler alınıyor: 100% (438/438), 2.22 MiB | 275.00 KiB/s, bitti.
+Farklar çözülüyor:   0% (0/242)   Farklar çözülüyor:   1% (3/242)   Farklar çözülüyor:   3% (8/242)   Farklar çözülüyor:   4% (11/242)   Farklar çözülüyor:   9% (23/242)   Farklar çözülüyor:  10% (25/242)   Farklar çözülüyor:  11% (29/242)   Farklar çözülüyor:  12% (30/242)   Farklar çözülüyor:  13% (32/242)   Farklar çözülüyor:  14% (34/242)   Farklar çözülüyor:  16% (39/242)   Farklar çözülüyor:  17% (43/242)   Farklar çözülüyor:  18% (44/242)   Farklar çözülüyor:  26% (63/242)   Farklar çözülüyor:  27% (66/242)   Farklar çözülüyor:  28% (68/242)   Farklar çözülüyor:  29% (71/242)   Farklar çözülüyor:  30% (73/242)   Farklar çözülüyor:  32% (78/242)   Farklar çözülüyor:  34% (83/242)   Farklar çözülüyor:  35% (86/242)   Farklar çözülüyor:  39% (95/242)   Farklar çözülüyor:  42% (103/242)   Farklar çözülüyor:  44% (108/242)   Farklar çözülüyor:  45% (109/242)   Farklar çözülüyor:  53% (129/242)   Farklar çözülüyor:  55% (135/242)   Farklar çözülüyor:  57% (138/242)   Farklar çözülüyor:  58% (142/242)   Farklar çözülüyor:  59% (143/242)   Farklar çözülüyor:  61% (149/242)   Farklar çözülüyor:  63% (153/242)   Farklar çözülüyor:  64% (155/242)   Farklar çözülüyor:  65% (159/242)   Farklar çözülüyor:  69% (167/242)   Farklar çözülüyor:  72% (175/242)   Farklar çözülüyor:  73% (178/242)   Farklar çözülüyor:  74% (180/242)   Farklar çözülüyor:  75% (182/242)   Farklar çözülüyor:  78% (189/242)   Farklar çözülüyor:  83% (203/242)   Farklar çözülüyor:  89% (217/242)   Farklar çözülüyor:  90% (219/242)   Farklar çözülüyor:  91% (221/242)   Farklar çözülüyor:  92% (223/242)   Farklar çözülüyor:  93% (226/242)   Farklar çözülüyor:  94% (228/242)   Farklar çözülüyor:  95% (230/242)   Farklar çözülüyor:  96% (233/242)   Farklar çözülüyor:  97% (237/242)   Farklar çözülüyor:  99% (240/242)   Farklar çözülüyor: 100% (242/242)   Farklar çözülüyor: 100% (242/242), 35 yerel nesne ile tamamlandı.
+Alınma konumu ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs240
+   c8b3115..9eadd18  master     -> origin/master
+Updating c8b3115..9eadd18
+Fast-forward
+ announce.html                                      |   112 [32m+[m[31m-[m
+ announce.umt                                       |    89 [32m+[m
+ assets/umt/online-quiz-template.html               |    30 [32m+[m
+ exams-quizzes/exam2-outline/exam2-outline.html     |    44 [32m+[m
+ exams-quizzes/exam2-outline/exam2-outline.pdf      |   Bin [31m0[m -> [32m34924[m bytes
+ exams-quizzes/exam2-outline/exam2-outline.umt      |    28 [32m+[m
+ exams-quizzes/index.html                           |     3 [32m+[m
+ exams-quizzes/index.umt                            |     4 [32m+[m
+ exercises/questions/src/exam2/bin-tree-proofs.js   |   147 [32m+[m
+ exercises/questions/src/exam2/bin-tree-space.js    |   252 [32m+[m
+ .../questions/src/exam2/choose-data-structures.js  |   242 [32m+[m
+ exercises/questions/src/exam2/meta.js              |    11 [32m+[m
+ .../questions/src/exam2/perf-to-data-structure.js  |   189 [32m+[m
+ exercises/questions/src/meta.js                    |     1 [32m+[m
+ hws/hw3-sol/hw3-sol.html                           |   341 [32m+[m
+ hws/hw3-sol/hw3-sol.pdf                            |   Bin [31m0[m -> [32m161348[m bytes
+ hws/hw3-sol/hw3-sol.umt                            |   464 [32m+[m
+ .../hw3-sol/1749eaa6bdd62605dda9b12457c86379.dot   |    26 [32m+[m
+ .../hw3-sol/1749eaa6bdd62605dda9b12457c86379.png   |   Bin [31m0[m -> [32m4738[m bytes
+ .../hw3-sol/1749eaa6bdd62605dda9b12457c86379.tree  |     1 [32m+[m
+ .../hw3-sol/1ec1d57708385d0718a872cad6da3958.dot   |    26 [32m+[m
+ .../hw3-sol/1ec1d57708385d0718a872cad6da3958.png   |   Bin [31m0[m -> [32m4736[m bytes
+ .../hw3-sol/1ec1d57708385d0718a872cad6da3958.tree  |     1 [32m+[m
+ .../hw3-sol/37d2af03d1e6de5318d62427e2754114.dot   |    26 [32m+[m
+ .../hw3-sol/37d2af03d1e6de5318d62427e2754114.png   |   Bin [31m0[m -> [32m6166[m bytes
+ .../hw3-sol/37d2af03d1e6de5318d62427e2754114.tree  |     1 [32m+[m
+ .../hw3-sol/684b12b403de16f8e2e5a86b072d35a9.dot   |    26 [32m+[m
+ .../hw3-sol/684b12b403de16f8e2e5a86b072d35a9.png   |   Bin [31m0[m -> [32m4731[m bytes
+ .../hw3-sol/684b12b403de16f8e2e5a86b072d35a9.tree  |     1 [32m+[m
+ .../hw3-sol/dce7e39f986ba4e2cce12603ae142c6f.dot   |    26 [32m+[m
+ .../hw3-sol/dce7e39f986ba4e2cce12603ae142c6f.png   |   Bin [31m0[m -> [32m4753[m bytes
+ .../hw3-sol/dce7e39f986ba4e2cce12603ae142c6f.tree  |     1 [32m+[m
+ hws/hw3-sol/hw3-sol/hl-fine_blue.css               |    19 [32m+[m
+ hws/hw3-sol/hw3-sol/hl-fine_blue.sty               |    19 [32m+[m
+ hws/hw4/11-26.png                                  |   Bin [31m0[m -> [32m7709[m bytes
+ hws/hw4/hw4.html                                   |   123 [32m+[m
+ hws/hw4/hw4.pdf                                    |   Bin [31m0[m -> [32m87113[m bytes
+ hws/hw4/hw4.umt                                    |   129 [32m+[m
+ hws/index.html                                     |     4 [32m+[m
+ hws/index.umt                                      |     4 [32m+[m[31m-[m
+ include/catch.hh                                   | 17618 [32m+++++++++++++++++++[m
+ index.html                                         |    85 [32m+[m[31m-[m
+ index.umt                                          |   126 [32m+[m[31m-[m
+ labs/index.html                                    |     6 [32m+[m[31m-[m
+ labs/index.umt                                     |    12 [32m+[m[31m-[m
+ labs/lab10/exercises/1-fact/.gitignore             |     4 [32m+[m
+ labs/lab10/exercises/1-fact/fact.cc                |     5 [32m+[m
+ labs/lab10/exercises/1-fact/fact.hh                |     6 [32m+[m
+ labs/lab10/exercises/1-fact/main.cc                |    10 [32m+[m
+ labs/lab10/exercises/1-fact/test-main.cc           |    13 [32m+[m
+ labs/lab10/exercises/2-tdd/.gitignore              |     4 [32m+[m
+ labs/lab10/exercises/2-tdd/digit-sum.cc            |     8 [32m+[m
+ labs/lab10/exercises/2-tdd/digit-sum.hh            |     6 [32m+[m
+ labs/lab10/exercises/2-tdd/main.cc                 |    12 [32m+[m
+ labs/lab10/exercises/2-tdd/test-main.cc            |    10 [32m+[m
+ labs/lab10/exercises/Makefile                      |    70 [32m+[m
+ labs/lab10/lab10.html                              |   209 [32m+[m
+ labs/lab10/lab10.pdf                               |   Bin [31m0[m -> [32m79911[m bytes
+ labs/lab10/lab10.umt                               |   301 [32m+[m
+ labs/lab10/lab10/hl-fine_blue.css                  |    19 [32m+[m
+ labs/lab10/lab10/hl-fine_blue.sty                  |    19 [32m+[m
+ labs/lab11/lab11.html                              |   120 [32m+[m
+ labs/lab11/lab11.pdf                               |   Bin [31m0[m -> [32m68571[m bytes
+ labs/lab11/lab11.umt                               |   162 [32m+[m
+ labs/lab11/lab11/hl-fine_blue.css                  |    19 [32m+[m
+ labs/lab11/lab11/hl-fine_blue.sty                  |    19 [32m+[m
+ online/videos/cs240a/index.html                    |    67 [32m+[m[31m-[m
+ online/videos/cs240a/index.umt                     |    40 [32m+[m
+ online/videos/cs240b/index.html                    |    71 [32m+[m[31m-[m
+ online/videos/cs240b/index.umt                     |    42 [32m+[m
+ projects/index.html                                |     4 [32m+[m
+ projects/index.umt                                 |     3 [32m+[m
+ projects/prj3/multi-queues.png                     |   Bin [31m0[m -> [32m4793[m bytes
+ projects/prj3/prj3-sol/command-stream.cc           |    30 [32m+[m
+ projects/prj3/prj3-sol/command-stream.hh           |    19 [32m+[m
+ projects/prj3/prj3-sol/command-test.cc             |    26 [32m+[m
+ projects/prj3/prj3-sol/command.cc                  |    77 [32m+[m
+ projects/prj3/prj3-sol/command.hh                  |    37 [32m+[m
+ projects/prj3/prj3-sol/job.cc                      |    31 [32m+[m
+ projects/prj3/prj3-sol/job.hh                      |    26 [32m+[m
+ projects/prj3/prj3-sol/t.cmd                       |    13 [32m+[m
+ projects/prj3/prj3.html                            |   177 [32m+[m
+ projects/prj3/prj3.pdf                             |   Bin [31m0[m -> [32m107621[m bytes
+ projects/prj3/prj3.umt                             |   238 [32m+[m
+ projects/prj3/prj3/hl-fine_blue.css                |    19 [32m+[m
+ projects/prj3/prj3/hl-fine_blue.sty                |    19 [32m+[m
+ projects/team-project/team-project.html            |    11 [32m+[m[31m-[m
+ projects/team-project/team-project.pdf             |   Bin [31m58922[m -> [32m59615[m bytes
+ projects/team-project/team-project.umt             |     7 [32m+[m[31m-[m
+ slides/collections2/code/maxheap.cc                |     2 [32m+[m[31m-[m
+ slides/collections2/collections2.html              |     4 [32m+[m[31m-[m
+ slides/collections2/collections2.pdf               |   Bin [31m522187[m -> [32m522178[m bytes
+ slides/collections2/collections2.umt               |     4 [32m+[m[31m-[m
+ slides/graphs/code/README                          |     2 [32m+[m
+ slides/graphs/code/adjacency-list-graph.cc         |   130 [32m+[m
+ slides/graphs/code/adjacency-matrix-graph.cc       |    95 [32m+[m
+ slides/graphs/code/dijkstra-shortest-path.cc       |    44 [32m+[m
+ slides/graphs/code/graph.hh                        |    60 [32m+[m
+ slides/graphs/code/traversals.cc                   |   130 [32m+[m
+ slides/graphs/figs/bfs-visit.png                   |   Bin [31m0[m -> [32m20936[m bytes
+ slides/graphs/figs/dfs-visit.png                   |   Bin [31m0[m -> [32m19108[m bytes
+ slides/graphs/figs/dijkstra-shortest-path.png      |   Bin [31m0[m -> [32m15094[m bytes
+ .../graphs/figs/directed-graph-representations.png |   Bin [31m0[m -> [32m19473[m bytes
+ slides/graphs/figs/graph-components.png            |   Bin [31m0[m -> [32m9263[m bytes
+ slides/graphs/figs/graph-examples.png              |   Bin [31m0[m -> [32m17371[m bytes
+ slides/graphs/figs/shortest-path.png               |   Bin [31m0[m -> [32m13928[m bytes
+ slides/graphs/figs/topological-visit.png           |   Bin [31m0[m -> [32m14140[m bytes
+ .../figs/undirected-graph-representations.png      |   Bin [31m0[m -> [32m23580[m bytes
+ slides/graphs/graphs.html                          |   326 [32m+[m
+ slides/graphs/graphs.pdf                           |   Bin [31m0[m -> [32m309403[m bytes
+ slides/graphs/graphs.umt                           |   334 [32m+[m
+ slides/graphs/graphs/hl-fine_blue.css              |    19 [32m+[m
+ slides/graphs/graphs/hl-fine_blue.sty              |    19 [32m+[m
+ slides/index.html                                  |     6 [32m+[m
+ slides/index.umt                                   |     2 [32m+[m
+ slides/searching/code/bitset.cc                    |    15 [32m+[m
+ slides/searching/figs/bucket-hashing-variant.png   |   Bin [31m0[m -> [32m19414[m bytes
+ slides/searching/figs/bucket-hashing.png           |   Bin [31m0[m -> [32m15642[m bytes
+ slides/searching/figs/hash-probes.png              |   Bin [31m0[m -> [32m19963[m bytes
+ slides/searching/figs/mid-square.png               |   Bin [31m0[m -> [32m10072[m bytes
+ slides/searching/figs/open-hashing.png             |   Bin [31m0[m -> [32m14378[m bytes
+ .../figs/simple-linear-probing-problems.png        |   Bin [31m0[m -> [32m11496[m bytes
+ slides/searching/searching.html                    |   398 [32m+[m
+ slides/searching/searching.pdf                     |   Bin [31m0[m -> [32m324282[m bytes
+ slides/searching/searching.umt                     |   643 [32m+[m
+ slides/searching/searching/hl-fine_blue.css        |    19 [32m+[m
+ slides/searching/searching/hl-fine_blue.sty        |    19 [32m+[m
+ slides/sorting/figs/compare.png                    |   Bin [31m0[m -> [32m24067[m bytes
+ slides/sorting/figs/decision-tree.png              |   Bin [31m0[m -> [32m15684[m bytes
+ slides/sorting/sorting.html                        |   239 [32m+[m[31m-[m
+ slides/sorting/sorting.pdf                         |   Bin [31m289699[m -> [32m389503[m bytes
+ slides/sorting/sorting.umt                         |   162 [32m+[m[31m-[m
+ 132 files changed, 24571 insertions(+), 311 deletions(-)
+ create mode 100644 assets/umt/online-quiz-template.html
+ create mode 100644 exams-quizzes/exam2-outline/exam2-outline.html
+ create mode 100644 exams-quizzes/exam2-outline/exam2-outline.pdf
+ create mode 100644 exams-quizzes/exam2-outline/exam2-outline.umt
+ create mode 100644 exercises/questions/src/exam2/bin-tree-proofs.js
+ create mode 100644 exercises/questions/src/exam2/bin-tree-space.js
+ create mode 100644 exercises/questions/src/exam2/choose-data-structures.js
+ create mode 100644 exercises/questions/src/exam2/meta.js
+ create mode 100644 exercises/questions/src/exam2/perf-to-data-structure.js
+ create mode 100644 hws/hw3-sol/hw3-sol.html
+ create mode 100644 hws/hw3-sol/hw3-sol.pdf
+ create mode 100644 hws/hw3-sol/hw3-sol.umt
+ create mode 100644 hws/hw3-sol/hw3-sol/1749eaa6bdd62605dda9b12457c86379.dot
+ create mode 100644 hws/hw3-sol/hw3-sol/1749eaa6bdd62605dda9b12457c86379.png
+ create mode 100644 hws/hw3-sol/hw3-sol/1749eaa6bdd62605dda9b12457c86379.tree
+ create mode 100644 hws/hw3-sol/hw3-sol/1ec1d57708385d0718a872cad6da3958.dot
+ create mode 100644 hws/hw3-sol/hw3-sol/1ec1d57708385d0718a872cad6da3958.png
+ create mode 100644 hws/hw3-sol/hw3-sol/1ec1d57708385d0718a872cad6da3958.tree
+ create mode 100644 hws/hw3-sol/hw3-sol/37d2af03d1e6de5318d62427e2754114.dot
+ create mode 100644 hws/hw3-sol/hw3-sol/37d2af03d1e6de5318d62427e2754114.png
+ create mode 100644 hws/hw3-sol/hw3-sol/37d2af03d1e6de5318d62427e2754114.tree
+ create mode 100644 hws/hw3-sol/hw3-sol/684b12b403de16f8e2e5a86b072d35a9.dot
+ create mode 100644 hws/hw3-sol/hw3-sol/684b12b403de16f8e2e5a86b072d35a9.png
+ create mode 100644 hws/hw3-sol/hw3-sol/684b12b403de16f8e2e5a86b072d35a9.tree
+ create mode 100644 hws/hw3-sol/hw3-sol/dce7e39f986ba4e2cce12603ae142c6f.dot
+ create mode 100644 hws/hw3-sol/hw3-sol/dce7e39f986ba4e2cce12603ae142c6f.png
+ create mode 100644 hws/hw3-sol/hw3-sol/dce7e39f986ba4e2cce12603ae142c6f.tree
+ create mode 100644 hws/hw3-sol/hw3-sol/hl-fine_blue.css
+ create mode 100644 hws/hw3-sol/hw3-sol/hl-fine_blue.sty
+ create mode 100644 hws/hw4/11-26.png
+ create mode 100644 hws/hw4/hw4.html
+ create mode 100644 hws/hw4/hw4.pdf
+ create mode 100644 hws/hw4/hw4.umt
+ create mode 100644 include/catch.hh
+ create mode 100644 labs/lab10/exercises/1-fact/.gitignore
+ create mode 100644 labs/lab10/exercises/1-fact/fact.cc
+ create mode 100644 labs/lab10/exercises/1-fact/fact.hh
+ create mode 100644 labs/lab10/exercises/1-fact/main.cc
+ create mode 100644 labs/lab10/exercises/1-fact/test-main.cc
+ create mode 100644 labs/lab10/exercises/2-tdd/.gitignore
+ create mode 100644 labs/lab10/exercises/2-tdd/digit-sum.cc
+ create mode 100644 labs/lab10/exercises/2-tdd/digit-sum.hh
+ create mode 100644 labs/lab10/exercises/2-tdd/main.cc
+ create mode 100644 labs/lab10/exercises/2-tdd/test-main.cc
+ create mode 100644 labs/lab10/exercises/Makefile
+ create mode 100644 labs/lab10/lab10.html
+ create mode 100644 labs/lab10/lab10.pdf
+ create mode 100644 labs/lab10/lab10.umt
+ create mode 100644 labs/lab10/lab10/hl-fine_blue.css
+ create mode 100644 labs/lab10/lab10/hl-fine_blue.sty
+ create mode 100644 labs/lab11/lab11.html
+ create mode 100644 labs/lab11/lab11.pdf
+ create mode 100644 labs/lab11/lab11.umt
+ create mode 100644 labs/lab11/lab11/hl-fine_blue.css
+ create mode 100644 labs/lab11/lab11/hl-fine_blue.sty
+ create mode 100644 projects/prj3/multi-queues.png
+ create mode 100644 projects/prj3/prj3-sol/command-stream.cc
+ create mode 100644 projects/prj3/prj3-sol/command-stream.hh
+ create mode 100644 projects/prj3/prj3-sol/command-test.cc
+ create mode 100644 projects/prj3/prj3-sol/command.cc
+ create mode 100644 projects/prj3/prj3-sol/command.hh
+ create mode 100644 projects/prj3/prj3-sol/job.cc
+ create mode 100644 projects/prj3/prj3-sol/job.hh
+ create mode 100644 projects/prj3/prj3-sol/t.cmd
+ create mode 100644 projects/prj3/prj3.html
+ create mode 100644 projects/prj3/prj3.pdf
+ create mode 100644 projects/prj3/prj3.umt
+ create mode 100644 projects/prj3/prj3/hl-fine_blue.css
+ create mode 100644 projects/prj3/prj3/hl-fine_blue.sty
+ create mode 100644 slides/graphs/code/README
+ create mode 100644 slides/graphs/code/adjacency-list-graph.cc
+ create mode 100644 slides/graphs/code/adjacency-matrix-graph.cc
+ create mode 100644 slides/graphs/code/dijkstra-shortest-path.cc
+ create mode 100644 slides/graphs/code/graph.hh
+ create mode 100644 slides/graphs/code/traversals.cc
+ create mode 100644 slides/graphs/figs/bfs-visit.png
+ create mode 100644 slides/graphs/figs/dfs-visit.png
+ create mode 100644 slides/graphs/figs/dijkstra-shortest-path.png
+ create mode 100644 slides/graphs/figs/directed-graph-representations.png
+ create mode 100644 slides/graphs/figs/graph-components.png
+ create mode 100644 slides/graphs/figs/graph-examples.png
+ create mode 100644 slides/graphs/figs/shortest-path.png
+ create mode 100644 slides/graphs/figs/topological-visit.png
+ create mode 100644 slides/graphs/figs/undirected-graph-representations.png
+ create mode 100644 slides/graphs/graphs.html
+ create mode 100644 slides/graphs/graphs.pdf
+ create mode 100644 slides/graphs/graphs.umt
+ create mode 100644 slides/graphs/graphs/hl-fine_blue.css
+ create mode 100644 slides/graphs/graphs/hl-fine_blue.sty
+ create mode 100644 slides/searching/code/bitset.cc
+ create mode 100644 slides/searching/figs/bucket-hashing-variant.png
+ create mode 100644 slides/searching/figs/bucket-hashing.png
+ create mode 100644 slides/searching/figs/hash-probes.png
+ create mode 100644 slides/searching/figs/mid-square.png
+ create mode 100644 slides/searching/figs/open-hashing.png
+ create mode 100644 slides/searching/figs/simple-linear-probing-problems.png
+ create mode 100644 slides/searching/searching.html
+ create mode 100644 slides/searching/searching.pdf
+ create mode 100644 slides/searching/searching.umt
+ create mode 100644 slides/searching/searching/hl-fine_blue.css
+ create mode 100644 slides/searching/searching/hl-fine_blue.sty
+ create mode 100644 slides/sorting/figs/compare.png
+ create mode 100644 slides/sorting/figs/decision-tree.png
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240/cs240[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240/cs240[00m$ ls
+announce.html  [0m[01;34mbin[0m            [01;34mexercises[0m  index.html  [01;34mmisc[0m      README.md
+announce.umt   [01;34mdocs[0m           [01;34mhws[0m        index.umt   [01;34monline[0m    [01;34mslides[0m
+[01;34massets[0m         [01;34mexams-quizzes[0m  [01;34minclude[0m    [01;34mlabs[0m        [01;34mprojects[0m  umt.make
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240/cs240[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240/cs240[00m$ cd labs/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240/cs240/labs[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240/cs240/labs[00m$ cd lab01
+bash: cd: lab01: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240/cs240/labs[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240/cs240/labs[00m$ c[Kls
+index.html  [0m[01;34mlab0[0m  [01;34mlab10[0m  [01;34mlab2[0m  [01;34mlab4[0m  [01;34mlab6[0m  [01;34mlab8[0m  [01;34msubmission[0m
+index.umt   [01;34mlab1[0m  [01;34mlab11[0m  [01;34mlab3[0m  [01;34mlab5[0m  [01;34mlab7[0m  [01;34mlab9[0m
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240/cs240/labs[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240/cs240/labs[00m$ lscd lab01[K[K10
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240/cs240/labs/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240/cs240/labs/lab10[00m$ 4[Kls
+[0m[01;34mexercises[0m  [01;34mlab10[0m  lab10.html  lab10.pdf  lab10.umt
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240/cs240/labs/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240/cs240/labs/lab10[00m$ 7cd [K[K[K[Kcd ..4[K
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240/cs240/labs[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240/cs240/labs[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240/cs240[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240/cs240[00m$  cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/cs240[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/cs240[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS[00m$ cd ı
+bash: cd: ı: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS[00m$ cd i240b/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b[00m$ cd i240b/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b[00m$ ls
+README.md  [0m[01;34msubmit[0m
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b[00m$ cd submit/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ cd [K[K[KLS
+
+Command 'LS' not found, but can be installed with:
+
+sudo apt install sl
+
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ ls
+[0m[01;34mlab0[0m  [01;34mlab10[0m  [01;34mlab3[0m  [01;34mlab5[0m  [01;34mlab7[0m  [01;34mlab9[0m      word-counts.cpp
+[01;34mlab1[0m  [01;34mlab2[0m   [01;34mlab4[0m  [01;34mlab6[0m  [01;34mlab8[0m  [01;34mprj1-sol[0m
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ cd [K[K[Kcd lab10,
+bash: cd: lab10,: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit[00m$ cd lab10,[K
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ ls
+lab10.LOG
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ lscd lab10,ls[KLScd submit/ls[Kcd i240b/ı[K..[3Plscd lab10ls[Kcd lab01s/ls[Kgit pullcd cs240/[1Pgit pullupdateclone ssh://aceylan11@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ [14Pcd cs240/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P..p -r ~/Masaüstü/CS/cs2440/cs240/labs/lab10/exercises .[C[C[C[6P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6@cs240/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ ls
+[0m[01;34mexercises[0m  lab10.LOG
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ cd exercises/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ ls
+[0m[01;34m1-fact[0m  [01;34m2-tdd[0m  Makefile
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ cd 1-fact/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -I /home/aleyna/cs240/include -MT fact.o -MMD -MP -MF .deps/fact.d -g -Wall -std=c++17 -c fact.cc
+g++ main.o fact.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ ./test-main
+bash: ./test-main: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ cd .../test-mainmake -f ../Makefile main
+make: ../Makefile: Böyle bir dosya ya da dizin yok
+make: *** No rule to make target '../Makefile'. Durdu.
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ make -f ../Makefile maincd ..[K./test-main
+bash: ./test-main: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ cd 1-fact/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ ./ma,n[K[Kiin [K[K[Kn 2 3 5 10
+2
+6
+120
+3628800
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ gd[K[Kls
+fact.cc  fact.hh  fact.o  [0m[01;32mmain[0m  main.cc  main.o  test-main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ gedit fact.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ gedit test-main.cc 
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ make -f ../Makefile test-mainn
+g++ -I /home/aleyna/cs240/include -MT test-main.o -MMD -MP -MF .deps/test-main.d -g -Wall -std=c++17 -c test-main.cc
+[01m[Ktest-main.cc:3:10:[m[K [01;31m[Kfatal error: [m[Kcatch.hh: Böyle bir dosya ya da dizin yok
+ #include [01;31m[K"catch.hh"[m[K
+          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+../Makefile:62: recipe for target 'test-main.o' failed
+make: *** [test-main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ make -f ../Makefile test-main
+make: ../Makefile: Böyle bir dosya ya da dizin yok
+make: *** No rule to make target '../Makefile'. Durdu.
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ cd 2-tdd/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ls
+digit-sum.cc  digit-sum.hh  main.cc  test-main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit main [K[K[K[K[Ktest-main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ cd 1-fact/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ cd 1-fact/..[Kgedit test-main.ccls[Kcd 2-tdd/make -f ../Makefile test-mainn[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile test-mainn
+g++ -I /home/aleyna/cs240/include -MT test-main.o -MMD -MP -MF .deps/test-main.d -g -Wall -std=c++17 -c test-main.cc
+[01m[Ktest-main.cc:3:10:[m[K [01;31m[Kfatal error: [m[Kcatch.hh: Böyle bir dosya ya da dizin yok
+ #include [01;31m[K"catch.hh"[m[K
+          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+../Makefile:62: recipe for target 'test-main.o' failed
+make: *** [test-main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ make -f ../Makefile test-mainn[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ [18Pcd 1-fact/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C..[Kgedit test-main.ccls[Kcd 2-tdd/make -f ../Makefile test-mainn[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile test-mainn[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ [9Pgedit test-main.cc 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pfact.ccls[K./main 2 3 5 10[5Pcd 1-fact/./main 2 3 5 10[K[K[K[K[K[K[K[K7
+5040
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ ls
+fact.cc  fact.hh  fact.o  [0m[01;32mmain[0m  main.cc  main.o  test-main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ gedit mainçc[K[K.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ gedit test-main.cc 
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ ./main 0
+0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ gedit fact[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ gedit fact.[K[K[K[K[K[K[K[K[K[K[K./main 0gedit test-main.cc 
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ gedit test-main.cc [11P./main 0gedit test-main.cc [6Pmain.ccls[K./main 7make -f ../Makefile test-maiin[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ [17Pcd 1-fact/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C..[Kgedit test-main.ccls[Kcd 2-tdd/make -f ../Makefile test-maiin[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile test-maiin[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ [8Pgedit test-main.cc 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pfact.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ ./main 0
+0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT fact.o -MMD -MP -MF .deps/fact.d -g -Wall -std=c++17 -c fact.cc
+g++ main.o fact.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ ./main 0
+1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ :7[K[K:[K.7[K/main 0 2 4 6 8 
+1
+2
+24
+720
+40320
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ gedit ts[Kesr [K[Kt [K-maim[Kn.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/1-fact[00m$ cd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ ls
+[0m[01;34m1-fact[0m  [01;34m2-tdd[0m  Makefile
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ cd 2-tdd/
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ls
+digit-sum.cc  digit-sum.hh  main.cc  test-main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ digit-s[K[K[K[K[K[K[Kgedit diğ[Kgit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+[01m[Kdigit-sum.cc:[m[K In function ‘[01m[Kint digitSum(const char*)[m[K’:
+[01m[Kdigit-sum.cc:8:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[6Pgedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.ccmake -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit test-main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit test-main.ccmake -f ../Makefile main[K[K[K[K[K test-mai n[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kmain
+make: 'main' is up to date.
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ls
+digit-sum.cc  digit-sum.hh  digit-sum.o  [0m[01;32mmain[0m  main.cc  main.o  test-main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ lsmake -f ../Makefile main[K[K[K[Ktest-mai n
+g++ -I /home/aleyna/cs240/include -MT test-main.o -MMD -MP -MF .deps/test-main.d -g -Wall -std=c++17 -c test-main.cc
+[01m[Ktest-main.cc:3:10:[m[K [01;31m[Kfatal error: [m[Kcatch.hh: Böyle bir dosya ya da dizin yok
+ #include [01;31m[K"catch.hh"[m[K
+          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+../Makefile:62: recipe for target 'test-main.o' failed
+make: *** [test-main.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./test-main
+bash: ./test-main: Böyle bir dosya ya da dizin yok
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 0
+0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./ main 2+3
+bash: ./: Bir dizin
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./ digit-sum 2+3
+bash: ./: Bir dizin
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit test-main [K.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cctest-main.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit test-main.ccdigit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cctest-main.ccdigit-sum.cctest-main.cc[2P./ digit-sum 2+3[5Pmain[C[C[C[C[4Pmain 0test-mainmake -f ../Makefile test-mainn[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile main[6Pgedit test-main.ccmake -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./ [Kmain 3+5+8
+Parçalama arızası (çekirdek döküldü)
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+8make -f ../Makefile main[12P./main 3+5+8[K[K[K[K[K[K[K[K[K[K[K[Kgedş[Kit digit [KSum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digitSum.cc[5P./main 3+5+8make -f ../Makefile main[6Pgedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc[1PSum.cc[5P./main 3+5+8gedit digitSum.cc[5P./main 3+5+8make -f ../Makefile main[6Pgedit digit-sum.ccmake -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[6Pgedit digit-sum.cc[1PSum.cc[5P./main 3+5+8make -f ../Makefile main[12P./main 3+5+8
+Parçalama arızası (çekirdek döküldü)
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+8make -f ../Makefile main[12P./main 3+5+8[K./main 3+5+8""3+5+8"
+Parçalama arızası (çekirdek döküldü)
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+8"[2P3+5+8make -f ../Makefile main[6Pgedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc[4P./main "3+5+8"[2P3+5+8make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[6Pgedit digit-sum.cc[4P./main "3+5+8"
+0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+8"make -f ../Makefile main
+make: 'main' is up to date.
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[10P./main "3+5+8"make -f ../Makefile main[6Pgedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.ccmake -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[6Pgedit digit-sum.ccmake -f ../Makefile main[10P./main "3+5+8"
+^C
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+8"[K[1P3+5+8
+^C
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+8"3+5+8"make -f ../Makefile main[6Pgedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc[6P./main 3+5+8
+^[[A^C
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+8gedit digit-sum.cc[6P./main 3+5+8"3+5+8"make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+[01m[Kdigit-sum.cc:[m[K In function ‘[01m[Kint digitSum(const char*)[m[K’:
+[01m[Kdigit-sum.cc:9:32:[m[K [01;31m[Kerror: [m[K‘[01m[KNULL[m[K’ was not declared in this scope
+   for (const char* p = str; p!=[01;31m[KNULL[m[K; ++p) {
+                                [01;31m[K^~~~[m[K
+../Makefile:62: recipe for target 'digit-sum.o' failed
+make: *** [digit-sum.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[12P./main 3+5+8gedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.ccmake -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[6Pgedit digit-sum.ccmake -f ../Makefile main[12P./main 3+5+8
+5
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+8make -f ../Makefile main[6Pgedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc[6P./main 3+5+8make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[6Pgedit digit-sum.cc[6P./main 3+5+8
+16
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+8"" 3+5+8"[1P 3+5+8"[C"3+5+8"
+16
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+8"[2P3+5+8make -f ../Makefile main[6Pgedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc[4P./main "3+5+8"[2P3+5+8make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[6Pgedit digit-sum.cc[4P./main "3+5+8"
+16
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+8"make -f ../Makefile main[6Pgedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc[4P./main "3+5+8"make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[6Pgedit digit-sum.cc[4P./main "3+5+8"
+16
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+8"make -f ../Makefile main[6Pgedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc[4P./main "3+5+8"make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[6Pgedit digit-sum.cc[4P./main "3+5+8"
+16
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+8"[K[1P3+5+8
+16
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+8"3+5+8"[1P"a"
+8
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+a"[K./main "3+5+a"[Ca"s"d"q"d"s"a"s"v"g"r"q"w"6" [A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+8
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+aasdqdsasvgrqw"2" [A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+10
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+aasdqdsasvgrqw2" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K./main "3+5+aasdqdsasvgrqw2" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca""s"d"-"5"
+15
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ [K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+aasdqdsasvgrqw2asd-5"[1P5"+5"d5"s5"a5"'5"'5"'5"
+15
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+aasdqdsasvgrqw2asd+dsa'''5"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K21314"
+11
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "21314"3+5+aasdqdsasvgrqw2asd+dsa'''5"[6P-5""[K[1P""[K[2P3+5+8[K10
+9
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+10+1
+10
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+10+1"[C"3+5+10+1"
+10
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+10+1"[2P3+5+10+1[K"21314"3+5+aasdqdsasvgrqw2asd+dsa'''5"[6P-5""[K[1P""[K[2P3+5+8"3+5+8"make -f ../Makefile main[6Pgedit digit-sum.cc &
+[1] 12734
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc &[3P./main "3+5+10+1"[2P3+5+10+1[K"21314"3+5+aasdqdsasvgrqw2asd+dsa'''5"[6P-5""[K[1P""[K[2P3+5+8"3+5+8"make -f ../Makefile main[6Pgedit digit-sum.ccmake -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+[01m[Kdigit-sum.cc:[m[K In function ‘[01m[Kint digitSum(const char*)[m[K’:
+[01m[Kdigit-sum.cc:10:60:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+      if (*p =! " " || *p =! "+" || ( *p <= '9' && *p >= '0'[01;31m[K)[m[K) break;
+                                                            [01;31m[K^[m[K
+../Makefile:62: recipe for target 'digit-sum.o' failed
+make: *** [digit-sum.o] Error 1
+[1]+  Bitti                   gedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[4Pgedit digit-sum.cc &
+[1] 13628
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc &make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+[01m[Kdigit-sum.cc:[m[K In function ‘[01m[Kint digitSum(const char*)[m[K’:
+[01m[Kdigit-sum.cc:10:16:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+      if (*p != [01;35m[K" "[m[K || *p != "+" || ( *p <= '9' && *p >= '0')) break;
+                [01;35m[K^~~[m[K
+[01m[Kdigit-sum.cc:10:16:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+[01m[Kdigit-sum.cc:10:29:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+      if (*p != " " || *p != [01;35m[K"+"[m[K || ( *p <= '9' && *p >= '0')) break;
+                             [01;35m[K^~~[m[K
+[01m[Kdigit-sum.cc:10:29:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+../Makefile:62: recipe for target 'digit-sum.o' failed
+make: *** [digit-sum.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+[01m[Kdigit-sum.cc:[m[K In function ‘[01m[Kint digitSum(const char*)[m[K’:
+[01m[Kdigit-sum.cc:11:15:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+      if (c != [01;35m[K" "[m[K || c != "+" || ( c <= '9' && c >= '0')) break;
+               [01;35m[K^~~[m[K
+[01m[Kdigit-sum.cc:11:15:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+[01m[Kdigit-sum.cc:11:27:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+      if (c != " " || c != [01;35m[K"+"[m[K || ( c <= '9' && c >= '0')) break;
+                           [01;35m[K^~~[m[K
+[01m[Kdigit-sum.cc:11:27:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+../Makefile:62: recipe for target 'digit-sum.o' failed
+make: *** [digit-sum.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ls[K[Kmake -f ../Makefile main[4Pgedit digit-sum.cc &make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[4Pgedit digit-sum.cc &make -f ../Makefile main[4Pgedit digit-sum.cc &make -f ../Makefile main[4Pgedit digit-sum.cc &[3P./main "3+5+10+1"
+0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "3+5+10+1"[K[K[K[K[K[K[K[K[K[K3+5
+0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5"3+5+10+1"make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+[01m[Kdigit-sum.cc:[m[K In function ‘[01m[Kint digitSum(const char*)[m[K’:
+[01m[Kdigit-sum.cc:11:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+  [01;31m[Kprintf[m[K("%c ",c);
+  [01;31m[K^~~~~~[m[K
+[01m[Kdigit-sum.cc:11:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kisprint[m[K’
+  [01;36m[Kprintf[m[K("%c ",c);
+  [01;36m[K^~~~~~[m[K
+  [32m[Kisprint[m[K
+../Makefile:62: recipe for target 'digit-sum.o' failed
+make: *** [digit-sum.o] Error 1
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[14P./main 3+5
+3 + 5 8
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[14P./main 3+5
+3 0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[14P./main 3+5
+3 0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[14P./main 3+5
+3 0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[14P./main 3+5
+3 0
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[14P./main 3+5
+3 + 5 8
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+a
+3 + 5 + a 8
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+a+5
+3 + 5 + a 8
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+5+a+5[K[Kmake -f ../Makefile main[14P./main 3+5make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[10P./main 3+5+a+5
+8
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+10
+4
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+10[K1
+5
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 3+1105+a+5make -f ../Makefile main[10P./main 3+5+a+5[K[Kmake -f ../Makefile main[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./main 7+7[K2++[K[K[K [K[K[K7 + 2 + 4
+7
+0
+2
+0
+4
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 7 + 2 + 4[5P3+1105+a+5make -f ../Makefile main[10P./main 3+5+a+5[K[Kmake -f ../Makefile main[14P./main 3+5make -f ../Makefile main[14P./main 3+5make -f ../Makefile main[14P./main 3+5make -f ../Makefile main[14P./main 3+5make -f ../Makefile main[14P./main 3+5make -f ../Makefile main[14P./main 3+5"3+5+10+1"make -f ../Makefile main[4Pgedit digit-sum.cc &make -f ../Makefile main[4Pgedit digit-sum.cc &
+[2] 14682
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc &[4P./main 7 + 2 + 4'[C[C[1@'[C[C[C[C
+bash: ./main 7 + 2 + 4: Böyle bir dosya ya da dizin yok
+[2]+  Bitti                   gedit digit-sum.cc
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main' 7 + 2 + 4'[C[1P[1@'[1P[C[1@ [1@'[1@2[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Kn '7+[K + 2 + 4![K'
+13
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main '7 + 2 + 4'' [C[C[C[C[C[C[C[C[C[Cgedit digit-sum.cc &[4P./main 7 + 2 + 4[5P3+117 + 2 + 4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./main 3+1105+a+5make -f ../Makefile main[10P./main 3+5+a+5make -f ../Makefile main
+g++ -I /home/aleyna/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main[6P./main '7 + 2 + 4'' [C[C[C[C[C[C[C[C[C[Cgedit digit-sum.cc &[K./main 3+1101[Kgedit digit-sum.cc &[2P./main' 7 + 2 + 4' '[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile main[Kmake -f ../Makefile main[6P./main '7 + 2 + 4'' [C[C[C[C[C[C[C[C[C[Cgedit digit-sum.cc &[K./main 3+1105+a+5make -f ../Makefile main[10P./main 3+5+a+5[K[Kmake -f ../Makefile main[14P./main 3+5+a+5make -f ../Makefile main[10P./main 3+5+a+5[3P101[Kgedit digit-sum.cc &[2P./main' 7 + 2 + 4'[K[C[1P
+7
+0
+2
+0
+4
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 7 + 2 + 4"[C[1@"
+13
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K'[1P[1@'[1P[1@"[C[C[C[C[C[C[C[C[C[C[K"
+13
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K'[C[1P[1@'
+13
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main '7 + 2 + 4'[K"[1P[1@"
+13
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"'7 + 2 + 4'"7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4" [K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4""[K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4" [K[A]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"[K]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 + 2 + 4"
+13
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main " 8 + x + 4"
+8
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ ./main " 8 + x + 4"[1P[1@"[C[1P
+8
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd[00m$ cd .. 
+[1]+  Bitti                   gedit digit-sum.cc  (wd: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises/2-tdd)
+(wd artık: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises)
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10/exercises[00m$ cd[K[Kcd ..
+]0;aleyna@aleyna-pc: ~/Masaüstü/CS/i240b/i240b/submit/lab10[01;32maleyna@aleyna-pc[00m:[01;34m~/Masaüstü/CS/i240b/i240b/submit/lab10[00m$ exit
+
+Script done on 2020-05-01 20:35:41-0400
